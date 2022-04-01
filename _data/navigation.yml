@@ -1,0 +1,60 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ja      : &JA       自己紹介
+      ja-JP   : *JA
+      # @end locale config
+    url: /about.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       CV
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ja      : &JA       履歴書
+      ja-JP   : *JA
+      # @end locale config
+    url: /cv.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Works
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ja      : &JA       業績
+      ja-JP   : *JA
+      # @end locale config
+    url: /works.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ja      : &JA       アーカイブ
+      ja-JP   : *JA
+      # @end locale config
+    url: /archive.html
+  
+  - titles:
+      # @start locale config
+      en      : &EN       Links
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ja      : &JA       リンク
+      ja-JP   : *JA
+      # @end locale config
+    url: /links.html
