@@ -1,15 +1,5 @@
 ---
 layout: article
-# titles:
-#   # @start locale config
-#   en      : &EN       Works
-#   en-GB   : *EN
-#   en-US   : *EN
-#   en-CA   : *EN
-#   en-AU   : *EN
-  # ja      : &JA       業績
-  # ja-JP   : *JA
-  # @end locale config
 aside:
   toc: true
 ---
