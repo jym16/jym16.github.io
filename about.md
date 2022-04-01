@@ -23,7 +23,8 @@ aside:
 }
 </style>
 <p class="centered">
-  <img src="/assets/images/logo/22f.png" width="30%"><br>
+  <!-- <img src="/assets/images/logo/22f.png" width="30%" alt="A logo."><br> -->
+  <img src="/assets/images/me.jpg" width="60%" alt="A picture of me. (photo credit: Raphael Ollando"><br>
 </p>
 <p class="justified">
   I am Jun Yamamoto, an applied physics student at <strong>Hokkaido University</strong> (Sapporo, Japan) interested in complex networks and statistical physics. 
