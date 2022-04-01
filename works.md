@@ -25,3 +25,7 @@ aside:
 ### Poster
 
 1. **Jun Yamamoto**, Kousuke Yakubo. Bifractality of Scale-free Networks, Network Science Seminar 2021 in Kanawaza, Dec. 11-12, 2021. [[link](http://www.jaist.ac.jp/~mizutaka/seminar2021/nss2021.html)] *Poster Award*.
+
+## Thesis
+
+- <a href="/assets/files/bachelor_thesis.pdf">Bifractality of fractal scale-free networks</a> (School of Engineering, Hokkaido University, 2022)
