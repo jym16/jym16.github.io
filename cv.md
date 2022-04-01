@@ -30,7 +30,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 ## Education
 <div class="row">
   <div class="left-column">
-    2017/04 - 2022/03
+    Apr. 2017 ~ Mar. 2022
   </div>
   <div class="right-column">
     <em><strong>Hokkaido University</strong>, Department of Applied Physics</em><br>
@@ -42,7 +42,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2019/09 - 2020/05
+    Sep. 2019 ~ May 2020
   </div>
   <div class="right-column">
     <em><strong>ETH Zurich</strong>, Department of Physics</em><br>
@@ -53,7 +53,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2012/09 - 2016/06
+    Sep. 2012 ~ Jun. 2016
   </div>
   <div class="right-column">
     <em><strong>University High School</strong></em><br>
@@ -66,7 +66,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 ## Research Experience
 <div class="row">
   <div class="left-column">
-    2021/04 - present
+    Apr. 2021 ~ present
   </div>
   <div class="right-column">
     <em><strong>Hokaido University</strong>, Laboratory of Condensed Matter Physics </em><br>
@@ -79,7 +79,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2020/07 - 2020/08
+    Jul. 2020 ~ Aug. 2020
   </div>
   <div class="right-column">
     <em><strong>Japan Atomic Energy Agency</strong>, Center for Computational Science & e-Systems </em><br>
@@ -92,7 +92,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2019/02 - 2019/03
+    Feb. 2019 ~ Mar. 2019
   </div>
   <div class="right-column">
     <em><strong>Okinawa Institute of Science and Technology</strong>, Quantum Wave Microscopy Unit </em><br>
@@ -116,7 +116,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 ## Employment
 <div class="row">
   <div class="left-column">
-    2022/04 - present
+    Apr. 2022 ~ present
   </div>
   <div class="right-column">
     <strong>Teaching Assistant</strong>, Applied Mathematics I<br>
@@ -125,7 +125,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2022/04 - present
+    Apr. 2022 ~ present
   </div>
   <div class="right-column">
     <strong>Teaching Assistant</strong>, Statistical Mechanics I<br>
@@ -134,7 +134,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2022/02 - 2022/03
+    Feb. 2022 ~ Mar. 2022
   </div>
   <div class="right-column">
     <strong>Intern</strong>, Fujitsu Corporation (DX Platform Business Headquarter)<br>
@@ -143,7 +143,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2021/04 - 2022/03
+    Apr. 2021 ~ Mar. 2022
   </div>
   <div class="right-column">
     <strong>Teaching Assistant</strong>, Education and Research Center for Mathematics and Data Sciences, Hokkaido University<br>
@@ -152,7 +152,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2018/03 - 2019/08
+    Mar. 2018 ~ Aug. 2019
   </div>
   <div class="right-column">
     <strong>Resident Assistant</strong>, North 8 East 2 International Student Dormitory, Hokkaido University<br>
@@ -163,7 +163,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 ## Scholarship
 <div class="row">
   <div class="left-column">
-    2022/09 - 2023/08
+    Sep. 2022 ~ Aug. 2023
   </div>
   <div class="right-column">
     <em><strong>Ito Foundation for International Education Exchange</strong></em><br>
@@ -173,7 +173,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2019/09 - 2020/05
+    Sep. 2019 ~ May 2020
   </div>
   <div class="right-column">
     <em><strong>Japan Student Service Organization</strong></em><br>
@@ -183,7 +183,7 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 
 <div class="row">
   <div class="left-column">
-    2019/09 - 2020/05
+    Sep. 2019 ~ May 2020
   </div>
   <div class="right-column">
     <em><strong>Nitobe College, Hokkaido University</strong></em><br>
