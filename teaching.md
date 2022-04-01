@@ -1,10 +1,19 @@
 ---
 layout: article
-title:
 aside:
   toc: true
 ---
-
+<style>
+.row {
+  display: flex;
+  margin: 20px;
+}
+.column {
+  flex: 50%;
+  text-align: center;
+  /* vertical-align: top; */
+}
+</style>
 <!-- ## Teaching Assistance -->
 
 ### Statistical Mechanics I
