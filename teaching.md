@@ -1,10 +1,11 @@
 ---
 layout: article
+title:
 aside:
   toc: true
 ---
 
-## Teaching Assistance
+<!-- ## Teaching Assistance -->
 
 ### Statistical Mechanics I
 Lecturer: Assoc. Prof. Hidekatsu Suzuura (Department of Applied Physics)<br>
