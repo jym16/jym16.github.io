@@ -25,15 +25,27 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Works
+      en      : &EN       Research
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      ja      : &JA       業績
+      ja      : &JA       研究業績
       ja-JP   : *JA
       # @end locale config
-    url: /works.html
+    url: /research.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Teaching
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ja      : &JA       教育
+      ja-JP   : *JA
+      # @end locale config
+    url: /teaching.html
 
   - titles:
       # @start locale config
