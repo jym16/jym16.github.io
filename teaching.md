@@ -19,15 +19,15 @@ aside:
 ### Statistical Mechanics I
 Lecturer: Assoc. Prof. Hidekatsu Suzuura (Department of Applied Physics)<br>
 Semester: Spring 2022
-- Assist class assignments.
-- Grade class assignments.
+- Assist exercise classes.
+- Grade assignments.
 
 
 ### Applied Mathematics I
 Lecturer: Asst. Prof. Yoshiyuki Egami (Department of Applied Physics)<br>
 Semester: Spring 2022
-- Assist class assignments.
-- Grade class assignments.
+- Assist exercise classes.
+- Grade assignments.
 
 
 ### Computational Physics
