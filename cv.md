@@ -30,6 +30,18 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
 ## Education
 <div class="row">
   <div class="left-column">
+    Apr. 2022 ~ Present
+  </div>
+  <div class="right-column">
+    <em><strong>Hokkaido University</strong>, Graduate School of Engineering, Division of Applied Physics</em><br>
+    Kita 13 Nishi 8, Kita-ku, Sapporo, Hokkaido 060-8628, Japan. <br>
+    Master of Engineering in Applied Physics <br>
+    GPA: N.A.
+  </div>
+</div>
+
+<div class="row">
+  <div class="left-column">
     Apr. 2017 ~ Mar. 2022
   </div>
   <div class="right-column">
@@ -197,11 +209,11 @@ Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
   <div class="column">
     <h3>Language</h3>
     Japanese (native)<br>
-      English (IELTS 7.5, TOEIC 985)
+    English (IELTS 7.5, TOEIC 985)
   </div>
   <div class="column">
     <h3>Programming</h3>
     C++, Python, Julia<br>
-    Fortran, LaTeX, HTML & CSS
+    Fortran, LaTeX, PySpark
   </div>
 </div>

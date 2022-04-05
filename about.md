@@ -28,7 +28,7 @@ aside:
 </p>
 <p class="justified">
   I am Jun Yamamoto, an applied physics student at <strong>Hokkaido University</strong> (Sapporo, Japan) interested in complex networks and statistical physics. 
-  I obtained a degree of bachelor of engineering in the field of applied physics at the School of Engineering, Hokkaido University in March 2022.
+  I obtained the degree of bachelor of engineering in the field of applied physics at the School of Engineering, Hokkaido University in March 2022.
   I will start my study for Master of Science in mathematical sciences at the <strong>Queen Mary University of London</strong> in September 2022 to further my interest in complex networks.
 </p>
 
@@ -37,7 +37,7 @@ aside:
 
 <h3 class="centered">E-mail</h3>
 <p class="centered">
-  jun-yamamoto_at_eis.hokudai.ac.jp <br>
+  jun.yamamoto_at_eng.hokudai.ac.jp <br>
   (Please replace _at_ with @)
 </p>
 
