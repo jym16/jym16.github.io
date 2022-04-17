@@ -38,7 +38,7 @@ Semester: Autumn 2021, Spring 2022
 
 
 ### MDS and AI Seminar
-Assoc. Prof. Yuki Wakuda, Asst. Prof. Daichi Komori (Center for Mathemaical and Data Science)<br>
+Organizer: Assoc. Prof. Yuki Wakuda, Asst. Prof. Daichi Komori (Center for Mathemaical and Data Science)<br>
 Semester: Spring 2021, Autumn 2021
 - Prepared and presented lectures on statistics, data visualization, and linear regression.
 - Held weekly office hours.

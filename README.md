@@ -1,2 +1,2 @@
 # Welcome
-This is a personal website of Jun Yamamoto, an applied physics student at Hokkaido University.
+This is a home page of Jun Yamamoto, an applied physics student at Hokkaido University.

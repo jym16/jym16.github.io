@@ -25,7 +25,8 @@ aside:
 
 <!-- <h1>CV</h1> -->
 
-Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
+<i class="fas fa-download"></i> Click <a href="/assets/files/CV.pdf">here</a> to download PDF version.
+{:.info}
 
 ## Education
 <div class="row">
