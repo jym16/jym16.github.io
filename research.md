@@ -26,4 +26,4 @@ in preparation
 
 ## Thesis
 
-- <a href="/assets/files/bachelor_thesis.pdf">Bifractality of fractal scale-free networks</a> (School of Engineering, Hokkaido University, 2022)
+- <a href="">Bifractality of fractal scale-free networks</a> (School of Engineering, Hokkaido University, 2022)
