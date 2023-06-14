@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #02568f;
+  --global-hover-color: #02568f;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
@@ -439,7 +439,7 @@ footer.sticky-bottom {
 }
 .header-bar h1 {
   color: var(--global-theme-color);
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .tag-list {
@@ -684,6 +684,147 @@ footer.sticky-bottom {
   border: dashed 1px var(--global-bg-color);
 }
 .publications ol.bibliography li div.abstract.hidden.open {
+  border-color: var(--global-text-color);
+}
+
+.presentations {
+  margin-top: 2rem;
+}
+.presentations h1 {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.presentations h2 {
+  margin-bottom: 1rem;
+}
+.presentations h2 span {
+  font-size: 1.5rem;
+}
+.presentations h2.year {
+  color: var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  text-align: right;
+}
+.presentations ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+.presentations ol.bibliography li {
+  margin-bottom: 1rem;
+}
+.presentations ol.bibliography li .preview {
+  width: 100%;
+  min-width: 80px;
+  max-width: 200px;
+}
+.presentations ol.bibliography li .abbr {
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+.presentations ol.bibliography li .abbr abbr {
+  display: inline-block;
+  background-color: var(--global-theme-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.presentations ol.bibliography li .abbr abbr a {
+  color: white;
+}
+.presentations ol.bibliography li .abbr abbr a:hover {
+  text-decoration: none;
+}
+.presentations ol.bibliography li .abbr .award {
+  color: var(--global-theme-color) !important;
+  border: 1px solid var(--global-theme-color);
+}
+.presentations ol.bibliography li .title {
+  font-weight: bolder;
+}
+.presentations ol.bibliography li .author a {
+  border-bottom: 1px dashed var(--global-theme-color);
+}
+.presentations ol.bibliography li .author a:hover {
+  border-bottom-style: solid;
+  text-decoration: none;
+}
+.presentations ol.bibliography li .author > em {
+  border-bottom: 1px solid;
+  font-style: normal;
+}
+.presentations ol.bibliography li .author > span.more-authors {
+  color: var(--global-text-color-light);
+  border-bottom: 1px dashed var(--global-text-color-light);
+  cursor: pointer;
+}
+.presentations ol.bibliography li .author > span.more-authors:hover {
+  color: var(--global-text-color);
+  border-bottom: 1px dashed var(--global-text-color);
+}
+.presentations ol.bibliography li .links a.btn {
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-left: 0;
+}
+.presentations ol.bibliography li .links a.btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+.presentations ol.bibliography li .badges {
+  padding-bottom: 0.5rem;
+}
+.presentations ol.bibliography li .badges span {
+  display: inline-block;
+  color: #000000;
+  height: 100%;
+  padding-right: 0.5rem;
+  vertical-align: middle;
+}
+.presentations ol.bibliography li .badges span:hover {
+  text-decoration: underline;
+}
+.presentations ol.bibliography li .hidden {
+  font-size: 0.875rem;
+  max-height: 0px;
+  overflow: hidden;
+  text-align: justify;
+  transition-property: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+}
+.presentations ol.bibliography li .hidden p {
+  line-height: 1.4em;
+  margin: 10px;
+}
+.presentations ol.bibliography li .hidden pre {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 10px;
+}
+.presentations ol.bibliography li .hidden.open {
+  max-height: 100em;
+  transition-property: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+}
+.presentations ol.bibliography li div.abstract.hidden {
+  border: dashed 1px var(--global-bg-color);
+}
+.presentations ol.bibliography li div.abstract.hidden.open {
   border-color: var(--global-text-color);
 }
 
