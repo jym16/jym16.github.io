@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Starting PhD in Network Science at Central European University
+title: Starting a PhD in Network Science at Central European University
 date: 2023-06-14 00:00:00+0100
 inline: true
 related_posts: false

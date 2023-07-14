@@ -8,9 +8,14 @@ nav_order: 7
 ---
 
 <ul>
+  <li><a href="https://www.ceu.edu/">Central European University</a></li>
+    <ul>
+      <li><a href="https://networkdatascience.ceu.edu/">Department of Network and Data Science</a></li> 
+    </ul>
   <li><a href="https://www.qmul.ac.uk/">Queen Mary University of London</a></li>
     <ul>
       <li><a href="https://www.qmul.ac.uk/maths/">School of Mathematical Sciences</a></li> 
+      <li><a href="https://www.qmul.ac.uk/maths/research/complex-systems-and-networks-group/">Complex Systems and Networks Group</a></li> 
     </ul>
   <li><a href="https://www.global.hokudai.ac.jp/">Hokkaido University</a></li> 
     <ul>
