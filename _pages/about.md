@@ -26,7 +26,7 @@ He holds a Bachelor of Engineering in Applied Physics from Hokkaido University (
 
 His research experience includes conducting multifractal analyses on structures of fractal scale-free networks and studying the dynamics of higher-order networks (with triadic interactions). See [publications page](/publications/) for more details. 
 
-He is expected to pursue a PhD in Network Science at the Department of Networks and Data Science at Central European University in Vienna, Austria from September 2023.
+He is expected to pursue a PhD in Network Science at the Department of Network and Data Science at Central European University in Vienna, Austria from September 2023.
 
 In addition to his academic pursuits, he has professional experience as a data scientist specializing in network analysis.
 

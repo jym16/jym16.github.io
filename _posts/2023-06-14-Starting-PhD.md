@@ -7,6 +7,6 @@ related_posts: false
 category: announcement
 ---
 
-I am thrilled to announce that I will pursue a PhD in Network Science at the Department of Networks and Data Sciences (DNDS) at Central European University (CEU) from September 2023. 
+I am thrilled to announce that I will pursue a PhD in Network Science at the Department of Network and Data Science (DNDS) at Central European University (CEU) from September 2023. 
 I am trully honoured to be given a fully-funded offer from CEU, and I am looking forward to joining DNDS.
 
