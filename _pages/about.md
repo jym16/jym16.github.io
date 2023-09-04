@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Jun Yamamoto is an incoming PhD student at the Department of Network and Data Science at the Central European University in Vienna, Austria, with a passion for complex networks and statistical physics. 
+Jun Yamamoto is a PhD student at the Department of Network and Data Science at the Central European University in Vienna, Austria, with a passion for complex networks and statistical physics. 
 
-He is expected to earn his MSc studies in September 2023 and holds a Bachelor of Engineering in Applied Physics from Hokkaido University earned in March 2022. 
+He is expected to earn his MSc degree in September 2023 and holds a Bachelor of Engineering in Applied Physics from Hokkaido University earned in March 2022. 
 
 His research experience includes conducting multifractal analyses on structures of fractal scale-free networks and studying the node dynamics of higher-order networks with triadic interactions. See the [publications page](/publications/) for more details. 
 

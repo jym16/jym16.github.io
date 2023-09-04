@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Incoming PhD student in Network Science
+    - title: PhD in Network Science
       institution: Department of Network and Data Science, Central European University (Vienna, Austria)
       year: 2023/09 - Present
 
@@ -19,7 +19,7 @@
       institution: School of Mathematical Sciences, Queen Mary University of London (London, UK)
       year: 2022/09 - 2023/09
       description:
-        - 94.03/100, distinction (as of August 28, 2023)
+        - 96/100, distinction (as of September 4, 2023)
         - title: Modelling higher-order network dynamics in the presence of triadic interactions
           contents:
             - Investigated the node dynamics on networks with triadic interactions, in which a node can regulate positively/negatively the interaction between two other nodes. 
