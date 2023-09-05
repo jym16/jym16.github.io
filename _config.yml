@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jun
 middle_name: 
 last_name: Yamamoto
-email: j.yamamoto@se22.qmul.ac.uk
+email: yamamoto_jun@phd.ceu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal website of Jun Yamamoto.
 footer_text: >

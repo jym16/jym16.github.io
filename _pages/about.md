@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.qmul.ac.uk/maths/'>School of Mathematical Sciences, Queen Mary University of London</a>. # Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.qmul.ac.uk/maths/'>Department of Network and Data Science, Central European University</a>. # Address. Contacts. Moto. Etc.
 
 profile:
   align: right
