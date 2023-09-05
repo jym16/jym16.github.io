@@ -11,7 +11,6 @@ nav_order: 3
 
 <div class="presentations">
 
-
 <div class="oral">
 {%- for x in page.forms %}
     <h1>{{x}}</h1>
