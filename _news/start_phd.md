@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-I started my PhD study in Network Science at the Department of Network and Data Science (DNDS) at Central European University (CEU) in September 2023. 
+I started my PhD study in Network Science at the Department of Network and Data Science (DNDS) at Central European University (CEU). 
 I am looking forward to next four years at CEU DNDS.
