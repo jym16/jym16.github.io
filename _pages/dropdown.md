@@ -13,4 +13,6 @@ children:
     - title: divider
     - title: Links
       permalink: /links/
+    - title: &#x1f1ef;&#x1f1f5;
+      permalink: https://researchmap.jp/jun_yamamoto
 ---
