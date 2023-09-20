@@ -27,3 +27,6 @@ His research experience includes conducting multifractal analyses on structures 
 
 In addition to his academic pursuits, he has professional experience as a data scientist specializing in network analysis.
 
+※The profile in Japanese can be found [here](https://researchmap.jp/jun_yamamoto).
+
+※日本語のプロファイルは[こちら](https://researchmap.jp/jun_yamamoto)を参照して下さい．
