@@ -19,7 +19,7 @@
       institution: School of Mathematical Sciences, Queen Mary University of London (London, UK)
       year: 2022/09 - 2023/09
       description:
-        - 96/100, distinction (as of September 4, 2023)
+        - 96/100, distinction. 
         - title: Modelling higher-order network dynamics in the presence of triadic interactions
           contents:
             - Investigated the node dynamics on networks with triadic interactions, in which a node can regulate positively/negatively the interaction between two other nodes. 
@@ -129,6 +129,11 @@
 - title: Awards and Scholarships
   type: time_table
   contents:
+    - year: 2023/11
+      title: Principal's Prize, Queen Mary University of London
+      description: 
+        - Awarded for outstanding academic achievements at School of Mathematical Sciences.
+
     - year: 2022/09 - 2023/09
       title: Scholarship, Ito Foundation for International Education Exchange
       description: 
@@ -166,6 +171,7 @@
       items: 
         - structures and dynamics of complex networks
         - critical phenomena on complex networks
+        - physicality of complex networks
         - degree correlations, fractal and multifractal properties
     
     - title: Statistical Physics
