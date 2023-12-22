@@ -3,7 +3,7 @@ layout: post
 title: My last day at Condensed Matter Physics Lab@Hokkaido University
 date: 2022-07-15 23:59:00+0800
 description: My last day at the Laboratory of Condensed Matter Physics@Hokkaido University
-categories: announcement
+tags: announcement
 ---
 
 Today was my last day at the Laboratory of Condensed Matter Physics at Hokkaido University. The last two years at the lab have motivated me to further my interests in complex networks. I express my sincere gratitude to my supervisor, Prof. Kousuke Yakubo, for his mentorship during my study.
