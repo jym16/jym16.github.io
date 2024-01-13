@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jun
 middle_name: 
 last_name: Yamamoto
-email: yamamoto_jun@phd.ceu.edu
+email: jun.j.yamamoto@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal website of Jun Yamamoto.
 footer_text: >
@@ -19,7 +19,7 @@ icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image
 
 url: https://jym16.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -340,8 +340,8 @@ enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            true   # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            false  # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_darkmode:            true  # enables switching between light/dark modes
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories

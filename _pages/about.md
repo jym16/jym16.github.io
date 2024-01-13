@@ -19,15 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Jun Yamamoto is a PhD student at the Department of Network and Data Science at the Central European University in Vienna, Austria, with a passion for complex networks and statistical physics. 
+Jun Yamamoto is a first-year PhD student at the Department of Network and Data Science at Central European University in Vienna, Austria, with his research interests in statistical physics and complex networks. He is supervised by Assistant Professor Dr. Márton Pósfai and co-supervised by Professor János Kertész.
 
-He completed his Master of Science in Mathematics at Queen Mary University of London in September 2023 and holds a Bachelor of Engineering in Applied Physics from Hokkaido University earned in March 2022. 
+He earned his Bachelor of Engineering in Applied Physics at Hokkaido University, with his thesis on the bifractal property of fractal scale-free networks. Consequently, he completed his Master of Science in Mathematics at Queen Mary University of London, with his dissertation titled "Modelling higher-order network dynamics in the presence of triadic interactions" under the supervision of Professor Ginestra Bianconi.
 
-His research experience includes conducting multifractal analyses on structures of fractal scale-free networks and analysing the node dynamics of higher-order networks with triadic interactions. He currently works on statistical physics of physical networks and networks of networks. 
-<!-- See the [publications page](/publications/) for more details.  -->
+He currently works on critical phenomena in networks of networks. Prior to pursuing his Ph.D. at CEU, he gained his research experience in fractal and multifractal analyses of complex networks and modeling of node dynamics of higher-order networks with triadic interactions.
 
 In addition to his academic pursuits, he has professional experience as a data scientist specializing in network analysis.
 
-※The profile in Japanese can be found [here](https://researchmap.jp/jun_yamamoto).
 
 ※日本語のプロファイルは[こちら](https://researchmap.jp/jun_yamamoto)を参照して下さい．
