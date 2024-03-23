@@ -23,7 +23,7 @@ Jun Yamamoto is a first-year PhD student at the Department of Network and Data S
 
 He earned his Bachelor of Engineering in Applied Physics at Hokkaido University, with his thesis on the bifractal property of fractal scale-free networks. Consequently, he completed his Master of Science in Mathematics at Queen Mary University of London, with his dissertation titled "Modelling higher-order network dynamics in the presence of triadic interactions" under the supervision of Professor Ginestra Bianconi.
 
-He currently works on critical phenomena in networks of networks. Prior to pursuing his Ph.D. at CEU, he gained his research experience in fractal and multifractal analyses of complex networks and modeling of node dynamics of higher-order networks with triadic interactions.
+He is currently working on topological and spectral properties of physical networks. Prior to pursuing his Ph.D. at CEU, he gained his research experience in fractal and multifractal analyses of complex networks and modeling of node dynamics of higher-order networks with triadic interactions.
 
 In addition to his academic pursuits, he has professional experience as a data scientist specializing in network analysis.
 
