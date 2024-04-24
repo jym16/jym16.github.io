@@ -11,7 +11,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 {%- for x in page.forms %}
-  {%- for y in page.years %}
+  {%- for y in page.years reversed %}
     <h2 class="year">{{y}}</h2>
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[annote={{x}}, year={{y}}]* %}
   {% endfor %}
