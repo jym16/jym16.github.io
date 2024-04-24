@@ -171,19 +171,20 @@
   contents:
     - title: Complex Networks
       items: 
-        - structures and dynamics of complex networks
+        - physical networks
         - critical phenomena on complex networks
-        - physicality of complex networks
-        - degree correlations, fractal and multifractal properties
+        - fractal and multifractal properties
+        - graph spectra
+        - networks embedded in metric spaces
     
     - title: Statistical Physics
       items:
         - phase transitions, critical phenomena, disordered systems
     
-    - title: Data Science
-      items:
-        - machine learning and deep learning on graphs
-        - network analysis of large-scale datasets
+    # - title: Data Science
+    #   items:
+    #     - machine learning and deep learning on graphs
+    #     - network analysis of large-scale datasets
 
 # - title: Other Interests
 #   type: list
