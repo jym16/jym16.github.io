@@ -1,4 +1,4 @@
-- title: Curriculum Vitae
+- title: Personal Information
   type: map
   contents:
     - name: Full Name
@@ -6,7 +6,27 @@
     - name: Languages
       value: Japanese, English
     - name: Email
-      value: jun.j.yamamoto_at_gmail.com (replace _at_ with @)
+      value: jun.j.yamamoto_at_gmail.com (replace `_at_` with `@`)
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Complex Networks
+      items: 
+        - physical networks
+        - critical phenomena on complex networks
+        - fractal and multifractal properties
+        - graph spectra
+        - networks embedded in metric spaces
+    
+    - title: Statistical Physics
+      items:
+        - phase transitions, critical phenomena, disordered systems
+    
+    # - title: Data Science
+    #   items:
+    #     - machine learning and deep learning on graphs
+    #     - network analysis of large-scale datasets
 
 - title: Education
   type: time_table
@@ -57,76 +77,21 @@
         - Analysed the topology of collocation networks of keywords in the news articles and the bipartite networks of keywords and newspaper articles. 
         - Developed a portfolio in which the collocation networks are visualised and used to recommend related news articles or keywords.
     
-    - title: Mathematics, Physics, Chemistry, and Programming Tutor 
-      institution: Self-Employed (Online)
-      year: 2020/04 - 2020/08
-      description:
-        - Taught A-level subjects to middle/high school students.
-        - Prepared materials for the lessons and graded the students' homework.
-        - Answered questions from students.
+    # - title: Mathematics, Physics, Chemistry, and Programming Tutor 
+    #   institution: Self-Employed (Online)
+    #   year: 2020/04 - 2020/08
+    #   description:
+    #     - Taught A-level subjects to middle/high school students.
+    #     - Prepared materials for the lessons and graded the students' homework.
+    #     - Answered questions from students.
 
-    - title: English Tutor
-      institution: Orange Bird Limited (Sapporo, Japan)
-      year: 2017/09 - 2021/03
-      description:
-        - Taught English to middle and high school students.
-        - Assisted the lecturers and graded the students' homework.
-        - Answered questions from students.
-
-- title: Internships
-  type: time_table
-  contents:
-    - title: Summer Research Intern
-      institution: Center for Computational Science and e-Systems, Japan Atomic Energy Agency (Chiba, Japan)
-      year: 2020/07 - 2020/08
-      description:
-        - title: Application of machine learning to accelerate molecular dynamics simulation
-          contents:
-            - Implement machine learning and deep learning algorithms in Julia lang. 
-            - Learn hands on how to use machine learning to accelerate molecular dynamics simulation.
-    
-    - title: Research Intern
-      institution: Quantum Wave Microscopy Unit, Okinawa Institute of Science and Technology (Okinawa, Japan)
-      year: 2019/02 - 2019/03
-      description:
-        - title: Observation of protein nanocrystals using diffraction electron microscope
-          contents:
-            - Learn hands on how to operate scanning electron microscope and transmission electron microscope.
-            - Tested the feasibility of using a diffraction electron microscope which was under development at the lab to observe protein nanocrystals.
-
-- title: Teaching Experience
-  type: time_table
-  contents:
-  - title: Teaching Assistant
-    institution: School of Engineering, Hokkaido University (Sapporo, Japan)
-    year: 2022/04 - 2022/08
-    description:
-      - title: Applied Mathematics II
-        contents:
-          - Assisted the lecturer in the course "Applied Mathematics II" for second-year undergraduate students.
-          - Held tutorial sessions and answered questions from students.
-          - Graded the students' reports.
-      
-      - title: Statistical Mechanics I
-        contents:
-          - Assisted the lecturer in the course "Statistical Mechanics I" for third-year undergraduate students.
-          - Held tutorial sessions and answered questions from students.
-          - Graded the students' reports.
-    
-  - title: Teaching Assistant
-    institution: Education and Research Center for Mathematics and Data Sciences, Hokkaido University (Sapporo, Japan)
-    year: 2021/04 - 2022/03
-    description:
-      - title: Computational Science
-        contents:
-          - Assisted the lecturer in the course "Computational Science" for third-year undergraduate students.
-          - Prepared materials for the lectures on stochastic simulations (random number generators, Monte Carlo simulation, percolation, 2D Ising model).
-      
-      - title: MDS/AI Seminar
-        contents:
-          - Assisted the lecturer in the online course "MDS/AI Seminar" accessible to all Hokkaido University students.
-          - Prepared materials for and gave the lecture on descriptive statistics and linear regression.
-          - Held office hours and answered questions from students.
+    # - title: English Tutor
+    #   institution: Orange Bird Limited (Sapporo, Japan)
+    #   year: 2017/09 - 2021/03
+    #   description:
+    #     - Taught English to middle and high school students.
+    #     - Assisted the lecturers and graded the students' homework.
+    #     - Answered questions from students.
 
 - title: Awards and Scholarships
   type: time_table
@@ -165,26 +130,61 @@
       title: Nitobe College Incentive Award, Nitobe College, Hokkaido University
       description: 
         - Awarded to the students with outstanding academic achievements among Nitobe College students.
-
-- title: Academic Interests
-  type: nested_list
+  
+- title: Teaching Experience
+  type: time_table
   contents:
-    - title: Complex Networks
-      items: 
-        - physical networks
-        - critical phenomena on complex networks
-        - fractal and multifractal properties
-        - graph spectra
-        - networks embedded in metric spaces
+  - title: Teaching Assistant
+    institution: School of Engineering, Hokkaido University (Sapporo, Japan)
+    year: 2022/04 - 2022/08
+    description:
+      - title: Applied Mathematics II
+        contents:
+          - Assisted the lecturer in the course "Applied Mathematics II" for second-year undergraduate students.
+          - Held tutorial sessions and answered questions from students.
+          - Graded the students' reports.
+      
+      - title: Statistical Mechanics I
+        contents:
+          - Assisted the lecturer in the course "Statistical Mechanics I" for third-year undergraduate students.
+          - Held tutorial sessions and answered questions from students.
+          - Graded the students' reports.
     
-    - title: Statistical Physics
-      items:
-        - phase transitions, critical phenomena, disordered systems
+  - title: Teaching Assistant
+    institution: Education and Research Center for Mathematics and Data Sciences, Hokkaido University (Sapporo, Japan)
+    year: 2021/04 - 2022/03
+    description:
+      - title: Computational Science
+        contents:
+          - Assisted the lecturer in the course "Computational Science" for third-year undergraduate students.
+          - Prepared materials for the lectures on stochastic simulations (random number generators, Monte Carlo simulation, percolation, 2D Ising model).
+      
+      - title: MDS/AI Seminar
+        contents:
+          - Assisted the lecturer in the online course "MDS/AI Seminar" accessible to all Hokkaido University students.
+          - Prepared materials for and gave the lecture on descriptive statistics and linear regression.
+          - Held office hours and answered questions from students.
+
+- title: Internships
+  type: time_table
+  contents:
+    - title: Summer Research Intern
+      institution: Center for Computational Science and e-Systems, Japan Atomic Energy Agency (Chiba, Japan)
+      year: 2020/07 - 2020/08
+      description:
+        - title: Application of machine learning to accelerate molecular dynamics simulation
+          contents:
+            - Implement machine learning and deep learning algorithms in Julia lang. 
+            - Learn hands on how to use machine learning to accelerate molecular dynamics simulation.
     
-    # - title: Data Science
-    #   items:
-    #     - machine learning and deep learning on graphs
-    #     - network analysis of large-scale datasets
+    - title: Research Intern
+      institution: Quantum Wave Microscopy Unit, Okinawa Institute of Science and Technology (Okinawa, Japan)
+      year: 2019/02 - 2019/03
+      description:
+        - title: Observation of protein nanocrystals using diffraction electron microscope
+          contents:
+            - Learn hands on how to operate scanning electron microscope and transmission electron microscope.
+            - Tested the feasibility of using a diffraction electron microscope which was under development at the lab to observe protein nanocrystals.
 
 # - title: Other Interests
 #   type: list
