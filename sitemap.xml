@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jym16.github.io/news/first_publication/</loc>
-<lastmod>2023-08-07T16:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://jym16.github.io/news/start_phd/</loc>
 <lastmod>2023-09-03T22:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://jym16.github.io/news/jps2023presentation/</loc>
-<lastmod>2023-09-05T17:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://jym16.github.io/news/datastories2023/</loc>
-<lastmod>2023-11-21T15:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://jym16.github.io/news/mining_triadic_interactions/</loc>
 <lastmod>2024-04-24T06:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://jym16.github.io/news/netsci2024/</loc>
+<lastmod>2024-06-07T11:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://jym16.github.io/blog/2022/Network-Science-Workshop-JAIST/</loc>
