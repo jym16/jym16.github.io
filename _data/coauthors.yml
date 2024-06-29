@@ -1,34 +1,34 @@
-"Yakubo":
-  - firstname: ["Kousuke", "K."]
-    url: https://researchers.general.hokudai.ac.jp/profile/en.a924ea4d48ceb118520e17560c007669.html
-    affiliation: Hokkaido University
+# "Yakubo":
+#   - firstname: ["Kousuke", "K."]
+#     url: https://researchers.general.hokudai.ac.jp/profile/en.a924ea4d48ceb118520e17560c007669.html
+#     affiliation: Hokkaido University
 
-"Baptista":
-  - firstname: ["Anthony", "A."]
-    url: https://www.qmul.ac.uk/maths/profiles/baptistaa.html
-    affiliation: Queen Mary University of London
+# "Baptista":
+#   - firstname: ["Anthony", "A."]
+#     url: https://www.qmul.ac.uk/maths/profiles/baptistaa.html
+#     affiliation: Queen Mary University of London
 
-"Bianconi":
-  - firstname: ["Ginestra", "G."]
-    url: https://www.qmul.ac.uk/maths/profiles/bianconig.html
-    affiliation: Queen Mary University of London
+# "Bianconi":
+#   - firstname: ["Ginestra", "G."]
+#     url: https://www.qmul.ac.uk/maths/profiles/bianconig.html
+#     affiliation: Queen Mary University of London
 
-"Kurths":
-  - firstname: ["Jürgen", "J."]
-    url: https://www.pik-potsdam.de/members/kurths/homepage
-    affiliation: Potsdam Institute for Climate Impact Research
+# "Kurths":
+#   - firstname: ["Jürgen", "J."]
+#     url: https://www.pik-potsdam.de/members/kurths/homepage
+#     affiliation: Potsdam Institute for Climate Impact Research
 
-"MacArthur":
-  - firstname: ["Ben", "B."]
-    url: https://www.turing.ac.uk/people/researchers/ben-macarthur
-    affiliation: Alan Turing Institute
+# "MacArthur":
+#   - firstname: ["Ben", "B."]
+#     url: https://www.turing.ac.uk/people/researchers/ben-macarthur
+#     affiliation: Alan Turing Institute
 
-"Niedostatek":
-  - firstname: ["Marta", "M."]
-    url: https://www.qmul.ac.uk/maths/profiles/niedostatekm.html
-    affiliation: Queen Mary University of London
+# "Niedostatek":
+#   - firstname: ["Marta", "M."]
+#     url: https://www.qmul.ac.uk/maths/profiles/niedostatekm.html
+#     affiliation: Queen Mary University of London
 
-"Sanchez-Garcia":
-  - firstname: ["Ruben", "R."]
-    url: https://www.southampton.ac.uk/people/5x7tz6/doctor-ruben-sanchez-garcia
-    affiliation: University of Southampton
+# "Sanchez-Garcia":
+#   - firstname: ["Ruben", "R."]
+#     url: https://www.southampton.ac.uk/people/5x7tz6/doctor-ruben-sanchez-garcia
+#     affiliation: University of Southampton

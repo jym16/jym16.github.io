@@ -3,7 +3,7 @@ layout: post
 title: Network Science Workshop@JAIST
 date: 2022-05-22 23:59:00+0800
 description: The network science workship at JAIST
-tags: network-science, travel
+tags: workshop
 ---
 
 I participated in the [network science workshop](http://www.jaist.ac.jp/~mizutaka/seminar2022/networks2022) at Japan Advanced Institute of Science and Technology ([JAIST](https://www.jaist.ac.jp/index.html))  on May 20-21, 2022 and gave a one-hour oral presentation about my work on the structural bifractality of fractal scale-free networks.

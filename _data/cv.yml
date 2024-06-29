@@ -8,26 +8,6 @@
     - name: Email
       value: jun.j.yamamoto_at_gmail.com (replace `_at_` with `@`)
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Complex Networks
-      items: 
-        - physical networks
-        - critical phenomena on complex networks
-        - fractal and multifractal properties
-        - graph spectra
-        - networks embedded in metric spaces
-    
-    - title: Statistical Physics
-      items:
-        - phase transitions, critical phenomena, disordered systems
-    
-    # - title: Data Science
-    #   items:
-    #     - machine learning and deep learning on graphs
-    #     - network analysis of large-scale datasets
-
 - title: Education
   type: time_table
   contents:
@@ -168,27 +148,48 @@
           - Prepared materials for and gave the lecture on descriptive statistics and linear regression.
           - Held office hours and answered questions from students.
 
-- title: Internships
-  type: time_table
-  contents:
-    - title: Summer Research Intern
-      institution: Center for Computational Science and e-Systems, Japan Atomic Energy Agency (Chiba, Japan)
-      year: 2020/07 - 2020/08
-      description:
-        - title: Application of machine learning to accelerate molecular dynamics simulation
-          contents:
-            - Implement machine learning and deep learning algorithms in Julia lang. 
-            - Learn hands on how to use machine learning to accelerate molecular dynamics simulation.
+# - title: Internships
+#   type: time_table
+#   contents:
+#     - title: Summer Research Intern
+#       institution: Center for Computational Science and e-Systems, Japan Atomic Energy Agency (Chiba, Japan)
+#       year: 2020/07 - 2020/08
+#       description:
+#         - title: Application of machine learning to accelerate molecular dynamics simulation
+#           contents:
+#             - Implement machine learning and deep learning algorithms in Julia lang. 
+#             - Learn hands on how to use machine learning to accelerate molecular dynamics simulation.
     
-    - title: Research Intern
-      institution: Quantum Wave Microscopy Unit, Okinawa Institute of Science and Technology (Okinawa, Japan)
-      year: 2019/02 - 2019/03
-      description:
-        - title: Observation of protein nanocrystals using diffraction electron microscope
-          contents:
-            - Learn hands on how to operate scanning electron microscope and transmission electron microscope.
-            - Tested the feasibility of using a diffraction electron microscope which was under development at the lab to observe protein nanocrystals.
+#     - title: Research Intern
+#       institution: Quantum Wave Microscopy Unit, Okinawa Institute of Science and Technology (Okinawa, Japan)
+#       year: 2019/02 - 2019/03
+#       description:
+#         - title: Observation of protein nanocrystals using diffraction electron microscope
+#           contents:
+#             - Learn hands on how to operate scanning electron microscope and transmission electron microscope.
+#             - Tested the feasibility of using a diffraction electron microscope which was under development at the lab to observe protein nanocrystals.
 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Complex Networks
+      items: 
+        - physical networks
+        - critical phenomena on complex networks
+        - fractal and multifractal properties
+        - graph spectra
+        - networks embedded in metric spaces
+    
+    - title: Statistical Physics
+      items:
+        - phase transitions
+        - critical phenomena 
+        - disordered systems
+
+- title: Professional Memberships
+  type: list
+  contents:
+    - The Physical Society of Japan, American Physical Society, European Physical Society
 # - title: Other Interests
 #   type: list
 #   contents:
