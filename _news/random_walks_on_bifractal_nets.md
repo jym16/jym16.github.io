@@ -2,7 +2,7 @@
 layout: post
 title: A new paper on random walks on bifractal networks is available on arXiv.
 date: 2024-07-24 10:00:00+0900
-inline: true
+inline: false
 related_posts: false
 ---
 
