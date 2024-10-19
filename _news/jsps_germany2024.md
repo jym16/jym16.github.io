@@ -2,7 +2,7 @@
 layout: post
 title: JSPS Bonn Networking Event at Max-Planck-Institute for Quantum Optics
 date: 2024-10-18 00:00:00+0200
-inline: true
+inline: false
 related_posts: false
 ---
 
