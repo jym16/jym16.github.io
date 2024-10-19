@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DYNASNET Meeting in Valtice
-date: 2024-10-16 00:00:00+0200
+date: 2024-10-17 00:00:00+0200
 inline: false
 related_posts: false
 ---
