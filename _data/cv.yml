@@ -109,13 +109,13 @@
       institution: Center for Computational Science and e-Systems, Japan Atomic Energy Agency (Chiba, Japan)
       year: 2020/07 - 2020/08
       description:
-        - title: Application of machine learning to accelerate molecular dynamics simulation
+        - Application of machine learning to accelerate molecular dynamics simulation
     
     - title: Research Intern
       institution: Quantum Wave Microscopy Unit, Okinawa Institute of Science and Technology (Okinawa, Japan)
       year: 2019/02 - 2019/03
       description:
-        - title: Observation of protein nanocrystals using diffraction electron microscope
+        - Observation of protein nanocrystals using diffraction electron microscope
 
 - title: Academic Interests
   type: nested_list
