@@ -7,6 +7,10 @@ nav: true
 nav_order: 5
 ---
 
-# Teaching
+# Introduction to Linear Algebra
 
-To be added...
+- AY2024-2025, Winter Semester
+- Lecturer: Prof. Imre Fekete
+- Teaching Assistant: Jun Yamamoto
+
+
