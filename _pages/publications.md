@@ -6,7 +6,7 @@ description: Publications by categories in reversed chronological order. # gener
 years: [2023, 2024]
 forms: [Preprint, Paper]
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
