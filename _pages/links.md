@@ -22,4 +22,5 @@ nav_order: 8
       <li><a href="https://applphys.net/diven/">Division of Applied Physics</a></li>
     </ul>
   <li><a href="https://www.network-science-seminar.com/">ネットワーク科学研究会 (Japanese Network Science Society)</a></li>
+  <li><a href="https://sites.google.com/site/jpsingermany/home">ドイツ物理学・応用物理学セミナー (Physics and Applied Physics Seminar in Germany for Japanese Researchers)</a></li>
 </ul>
