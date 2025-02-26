@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The 9th Physics and Applied Physics Seminar in Germany for Japanese Researchers
-date: 2024-10-19 00:00:00+0200
+date: 2025-02-07 00:00:00+0200
 inline: false
 related_posts: false
 ---
