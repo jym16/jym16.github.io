@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jym16.github.io/news/jps_germany2025/</loc>
-<lastmod>2024-10-18T22:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://jym16.github.io/news/random_walks_on_bifractal_nets/</loc>
 <lastmod>2024-12-26T01:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://jym16.github.io/news/wwcs2025/</loc>
 <lastmod>2025-01-31T22:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://jym16.github.io/news/jps_germany2025/</loc>
+<lastmod>2025-02-06T22:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://jym16.github.io/blog/2022/Network-Science-Workshop-JAIST/</loc>
