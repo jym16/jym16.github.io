@@ -2,7 +2,7 @@
 layout: post
 title: Physical Network Satellite @NetSci25 
 date: 2025-04-30 00:00:00+0200
-inline: true
+inline: false
 related_posts: false
 ---
 
