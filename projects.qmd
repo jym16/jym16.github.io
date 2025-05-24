@@ -1,0 +1,37 @@
+---
+layout: default
+permalink: /
+title: "Projects"
+bibliography: _bibliography/papers.bib
+---
+
+# Projects
+
+### Physical Networks
+
+#### Localization
+
+#### Synchronization
+
+#### Magnetization
+
+#### Entanglement
+
+<!-- ### Magnetic reversal dynamics on bulk magnets -->
+
+### Higher-Order Networks
+
+#### Diffusion on networks with triadic interactions
+
+[@baptista2024mining]
+
+### Bifractal Networks
+
+#### Structural properties
+
+[@yamamoto2023bifractality]
+
+#### Random walks
+
+[@yakubo2024random]
+

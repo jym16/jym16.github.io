@@ -1,0 +1,80 @@
+---
+layout: default
+permalink: /
+
+title: "Jun Yamamoto"
+subtitle: |
+  PhD candidate in Network Science, Department of Network and Data Science, Central European University
+image: assets/images/prof_pic.jpeg
+format:
+  html:
+    grid:
+      body-width: 1000px
+about:
+  id: profile
+  template: solana
+  image-width: 8em
+  links:
+    - text: '{{< fa envelope title="Envelope logo" label="Envelope logo" >}}'
+      href: "mailto:jun.j.yamamoto@gmail.com"
+      aria-label: "Envelope logo"
+    - text: '{{< ai orcid title="ORCID logo" label="ORCID logo" >}}'
+      href: "https://orcid.org/0009-0009-5089-3269"
+      aria-label: "ORCID logo"
+    - text: '{{< ai google-scholar title="Google Scholar logo" label="Google Scholar logo" >}}'
+      href: "https://scholar.google.com/citations?user=ILnN9b4AAAAJ"
+      aria-label: "Google Scholar logo"
+    - text: '{{< ai researchgate title="ResearchGate logo" label="ResearchGate logo" >}}'
+      href: "https://www.researchgate.net/profile/Jun-Yamamoto"
+      aria-label: "ResearchGate logo"
+    - text: '{{< fa github >}}'
+      href: "https://github.com/jym16"
+      aria-label: "GitHub logo"
+    - text: '{{< fa bluesky >}}'
+      href: "https://bsky.app/profile/jymmt.bsky.social"
+      aria-label: "BlueSky logo"
+    - text: '{{< fa twitter >}}'
+      href: "https://twitter.com/__jymmt__"
+      aria-label: "Twitter logo"
+    - text: '{{< fa linkedin >}}'
+      href: "https://www.linkedin.com/in/jun-yamamoto-579916199"
+      aria-label: "LinkedIn logo"
+---
+
+::: {#profile}
+:::
+
+I am a PhD candidate at the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria, interested in statistical physics and complex networks. 
+
+I am currently working on spectral and topological properties of **physical networks**, i.e., networks that are embedded in three-dimensional space under physical constraints (e.g., volume exclusion).
+I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai) and Prof. [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz).
+
+Before starting my PhD, I completed Master of Science in Mathematics at [Queen Mary University of London](https://www.qmul.ac.uk/), with dissertation work on *higher-order network dynamics in the presence of triadic interactions* under the supervision of Prof. [Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html).
+I earned Bachelor of Engineering in Applied Physics at [Hokkaido University](https://www.global.hokudai.ac.jp/) in Sapporo, Japan, with thesis titled the *bifractal property of fractal scale-free networks* (supervised by Prof. [Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)).
+※日本語のプロファイルは[こちら](https://researchmap.jp/jun_yamamoto)を参照して下さい．
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-8 style="text-align: left;"}
+## Education
+
+- **_M.Sc._ in Mathematics**, **2023**  
+  *School of Mathematical Sciences, Queen Mary University of London*  
+  London, UK
+
+- **_B.Eng._ in Applied Physics**, **2022**  
+  *Department of Applied Physics, Faculty of Engineering, Hokkaido University*  
+  Sapporo, Japan
+:::
+
+::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
+## Interests
+
+- Complex Networks
+- Physical Networks
+- Statistical Physics
+- Fractals
+
+:::
+
+::::

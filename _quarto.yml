@@ -1,0 +1,73 @@
+project:
+  type: website
+
+website:
+  title: "Jun Yamamoto"
+  image: assets/images/logo.png
+  repo-url: ""
+  repo-actions: [issue]
+  page-navigation: true
+  reader-mode: true
+  back-to-top-navigation: true
+  google-analytics: "G-GNGTP6GYPM"
+  search:
+    type: overlay
+
+  twitter-card: 
+    site: "@__jymmt__"
+
+  page-footer:
+    left:
+      - text: "Powered by Quarto"
+    center:
+      - text: "2025 Copyright © Jun Yamamoto"
+    right:
+      - icon: envelope
+        href: mailto:jun.j.yamamoto@gmail.com
+        aria-label: Email
+      - icon: github
+        href: https://github.com/jym16
+        aria-label: GitHub
+      - icon: globe
+        href: https://jym16.github.io/
+
+  navbar:
+    logo: assets/images/logo.png
+    collapse-below: lg
+    background: light
+
+    tools:
+      - icon: envelope
+        href: mailto:jun.j.yamamoto@gmail.com
+      - icon: github
+        href: https://github.com/jym16/jym16.github.io
+      - icon: globe
+        href: https://jym16.github.io/
+  
+    left:
+      - file: index.qmd
+        text: "Home"
+      - href: cv.qmd
+        text: "CV"
+      - href: publications.qmd
+        text: "Publications"
+      - href: presentations.qmd
+        text: "Presentations"
+      - href: projects.qmd
+        text: "Projects"
+      - href: links.qmd
+        text: "Links"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: cyborg
+    css: assets/css/main.scss
+    toc: true
+    link-external-newwindow: true
+    code-copy: true
+    code-fold: false
+    execute: 
+      enabled: false
+  ipynb: default

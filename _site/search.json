@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Presentations\n\nUpcoming\nJun Yamamoto, Ivan Bonamassa, and Márton Pósfai. “Delocalization of Physical Laplacian Eigenvectors due to Degree-Volume Correlation.” Presenting at the International School and Conference on Network Science, June 4, 2025. [abstract]\nJun Yamamoto, Ivan Bonamassa, and Márton Pósfai. “Localization-delocalization transition in physical networks.” Presenting at the 29th International Conference on Statistical Physics, July 14, 2025. [abstract]\n\n\nTalks\n\n2022\nJun Yamamoto and Kousuke Yakubo. “Bifractal property of stochastic scale-free networks.” Presented at the Physical Society of Japan, JPS 2022 77th Annual Meeting, March 15, 2022. [abstract] [slides]\n\n\n2021\nJun Yamamoto and Kousuke Yakubo. “Multifractality of scale-free networks.” Presented at the Physical Society of Japan, JPS 2021 Autumn Meeting, September 20, 2021. [abstract] [slides]\n\n\n\nPosters\n\n2024\nKousuke Yakubo and Jun Yamamoto. “Bifractal property of scale-free networks.” Presented at the International School and Conference on Network Science, July 2024. [abstract]\n\n\n2022\nJun Yamamoto, Gentaro Shimojo, and Kousuke Yakubo. “Bifractal nature of fractal scale-free networks and its implications.” Presented at the Network Science Seminar 2022 in Kyoto, August 23-25, 2022.\n\n\n2021\nJun Yamamoto and Kousuke Yakubo. “Bifractality of scale-free networks.” Presented at the Network Science Seminar 2021 in Kanawaza, December 11-12, 2021. Poster Award.\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
+    "section": "",
+    "text": "Links\n\n[Affiliations]\n\nCentral European University | Department of Network and Data Science\nQueen Mary University of London | School of Mathematical Sciences\nHokkaido University | Division of Applied Physics | Laboratory of Condensed Matter Physics\n\n\n\n[Societies]\n\nネットワーク科学研究会 (Japanese Network Science Society)\nドイツ物理学・応用物理学セミナー (Physics and Applied Physics Seminar in Germany for Japanese Researchers)\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jun Yamamoto",
+    "section": "",
+    "text": "I am a PhD candidate at the Department of Network and Data Science at Central European University in Vienna, Austria, interested in statistical physics and complex networks.\nI am currently working on spectral and topological properties of physical networks, i.e., networks that are embedded in three-dimensional space under physical constraints (e.g., volume exclusion). I am supervised by Prof. Márton Pósfai and Prof. János Kertész.\nBefore starting my PhD, I completed Master of Science in Mathematics at Queen Mary University of London, with dissertation work on higher-order network dynamics in the presence of triadic interactions under the supervision of Prof. Ginestra Bianconi. I earned Bachelor of Engineering in Applied Physics at Hokkaido University in Sapporo, Japan, with thesis titled the bifractal property of fractal scale-free networks (supervised by Prof. Kousuke Yakubo). ※日本語のプロファイルはこちらを参照して下さい．"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jun Yamamoto",
+    "section": "Education",
+    "text": "Education\n\nM.Sc. in Mathematics, 2023\nSchool of Mathematical Sciences, Queen Mary University of London\nLondon, UK\nB.Eng. in Applied Physics, 2022\nDepartment of Applied Physics, Faculty of Engineering, Hokkaido University\nSapporo, Japan"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Jun Yamamoto",
+    "section": "Interests",
+    "text": "Interests\n\nComplex Networks\nPhysical Networks\nStatistical Physics\nFractals"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\n\nPhysical Networks\n\nLocalization\n\n\nSynchronization\n\n\nMagnetization\n\n\nEntanglement\n\n\n\n\nHigher-Order Networks\n\nDiffusion on networks with triadic interactions\n(Baptista et al. 2024)\n\n\n\nBifractal Networks\n\nStructural properties\n(Yamamoto and Yakubo 2023)\n\n\nRandom walks\n(Yakubo, Shimojo, and Yamamoto 2024)\n\n\n\n\n\n\n\n Back to topReferences\n\nBaptista, Anthony, Marta Niedostatek, Jun Yamamoto, Ben MacArthur, Jürgen Kurths, Ruben Sanchez-Garcia, and Ginestra Bianconi. 2024. “Mining Higher-Order Triadic Interactions.” arXiv Preprint arXiv:2404.14997 [Nlin.AO].\n\n\nYakubo, Kousuke, Gentaro Shimojo, and Jun Yamamoto. 2024. “Random Walks on Bifractal Networks.” Phys. Rev. E 110 (December): 064318. https://doi.org/10.1103/PhysRevE.110.064318.\n\n\nYamamoto, Jun, and Kousuke Yakubo. 2023. “Bifractality of Fractal Scale-Free Networks.” Phys. Rev. E 108: 024302. https://doi.org/10.1103/PhysRevE.108.024302."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publication\n\nPreprints\nMarta Niedostatek, Anthony Baptista, Jun Yamamoto, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi. “Mining higher-order triadic interactions.” arXiv preprint arXiv:2404.14997 (2024). [arXiv]\n\n\n2024\nKousuke Yakubo, Gentaro Shimojo, Jun Yamamoto. “Random walks on bifractal networks.” Physical Review E 110, 064318 (2024). [paper] [arXiv]\n\n\n2023\nJun Yamamoto. “Modelling Higher-Order Network Dynamics in Presence of Triadic Interactions.” Master Dissertation, Queen Mary University of London (2023). [pdf]\nJun Yamamoto and Kousuke Yakubo. “Bifractality of fractal scale-free networks.” Physical Review E 108, 024302 (2023). [paper] [arXiv]\n\n\n2022\nJun Yamamoto. “Bifractality of fractal scale-free networks.” Bachelor Thesis, Hokkaido University (2022). [pdf]\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2023/09 – Present\nPhD in Network Science\nDepartment of Network and Data Science, Central European University (Vienna, Austria)\n— GPA: 4.0/4.0 (as of 2025/05)\n— Supervisor: Prof. Márton Pósfai, Prof. János Kertész\n— Dissertation: Spectral and topological properties of physical networks (in progress)\n2022/09 – 2023/09\nMSc in Mathematics\nSchool of Mathematical Sciences, Queen Mary University of London (London, UK)\n— Grade: Distinction (96/100)\n— Supervisor: Prof. Ginestra Bianconi\n— Dissertation: Modelling higher-order network dynamics in the presence of triadic interactions\n2017/04 – 2022/03\nBEng in Applied Physics\nSchool of Engineering, Hokkaido University (Sapporo, Japan)\n— GPA: 4.18/4.30, Nitobe College Summa Cum Laude\n— Supervisor: Prof. Kousuke Yakubo\n— Thesis: Bifractality of fractal scale-free networks\n2019/09 – 2020/05\nExchange Programme\nDepartment of Physics, ETH Zurich (Zurich, Switzerland)\n*Discontinued due to the COVID-19 pandemic."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2023/09 – Present\nPhD in Network Science\nDepartment of Network and Data Science, Central European University (Vienna, Austria)\n— GPA: 4.0/4.0 (as of 2025/05)\n— Supervisor: Prof. Márton Pósfai, Prof. János Kertész\n— Dissertation: Spectral and topological properties of physical networks (in progress)\n2022/09 – 2023/09\nMSc in Mathematics\nSchool of Mathematical Sciences, Queen Mary University of London (London, UK)\n— Grade: Distinction (96/100)\n— Supervisor: Prof. Ginestra Bianconi\n— Dissertation: Modelling higher-order network dynamics in the presence of triadic interactions\n2017/04 – 2022/03\nBEng in Applied Physics\nSchool of Engineering, Hokkaido University (Sapporo, Japan)\n— GPA: 4.18/4.30, Nitobe College Summa Cum Laude\n— Supervisor: Prof. Kousuke Yakubo\n— Thesis: Bifractality of fractal scale-free networks\n2019/09 – 2020/05\nExchange Programme\nDepartment of Physics, ETH Zurich (Zurich, Switzerland)\n*Discontinued due to the COVID-19 pandemic."
+  },
+  {
+    "objectID": "cv.html#employment",
+    "href": "cv.html#employment",
+    "title": "Curriculum Vitae",
+    "section": "Employment",
+    "text": "Employment\n2022/07 – 2022/09\nData Scientist\nLarge Data Platform Business Group, Fujitsu Limited (Tokyo, Japan)"
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\n2025/01 – 2025/03\nTeaching Assistant, Introduction to Linear Algebra\nDepartment of Network and Data Science, Central European University\n2022/04 – 2022/08\nTeaching Assistant, Applied Mathematics II\nSchool of Engineering, Hokkaido University\n2022/04 – 2022/08\nTeaching Assistant, Statistical Mechanics I\nSchool of Engineering, Hokkaido University\n2021/04 – 2022/03\nTeaching Assistant, Computational Science\nCenter for Mathematics and Data Sciences, Hokkaido University\n2021/04 – 2022/03\nTeaching Assistant, MDS/AI Seminar\nCenter for Mathematics and Data Sciences, Hokkaido University"
+  },
+  {
+    "objectID": "cv.html#internships",
+    "href": "cv.html#internships",
+    "title": "Curriculum Vitae",
+    "section": "Internships",
+    "text": "Internships\n2020/07 – 2020/08\nSummer Research Intern\nJapan Atomic Energy Agency (Chiba, Japan)\n— Machine learning for accelerating molecular dynamics simulations\n2019/02 – 2019/03\nResearch Intern\nOkinawa Institute of Science and Technology\n— Diffraction electron microscopy of protein nanocrystals"
+  },
+  {
+    "objectID": "cv.html#academic-services",
+    "href": "cv.html#academic-services",
+    "title": "Curriculum Vitae",
+    "section": "Academic Services",
+    "text": "Academic Services\nReviewer\nNature Communications\nSince 2024/03\nOrganizer, Physical Networks III Edition\nInternational School and Conference on Network Science 2025\n2024/12 – 2025/06\nOrganizer, Data Stories 11th Edition\nDepartment of Network and Data Science, Central European University\n2024/11 – 2025/05"
+  },
+  {
+    "objectID": "cv.html#awards",
+    "href": "cv.html#awards",
+    "title": "Curriculum Vitae",
+    "section": "Awards",
+    "text": "Awards\nFirst-Year PhD Award\nCentral European University\n2025/02\nFor outstanding coursework and performance during the comprehensive exam.\nPrincipal’s Prize\nQueen Mary University of London\n2023/11\nFor outstanding academic achievements.\nIto Foundation Scholarship\nIto Foundation for International Education Exchange\n2022/09 – 2023/09\n¥3,000,000 tuition + $2,000/month stipend.\nDean’s Award\nHokkaido University\n2022/03\nFor the overall academic achievements during the undergraduate studies.\nJapan Student Service Organization Scholarship\nJapan Student Service Organization\n2019/09 - 2020/05\nAwarded ¥80,000/month for the duration of the exchange programme.\nLane Memorial Award\nHokkaido University\n2019/07\nFor outstanding grades in English in the first and second years of undergraudate studies.\nNitobe Award\nHokkaido University\n2018/07\nFor the academic achievements in the first year of undergraduate studies.\nNitobe College Incentive Award\nNitobe College, Hokkaido University\n2018/06\nFor the academic achievements among Nitobe College students."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\nLanguages\nJapanese (Native), English (Fluent), German (Beginner)\nProgramming\nPython, C++, Julia, Mathematica, LaTeX, Git"
+  },
+  {
+    "objectID": "cv.html#professional-memberships",
+    "href": "cv.html#professional-memberships",
+    "title": "Curriculum Vitae",
+    "section": "Professional Memberships",
+    "text": "Professional Memberships\nThe Physical Society of Japan\nSince 2020/11\nEuropean Physical Society\nSince 2024/03\nAustrian Physical Society\nSince 2024/03"
+  },
+  {
+    "objectID": "cv.html#interests",
+    "href": "cv.html#interests",
+    "title": "Curriculum Vitae",
+    "section": "Interests",
+    "text": "Interests\nComplex Networks\nPhysical networks, Critical phenomena on complex networks, Fractal and multifractal properties, Laplacian dynamics\nStatistical Physics\nPhase transitions, Critical phenomena, Disordered systems"
+  }
+]
