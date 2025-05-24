@@ -3,8 +3,7 @@ layout: default
 permalink: /
 
 title: "Jun Yamamoto"
-subtitle: |
-  PhD candidate in Network Science, Department of Network and Data Science, Central European University
+subtitle: PhD candidate in Network Science <br> Department of Network and Data Science, Central European University
 image: assets/images/prof_pic.jpeg
 format:
   html:
@@ -46,11 +45,15 @@ about:
 
 I am a PhD candidate at the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria, interested in statistical physics and complex networks. 
 
+
 I am currently working on spectral and topological properties of **physical networks**, i.e., networks that are embedded in three-dimensional space under physical constraints (e.g., volume exclusion).
 I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai) and Prof. [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz).
 
+
 Before starting my PhD, I completed Master of Science in Mathematics at [Queen Mary University of London](https://www.qmul.ac.uk/), with dissertation work on *higher-order network dynamics in the presence of triadic interactions* under the supervision of Prof. [Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html).
 I earned Bachelor of Engineering in Applied Physics at [Hokkaido University](https://www.global.hokudai.ac.jp/) in Sapporo, Japan, with thesis titled the *bifractal property of fractal scale-free networks* (supervised by Prof. [Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)).
+
+
 ※日本語のプロファイルは[こちら](https://researchmap.jp/jun_yamamoto)を参照して下さい．
 
 :::: {.grid}
