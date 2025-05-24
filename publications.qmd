@@ -1,4 +1,6 @@
 ---
+layout: default
+permalink: /publications
 title: "Publications"
 bibliography: _bibliography/papers.bib
 ---

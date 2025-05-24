@@ -1,11 +1,11 @@
 ---
 layout: default
-permalink: /
+permalink: /projects
 title: "Projects"
 bibliography: _bibliography/papers.bib
 ---
 
-# Projects
+under construction...
 
 ### Physical Networks
 
@@ -25,7 +25,7 @@ bibliography: _bibliography/papers.bib
 
 [@baptista2024mining]
 
-### Bifractal Networks
+### (Bi)Fractal Networks
 
 #### Structural properties
 

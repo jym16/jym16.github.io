@@ -4,7 +4,7 @@ project:
 website:
   title: "Jun Yamamoto"
   image: assets/images/logo.png
-  repo-url: ""
+  repo-url: "https://github.com/jym16/homepage"
   repo-actions: [issue]
   page-navigation: true
   reader-mode: true
@@ -70,4 +70,9 @@ format:
     code-fold: false
     execute: 
       enabled: false
+    html-math-method: katex
+    include-in-header: 
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   ipynb: default

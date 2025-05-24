@@ -27,16 +27,16 @@ about:
     - text: '{{< ai researchgate title="ResearchGate logo" label="ResearchGate logo" >}}'
       href: "https://www.researchgate.net/profile/Jun-Yamamoto"
       aria-label: "ResearchGate logo"
-    - text: '{{< fa github >}}'
+    - text: '{{< fa brands github >}}'
       href: "https://github.com/jym16"
       aria-label: "GitHub logo"
-    - text: '{{< fa bluesky >}}'
+    - text: '{{< fa brands bluesky >}}'
       href: "https://bsky.app/profile/jymmt.bsky.social"
       aria-label: "BlueSky logo"
-    - text: '{{< fa twitter >}}'
+    - text: '{{< fa brands twitter >}}'
       href: "https://twitter.com/__jymmt__"
       aria-label: "Twitter logo"
-    - text: '{{< fa linkedin >}}'
+    - text: '{{< fa brands linkedin >}}'
       href: "https://www.linkedin.com/in/jun-yamamoto-579916199"
       aria-label: "LinkedIn logo"
 ---
