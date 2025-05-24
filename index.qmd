@@ -23,12 +23,6 @@ about:
     - text: '{{< ai google-scholar title="Google Scholar logo" label="Google Scholar logo" >}}'
       href: "https://scholar.google.com/citations?user=ILnN9b4AAAAJ"
       aria-label: "Google Scholar logo"
-    - text: '{{< ai researchgate title="ResearchGate logo" label="ResearchGate logo" >}}'
-      href: "https://www.researchgate.net/profile/Jun-Yamamoto"
-      aria-label: "ResearchGate logo"
-    - text: '{{< fa brands github >}}'
-      href: "https://github.com/jym16"
-      aria-label: "GitHub logo"
     - text: '{{< fa brands bluesky >}}'
       href: "https://bsky.app/profile/jymmt.bsky.social"
       aria-label: "BlueSky logo"
