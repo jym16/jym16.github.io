@@ -14,13 +14,16 @@ about:
   template: solana
   image-width: 8em
   links:
-    - text: '{{< fa envelope title="Envelope logo" label="Envelope logo" >}}'
+    - text: '{{< fa file-pdf title=File logo label="File logo" >}} CV'
+      href: "assets/files/cv_jyamamoto.pdf"
+      aria-label: "CV logo"
+    - text: '{{< fa envelope title="Envelope logo" label="Envelope logo" >}} Mail'
       href: "mailto:jun.j.yamamoto@gmail.com"
       aria-label: "Envelope logo"
-    - text: '{{< ai orcid title="ORCID logo" label="ORCID logo" >}}'
+    - text: '{{< ai orcid title="ORCID logo" label="ORCID logo" >}} ORCID'
       href: "https://orcid.org/0009-0009-5089-3269"
       aria-label: "ORCID logo"
-    - text: '{{< ai google-scholar title="Google Scholar logo" label="Google Scholar logo" >}}'
+    - text: '{{< ai google-scholar title="Google Scholar logo" label="Google Scholar logo" >}} Google Scholar'
       href: "https://scholar.google.com/citations?user=ILnN9b4AAAAJ"
       aria-label: "Google Scholar logo"
     - text: '{{< fa brands bluesky >}}'
@@ -67,10 +70,10 @@ I earned Bachelor of Engineering in Applied Physics at [Hokkaido University](htt
 ::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
 ## Interests
 
-- Complex Networks
-- Physical Networks
-- Statistical Physics
-- Fractals
+- Complex networks
+- Physical networks
+- Statistical physics
+- Self-similarity
 
 :::
 

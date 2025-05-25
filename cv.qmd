@@ -40,7 +40,7 @@ of triadic interactions*
 
 2022/07 – 2022/09  
 **Data Scientist**  
-*Large Data Platform Business Group, Fujitsu Limited (Tokyo, Japan)*
+*DX Large Data Platform Business Group, Fujitsu Limited (Tokyo, Japan)*
 
 ## Teaching
 
@@ -80,7 +80,7 @@ of triadic interactions*
 
 **Reviewer**  
 *Nature Communications*  
-Since 2024/03
+Since 2025/03
 
 **Organizer, Physical Networks III Edition**  
 *International School and Conference on Network Science 2025*  
