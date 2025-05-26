@@ -14,6 +14,9 @@ about:
   template: solana
   image-width: 8em
   links:
+    - text: '{{< fa solid file title=File logo label="File logo" >}} CV'
+      href: https://drive.google.com/file/d/1OkcJaa4jIXrGtG6E9YWIWxu_WiJdUZBS/view?usp=sharing
+      aria-label: "CV logo"
     - text: '{{< fa envelope title="Envelope logo" label="Envelope logo" >}} Mail'
       href: "mailto:jun.j.yamamoto@gmail.com"
       aria-label: "Envelope logo"
@@ -32,9 +35,6 @@ about:
     - text: '{{< fa brands linkedin >}}'
       href: "https://www.linkedin.com/in/jun-yamamoto-579916199"
       aria-label: "LinkedIn logo"
-    - text: '{{< fa file title=File logo label="File logo" >}} CV'
-      href: https://drive.google.com/file/d/1OkcJaa4jIXrGtG6E9YWIWxu_WiJdUZBS/view?usp=sharing
-      aria-label: "CV logo"
 ---
 
 ::: {#profile}
