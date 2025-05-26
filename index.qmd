@@ -14,9 +14,6 @@ about:
   template: solana
   image-width: 8em
   links:
-    - text: '{{< fa file-pdf title=File logo label="File logo" >}} CV'
-      href: "assets/files/cv_jyamamoto.pdf"
-      aria-label: "CV logo"
     - text: '{{< fa envelope title="Envelope logo" label="Envelope logo" >}} Mail'
       href: "mailto:jun.j.yamamoto@gmail.com"
       aria-label: "Envelope logo"
@@ -35,6 +32,9 @@ about:
     - text: '{{< fa brands linkedin >}}'
       href: "https://www.linkedin.com/in/jun-yamamoto-579916199"
       aria-label: "LinkedIn logo"
+    - text: '{{< fa file title=File logo label="File logo" >}} CV'
+      href: https://drive.google.com/file/d/1OkcJaa4jIXrGtG6E9YWIWxu_WiJdUZBS/view?usp=sharing
+      aria-label: "CV logo"
 ---
 
 ::: {#profile}
@@ -58,11 +58,11 @@ I earned Bachelor of Engineering in Applied Physics at [Hokkaido University](htt
 ::: {.g-col-12 .g-col-md-8 style="text-align: left;"}
 ## Education
 
-- **_M.Sc._ in Mathematics**, **2023**  
+- **_MSc_ in Mathematics**, **2023**  
   *School of Mathematical Sciences, Queen Mary University of London*  
   London, UK
 
-- **_B.Eng._ in Applied Physics**, **2022**  
+- **_BEng_ in Applied Physics**, **2022**  
   *Department of Applied Physics, Faculty of Engineering, Hokkaido University*  
   Sapporo, Japan
 :::
