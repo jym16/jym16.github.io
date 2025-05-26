@@ -3,16 +3,13 @@ layout: default
 permalink: /links
 title: "Links"
 ---
-# Links
 
 #### [Affiliations]
 
 - [Central European University](https://www.ceu.edu/) | [Department
     of Network and Data Science](https://networkdatascience.ceu.edu/)
-
 - [Queen Mary University of London](https://www.qmul.ac.uk/) |
     [School of Mathematical Sciences](https://www.qmul.ac.uk/maths/)
-
 - [Hokkaido University](https://www.global.hokudai.ac.jp/) |
     [Division of Applied Physics](https://applphys.net/diven/) |
     [Laboratory of Condensed Matter
@@ -20,8 +17,19 @@ title: "Links"
 
 #### [Societies]
 
--   [ネットワーク科学研究会 (Japanese Network Science
-    Society)](https://www.network-science-seminar.com/)
--   [ドイツ物理学・応用物理学セミナー (Physics and Applied Physics
-    Seminar in Germany for Japanese
-    Researchers)](https://sites.google.com/site/jpsingermany/home)
+- [Network Science Society](https://www.netscisociety.net/home)
+- [Austrian Physical Society](https://oepg.at/en)
+- [日本物理学会 (Japanese Physical Society)](https://www.jps.or.jp/)
+- [ネットワーク科学研究会 (Japanese Network Science Society)](https://www.network-science-seminar.com/)
+- [ドイツ物理学・応用物理学セミナー (Physics and Applied Physics Seminar in Germany for Japanese Researchers)](https://sites.google.com/site/jpsingermany/home)
+
+#### [Collaborators & Mentors]
+
+- [Prof. Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai)
+- [Prof. János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz)
+- [Prof. Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html)
+- [Prof. Albert-László Barabási](https://barabasi.com/)
+- [Prof. Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)
+- [Prof. Shogo Mizutaka](https://mizutaka.cis.ibaraki.ac.jp/)
+- [Prof. Takehisa Hasegawa](https://takehisahasegawa.sci.ibaraki.ac.jp/)
+
