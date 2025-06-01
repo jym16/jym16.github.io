@@ -48,9 +48,9 @@ In fractal networks, the average path lengths also scales as the power-law of th
 \begin{equation}
   \langle l \rangle \sim N^{1/D_{\textup{f}}}.
 \end{equation}
-While many empirical networks are shown to be *small-world*, in which the average path lengths scales as logarithm of the number of nodes, i.e., $D_{\textup{f}} \to \infty$, the fractality can still be valid in length scale shorter than the characteristic length scale of the network (although it is difficult to observe the scaling for a decade or more in terms of shortest path lengths, as most of the networks do not have long enough diameter).
+While many empirical networks are shown to be *small-world*, in which the average path lengths scales as logarithm of the number of nodes, i.e., $D_{\textup{f}} \to \infty$, the fractality can still be valid in length scale shorter than the characteristic length scale of the network (although it is difficult to observe the scaling in terms of shortest path lengths, as most of the networks do not have long enough diameter).
 
-Putting aside the issue of observability of network fractality, networks with fractal structure exhibit intrigueing properties, such as the long-range degree correlations in the form of *hub repulsion* [@rozenfeld2008fractal].
+Putting aside the issue of observability of network fractality in real-world (finite) networks, networks with fractal structure exhibit intrigueing properties, such as the long-range degree correlations in the form of *hub repulsion* [@rozenfeld2008fractal].
 
 ### Bifractality
 
