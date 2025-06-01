@@ -11,11 +11,13 @@ Under construction...
 
 ## Physical Networks
 
-Physical networks are networks of tangible objects, i.e., nodes and edges are embedded in a physical space under volume exclusion principle [[@dehmamy2018structural], [@liu2021isotopy], [@posfai2024impact], [@pete2024physical], [@blagojevic2024three], [@glover2024measuring]]. 
-Examples of physical networks include biological neural networks, vascular networks, porous media, granular materials, and so on.
+Physical networks are networks of tangible objects, i.e., nodes and edges are embedded in a physical space under physical constraints (e.g., volume exclusion) [[@dehmamy2018structural], [@liu2021isotopy], [@posfai2024impact], [@pete2024physical], [@blagojevic2024three], [@glover2024measuring]]. 
+Examples of physical networks include biological neural networks, vascular networks, porous media, granular materials, to name a few.
 The recent advances of imaging techniques and machine learning methods for image segmentation have significantly improved the availablity of complex three-dimensional data of physical systems, which drives the study of physical networks.
 
 Over the recent years, the physicality of the network has been shown to result in the emergent properties such as entanglement [[@liu2021isotopy], [@glover2024measuring]], bundling [@bonamassa2024logarithmic], jamming [@posfai2024impact], and degree-volume correlations [@pete2024physical].
+
+For my PhD thesis, I am investigating the spectral and topological properties of physical networks, as well as dynamical processes on physical networks.
 
 ### Localization
 
@@ -32,25 +34,7 @@ Over the recent years, the physicality of the network has been shown to result i
 Triadic interactions are interactions in which a node can regulate an edge between two other nodes either positively or negatively. 
 Such interactions are ubiquitous in real-world networks, such as glia cells in the brain that regulate the connectivity between neurons.
 
-In order to understand the role of triadic interactions in diffusion processes, we investigated the diffusion dynamics on networks of $N$ nodes with triadic interactions and Gaussian noise:
-\begin{equation}
-  d\mathbf{x}(t) = - (\mathbf{L}^{\textup{T}} + \alpha \mathbf{I}) \mathbf{x}(t) dt + \mathbf{\Gamma} d\mathbf{\eta}(t),
-\end{equation}
-where $\mathbf{x}(t)$ is the state vector of nodes at time $t$, $\mathbf{L}^{\textup{T}}$ is the triadic Laplacian matrix, and $d\mathbf{\eta}$ is the $N$-dimensional Wiener process.
-The triadic Laplacian matrix $\mathbf{L}^{\textup{T}}$ is defined as
-\begin{equation}
-  \mathbf{L}^{\textup{T}}_{ij} = \begin{cases}
-    - A_{ij} J_{ij}(\mathbf{x}) & \text{if } i \neq j, \\
-    \sum_{k} A_{ik} J_{ik}(\mathbf{x}) & \text{if } i = j,
-  \end{cases}
-\end{equation}
-where $\mathbf{A}$ is the adjacency matrix and $J_{ij}(\mathbf{x})$ is the coupling strength between nodes $i$ and $j$ that are determined by all the regulatory nodes of the edge $[i,j]$:
-\begin{equation}
-  J_{ij}(\mathbf{x}) = w_{-} + (w_{+} - w_{-}) \theta \left(\sum_{k} K_{lk} x_{k} - \hat{T}\right),
-\end{equation}
-where $\theta$ is the Heaviside step function and $K_{lk}$ encodes the sign of the triadic interaction between edge $l$ and node $k$.
-
-We apply this model as well as information theoretic measures as a null model to detect the presence of triadic interactions in gene regulatory networks. 
+In order to understand the role of triadic interactions in diffusion processes, we investigated the diffusion dynamics on networks with triadic interactions and Gaussian noise and we employed this model as a null model to detect the presence of triadic interactions in gene regulatory networks. 
 To learn more, refer to [@baptista2024mining].
 
 ## Fractal Scale-Free Networks
@@ -70,7 +54,7 @@ Putting aside the issue of observability of network fractality, networks with fr
 
 ### Bifractality
 
-We showed that, in the coexistence of scale-free and fractal properties, a broad class of networks exhibits *bifractality*, characterized by the coexistence of two different local fractal dimensions, $D_{\textup{f}}^{\min}$ and $D_{\textup{f}}^{\max}$ depending on the position in the network [@yamamoto2023bifractality].
+We showed that, in the coexistence of scale-free and fractal properties, a broad class of networks exhibits *bifractality*, characterized by the coexistence of two different local fractal dimensions, $d_{\textup{f}}^{\min}$ and $d_{\textup{f}}^{\max}$ depending on the position in the network [@yamamoto2023bifractality].
 In particular, if a fractal scale-free network satisfies the condition that the number $\nu_{\textup{B}}$ of nodes in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of the supernode in the renormalization process, i.e.,
 \begin{equation}
   \nu_{\textup{B}} \propto k_{\textup{B}},
