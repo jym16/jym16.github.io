@@ -21,6 +21,7 @@ title: "Links"
 - [Austrian Physical Society](https://oepg.at/en)
 - [日本物理学会 (Japanese Physical Society)](https://www.jps.or.jp/)
 - [ネットワーク科学研究会 (Japanese Network Science Society)](https://www.network-science-seminar.com/)
+- [ネットワーク生態学研究会・ネットワーク科学勉強会](https://sites.google.com/view/networkpaperreading/)
 - [ドイツ物理学・応用物理学セミナー (Physics and Applied Physics Seminar in Germany for Japanese Researchers)](https://sites.google.com/site/jpsingermany/home)
 
 #### [Collaborators & Mentors]
