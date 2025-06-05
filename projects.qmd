@@ -11,9 +11,9 @@ Under construction...
 
 ## Physical Networks
 
-Physical networks are networks of tangible objects, i.e., nodes and edges are embedded in a physical space under physical constraints (e.g., volume exclusion) [[@dehmamy2018structural], [@liu2021isotopy], [@posfai2024impact], [@pete2024physical], [@blagojevic2024three], [@glover2024measuring]]. 
-Examples of physical networks include biological neural networks, vascular networks, porous media, granular materials, to name a few.
-The recent advances of imaging techniques and machine learning methods for image segmentation have significantly improved the availablity of complex three-dimensional data of physical systems, which drives the study of physical networks.
+Physical networks are networks of tangible objects, i.e., nodes and edges are embedded in a physical space under physical constraints including but not limited to volume exclusion [[@dehmamy2018structural], [@liu2021isotopy], [@posfai2024impact], [@pete2024physical], [@blagojevic2024three], [@glover2024measuring]]. 
+Examples of physical networks include biological neural networks, vascular networks, porous media, granular materials, to name just a few.
+The recent advances of imaging techniques and machine learning methods for image segmentation have significantly improved the availablity of complex three-dimensional map of physical systems, which motivates the study of physical networks.
 
 Over the recent years, the physicality of the network has been shown to result in the emergent properties such as entanglement [[@liu2021isotopy], [@glover2024measuring]], bundling [@bonamassa2024logarithmic], jamming [@posfai2024impact], and degree-volume correlations [@pete2024physical].
 
@@ -50,18 +50,18 @@ In fractal networks, the average path lengths also scales as the power-law of th
 \end{equation}
 While many empirical networks are shown to be *small-world*, in which the average path lengths scales as logarithm of the number of nodes, i.e., $D_{\textup{f}} \to \infty$, the fractality can still be valid in length scale shorter than the characteristic length scale of the network (although it is difficult to observe the scaling in terms of shortest path lengths, as most of the networks do not have long enough diameter).
 
-Putting aside the issue of observability of network fractality in real-world (finite) networks, networks with fractal structure exhibit intrigueing properties, such as the long-range degree correlations in the form of *hub repulsion* [@rozenfeld2008fractal].
+Networks with fractal structure exhibit intriguing properties, such as the long-range degree correlations in the form of *hub repulsion* [@rozenfeld2008fractal].
 
 ### Bifractality
 
 We showed that, in the coexistence of scale-free and fractal properties, a broad class of networks exhibits *bifractality*, characterized by the coexistence of two different local fractal dimensions, $d_{\textup{f}}^{\min}$ and $d_{\textup{f}}^{\max}$ depending on the position in the network [@yamamoto2023bifractality].
-In particular, if a fractal scale-free network satisfies the condition that the number $\nu_{\textup{B}}$ of nodes in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of the supernode in the renormalization process, i.e.,
+In particular, if a fractal scale-free network satisfies the condition that the number $\nu_{\textup{B}}$ of nodes in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of the supernode (the number of adjacent subgraphs) in the renormalization process (the number of adjacent subgraphs), i.e.,
 \begin{equation}
   \nu_{\textup{B}} \propto k_{\textup{B}},
 \end{equation}
 then the network contains the local fractal dimension (equivalent to H\"{o}lder exponent) 
 \begin{equation}
-    d_{\textup{f}}^{\max} = D_{\textup{f}}, \quad d_{\textup{f}}^{\min} = D_{\textup{f}} \left(\frac{\gamma-1}{\gamma-2}\right),
+    d_{\textup{f}}^{\max} = D_{\textup{f}}, \quad d_{\textup{f}}^{\min} = D_{\textup{f}} \left(\frac{\gamma-2}{\gamma-1}\right),
 \end{equation}
 where $\gamma$ is the exponent of the degree distribution and $D_{\textup{f}}$ is the (global) fractal dimension of the network.
 
