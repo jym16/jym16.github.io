@@ -11,12 +11,6 @@ bibliography:
 
 #### Upcoming
 
-**Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai. “Delocalization of
-Physical Laplacian Eigenvectors due to Degree-Volume Correlation.”
-Presenting at the International School and Conference on Network
-Science, June 4, 2025.
-\[[abstract](./assets/files/abstract/netsci2025_abstract.pdf)\]
-
 **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
 “Localization-delocalization transition in physical networks.”
 Presenting at the 29th International Conference on Statistical Physics,
@@ -24,6 +18,14 @@ July 14, 2025.
 \[[abstract](./assets/files/abstract/statphys29_abstract.pdf)\]
 
 ### Talks
+
+#### 2025
+
+**Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai. “Delocalization of
+Physical Laplacian Eigenvectors due to Degree-Volume Correlation.”
+Presented at the International School and Conference on Network
+Science, June 4, 2025.
+\[[abstract](./assets/files/abstract/netsci2025_abstract.pdf)\]
 
 #### 2022
 
