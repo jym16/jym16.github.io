@@ -7,19 +7,15 @@ bibliography:
   - _bibliography/posters.bib
 ---
 
-# Presentations
+### Talks
 
-#### Upcoming
+#### 2025
 
 **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
 “Localization-delocalization transition in physical networks.”
 Presenting at the 29th International Conference on Statistical Physics,
 July 14, 2025.
 \[[abstract](./assets/files/abstract/statphys29_abstract.pdf)\]
-
-### Talks
-
-#### 2025
 
 **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai. “Delocalization of
 Physical Laplacian Eigenvectors due to Degree-Volume Correlation.”
