@@ -5,8 +5,6 @@ title: "Publications"
 bibliography: _bibliography/papers.bib
 ---
 
-# Publication
-
 ### Preprints
 
 Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths,
