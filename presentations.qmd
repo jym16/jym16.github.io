@@ -13,7 +13,7 @@ bibliography:
 
 **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
 “Localization-delocalization transition in physical networks.”
-Presenting at the 29th International Conference on Statistical Physics,
+Presented at the 29th International Conference on Statistical Physics,
 July 14, 2025.
 \[[abstract](./assets/files/abstract/statphys29_abstract.pdf)\]
 
