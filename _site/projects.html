@@ -220,22 +220,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#physical-networks" id="toc-physical-networks" class="nav-link active" data-scroll-target="#physical-networks">Physical Networks</a>
-  <ul class="collapse">
-  <li><a href="#localization" id="toc-localization" class="nav-link" data-scroll-target="#localization">Localization</a></li>
-  <li><a href="#synchronization" id="toc-synchronization" class="nav-link" data-scroll-target="#synchronization">Synchronization</a></li>
-  <li><a href="#magnetization" id="toc-magnetization" class="nav-link" data-scroll-target="#magnetization">Magnetization</a></li>
-  <li><a href="#entanglement" id="toc-entanglement" class="nav-link" data-scroll-target="#entanglement">Entanglement</a></li>
-  </ul></li>
-  <li><a href="#higher-order-networks" id="toc-higher-order-networks" class="nav-link" data-scroll-target="#higher-order-networks">Higher-Order Networks</a>
-  <ul class="collapse">
-  <li><a href="#diffusion-dynamics-on-networks-with-triadic-interactions" id="toc-diffusion-dynamics-on-networks-with-triadic-interactions" class="nav-link" data-scroll-target="#diffusion-dynamics-on-networks-with-triadic-interactions">Diffusion dynamics on networks with triadic interactions</a></li>
-  </ul></li>
-  <li><a href="#fractal-scale-free-networks" id="toc-fractal-scale-free-networks" class="nav-link" data-scroll-target="#fractal-scale-free-networks">Fractal Scale-Free Networks</a>
-  <ul class="collapse">
-  <li><a href="#bifractality" id="toc-bifractality" class="nav-link" data-scroll-target="#bifractality">Bifractality</a></li>
-  <li><a href="#random-walks" id="toc-random-walks" class="nav-link" data-scroll-target="#random-walks">Random walks</a></li>
-  </ul></li>
+  <li><a href="#physical-networks" id="toc-physical-networks" class="nav-link active" data-scroll-target="#physical-networks">Physical Networks</a></li>
+  <li><a href="#higher-order-networks" id="toc-higher-order-networks" class="nav-link" data-scroll-target="#higher-order-networks">Higher-Order Networks</a></li>
+  <li><a href="#fractal-scale-free-networks" id="toc-fractal-scale-free-networks" class="nav-link" data-scroll-target="#fractal-scale-free-networks">Fractal Scale-Free Networks</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/jym16/homepage/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="projects.ipynb" download="projects.ipynb"><i class="bi bi-journal-code"></i>Jupyter</a></li></ul></div></nav>
     </div>
@@ -264,56 +251,124 @@ window.Quarto = {
 <p>Under construction…</p>
 <section id="physical-networks" class="level2">
 <h2 class="anchored" data-anchor-id="physical-networks">Physical Networks</h2>
-<p>Physical networks are networks of tangible objects, i.e., nodes and edges are embedded in a physical space under physical constraints (e.g., volume exclusion) [<span class="citation" data-cites="dehmamy2018structural">(<a href="#ref-dehmamy2018structural" role="doc-biblioref">Dehmamy, Milanlouei, and Barabási 2018</a>)</span>, <span class="citation" data-cites="liu2021isotopy">(<a href="#ref-liu2021isotopy" role="doc-biblioref">Liu, Dehmamy, and Barabási 2021</a>)</span>, <span class="citation" data-cites="posfai2024impact">(<a href="#ref-posfai2024impact" role="doc-biblioref">Pósfai et al. 2024</a>)</span>, <span class="citation" data-cites="pete2024physical">(<a href="#ref-pete2024physical" role="doc-biblioref">Pete et al. 2024</a>)</span>, <span class="citation" data-cites="blagojevic2024three">(<a href="#ref-blagojevic2024three" role="doc-biblioref">Blagojević and Pósfai 2024</a>)</span>, <span class="citation" data-cites="glover2024measuring">(<a href="#ref-glover2024measuring" role="doc-biblioref">Glover and Barabási 2024</a>)</span>]. Examples of physical networks include biological neural networks, vascular networks, porous media, granular materials, to name a few. The recent advances of imaging techniques and machine learning methods for image segmentation have significantly improved the availablity of complex three-dimensional data of physical systems, which drives the study of physical networks.</p>
+<p>Physical networks are networks of tangible objects, i.e., nodes and edges are embedded in a physical space under physical constraints including but not limited to volume exclusion [<span class="citation" data-cites="dehmamy2018structural">(<a href="#ref-dehmamy2018structural" role="doc-biblioref">Dehmamy, Milanlouei, and Barabási 2018</a>)</span>]. Examples of physical networks include biological neural networks, vascular networks, porous media, granular materials, to name just a few [<span class="citation" data-cites="blagojevic2024three">(<a href="#ref-blagojevic2024three" role="doc-biblioref">Blagojević and Pósfai 2024</a>)</span>]. The recent advances of imaging techniques and machine learning have significantly improved the availablity of three-dimensional maps of complex physical systems, which motivates the study of physical networks.</p>
 <p>Over the recent years, the physicality of the network has been shown to result in the emergent properties such as entanglement [<span class="citation" data-cites="liu2021isotopy">(<a href="#ref-liu2021isotopy" role="doc-biblioref">Liu, Dehmamy, and Barabási 2021</a>)</span>, <span class="citation" data-cites="glover2024measuring">(<a href="#ref-glover2024measuring" role="doc-biblioref">Glover and Barabási 2024</a>)</span>], bundling <span class="citation" data-cites="bonamassa2024logarithmic">(<a href="#ref-bonamassa2024logarithmic" role="doc-biblioref">Bonamassa et al. 2024</a>)</span>, jamming <span class="citation" data-cites="posfai2024impact">(<a href="#ref-posfai2024impact" role="doc-biblioref">Pósfai et al. 2024</a>)</span>, and degree-volume correlations <span class="citation" data-cites="pete2024physical">(<a href="#ref-pete2024physical" role="doc-biblioref">Pete et al. 2024</a>)</span>.</p>
 <p>For my PhD thesis, I am investigating the spectral and topological properties of physical networks, as well as dynamical processes on physical networks.</p>
-<section id="localization" class="level3">
-<h3 class="anchored" data-anchor-id="localization">Localization</h3>
-</section>
-<section id="synchronization" class="level3">
-<h3 class="anchored" data-anchor-id="synchronization">Synchronization</h3>
-</section>
-<section id="magnetization" class="level3">
-<h3 class="anchored" data-anchor-id="magnetization">Magnetization</h3>
-</section>
-<section id="entanglement" class="level3">
-<h3 class="anchored" data-anchor-id="entanglement">Entanglement</h3>
-</section>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Localization">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Localization
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Coming soon…</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled" title="Synchronization">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Synchronization
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Coming soon…</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-important no-icon callout-titled" title="Magnetization">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Magnetization
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Coming soon…</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning no-icon callout-titled" title="Entanglement">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Entanglement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Coming soon…</p>
+</div>
+</div>
 </section>
 <section id="higher-order-networks" class="level2">
 <h2 class="anchored" data-anchor-id="higher-order-networks">Higher-Order Networks</h2>
-<section id="diffusion-dynamics-on-networks-with-triadic-interactions" class="level3">
-<h3 class="anchored" data-anchor-id="diffusion-dynamics-on-networks-with-triadic-interactions">Diffusion dynamics on networks with triadic interactions</h3>
-<p>Triadic interactions are interactions in which a node can regulate an edge between two other nodes either positively or negatively. Such interactions are ubiquitous in real-world networks, such as glia cells in the brain that regulate the connectivity between neurons.</p>
-<p>In order to understand the role of triadic interactions in diffusion processes, we investigated the diffusion dynamics on networks with triadic interactions and Gaussian noise and we employed this model as a null model to detect the presence of triadic interactions in gene regulatory networks. To learn more, refer to <span class="citation" data-cites="baptista2024mining">(<a href="#ref-baptista2024mining" role="doc-biblioref">Baptista et al. 2024</a>)</span>.</p>
-</section>
+<p>Triadic interactions are three-body (higher-order) interactions in which a node regulates an edge between two other nodes positively or negatively. Such interactions are ubiquitous in real-world networks, such as glia cells in the brain that regulate the connectivity between neurons.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Diffusion dynamics on networks with triadic interactions">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Diffusion dynamics on networks with triadic interactions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In order to understand the role of triadic interactions in diffusion processes, we investigated the diffusion dynamics on networks with triadic interactions and Gaussian noise and demonstrated that triadic interactions induce conditional correlation and conditional mutual information between the three nodes involved in the triadic interaction and provide information on the strength and direction of the triadic interactions. We applied this model as a null model to detect the presence of triadic interactions in gene regulatory networks.</p>
+<p>To learn more, refer to <span class="citation" data-cites="baptista2024mining">(<a href="#ref-baptista2024mining" role="doc-biblioref">Baptista et al. 2024</a>)</span>.</p>
+</div>
+</div>
 </section>
 <section id="fractal-scale-free-networks" class="level2">
 <h2 class="anchored" data-anchor-id="fractal-scale-free-networks">Fractal Scale-Free Networks</h2>
-<p>A network is <em>fractal</em> if the minimum number of subgraphs (boxes) of a given diameter <span class="math inline">l_{\textup{B}}</span> required to cover the network scales as <span class="math display">\begin{equation}
+<p>A network is <em>fractal</em> (with respect to shortest-path lengths) if the minimum number of subgraphs (boxes) of a given diameter <span class="math inline">l_{\textup{B}}</span> required to cover the network scales as <span class="math display">\begin{equation}
   N_{\textup{B}}(l_{\textup{B}}) \sim l_{\textup{B}}^{-D_{\textup{f}}}
 \end{equation}</span> where <span class="math inline">D_{\textup{f}}</span> is the fractal dimension of the network <span class="citation" data-cites="song2005self">(<a href="#ref-song2005self" role="doc-biblioref">Song, Havlin, and Makse 2005</a>)</span>. In fractal networks, the average path lengths also scales as the power-law of the network size, i.e., <span class="math display">\begin{equation}
   \langle l \rangle \sim N^{1/D_{\textup{f}}}.
-\end{equation}</span> While many empirical networks are shown to be <em>small-world</em>, in which the average path lengths scales as logarithm of the number of nodes, i.e., <span class="math inline">D_{\textup{f}} \to \infty</span>, the fractality can still be valid in length scale shorter than the characteristic length scale of the network (although it is difficult to observe the scaling for a decade or more in terms of shortest path lengths, as most of the networks do not have long enough diameter).</p>
-<p>Putting aside the issue of observability of network fractality, networks with fractal structure exhibit intrigueing properties, such as the long-range degree correlations in the form of <em>hub repulsion</em> <span class="citation" data-cites="rozenfeld2008fractal">(<a href="#ref-rozenfeld2008fractal" role="doc-biblioref">Rozenfeld et al. 2008</a>)</span>.</p>
-<section id="bifractality" class="level3">
-<h3 class="anchored" data-anchor-id="bifractality">Bifractality</h3>
-<p>We showed that, in the coexistence of scale-free and fractal properties, a broad class of networks exhibits <em>bifractality</em>, characterized by the coexistence of two different local fractal dimensions, <span class="math inline">d_{\textup{f}}^{\min}</span> and <span class="math inline">d_{\textup{f}}^{\max}</span> depending on the position in the network <span class="citation" data-cites="yamamoto2023bifractality">(<a href="#ref-yamamoto2023bifractality" role="doc-biblioref">Yamamoto and Yakubo 2023</a>)</span>. In particular, if a fractal scale-free network satisfies the condition that the number <span class="math inline">\nu_{\textup{B}}</span> of nodes in a supernode (subgraph) of diameter <span class="math inline">l_{\textup{B}}</span> is proportional to the degree <span class="math inline">k_{\textup{B}}</span> of the supernode in the renormalization process, i.e., <span class="math display">\begin{equation}
+\end{equation}</span> While many empirical networks are shown to be <em>small-world</em>, in which the average path lengths scales as logarithm of the number of nodes, i.e., <span class="math inline">D_{\textup{f}} \to \infty</span>, the fractality can still be valid in length scale shorter than the characteristic length scale of the network (although it is difficult to observe the scaling in terms of shortest path lengths, as most of the networks do not have long enough diameter).</p>
+<p>Networks with fractal structure exhibit intriguing properties, such as the long-range degree correlations in the form of <em>hub repulsion</em> <span class="citation" data-cites="rozenfeld2008fractal">(<a href="#ref-rozenfeld2008fractal" role="doc-biblioref">Rozenfeld et al. 2008</a>)</span>.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Bifractality">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Bifractality
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the coexistence of scale-free and fractal properties, a broad class of networks exhibits <em>bifractality</em>, characterized by the coexistence of two different local fractal dimensions, <span class="math inline">d_{\textup{f}}^{\min}</span> and <span class="math inline">d_{\textup{f}}^{\max}</span> depending on the position in the network <span class="citation" data-cites="yamamoto2023bifractality">(<a href="#ref-yamamoto2023bifractality" role="doc-biblioref">Yamamoto and Yakubo 2023</a>)</span>. In particular, if a fractal scale-free network satisfies the condition that the number <span class="math inline">\nu_{\textup{B}}</span> of nodes in a supernode (subgraph) of diameter <span class="math inline">l_{\textup{B}}</span> is proportional to the degree <span class="math inline">k_{\textup{B}}</span> of the supernode (the number of adjacent subgraphs) in the renormalization process (the number of adjacent subgraphs), i.e., <span class="math display">\begin{equation}
   \nu_{\textup{B}} \propto k_{\textup{B}},
 \end{equation}</span> then the network contains the local fractal dimension (equivalent to H"{o}lder exponent) <span class="math display">\begin{equation}
-    d_{\textup{f}}^{\max} = D_{\textup{f}}, \quad d_{\textup{f}}^{\min} = D_{\textup{f}} \left(\frac{\gamma-1}{\gamma-2}\right),
+    d_{\textup{f}}^{\max} = D_{\textup{f}}, \quad d_{\textup{f}}^{\min} = D_{\textup{f}} \left(\frac{\gamma-2}{\gamma-1}\right),
 \end{equation}</span> where <span class="math inline">\gamma</span> is the exponent of the degree distribution and <span class="math inline">D_{\textup{f}}</span> is the (global) fractal dimension of the network.</p>
-<p>From our extensive considerations of deterministic and stochastic models, the above condition seems to stand for any fractal scale-free networks and we conjectured that the bifractality is a generic property of fractal scale-free networks.</p>
+<p>From extensive considerations of deterministic and stochastic models, the above condition seems to stand for any fractal scale-free networks and we conjectured that the bifractality is a generic property of fractal scale-free networks.</p>
 <p>To learn more about the bifractality, see <span class="citation" data-cites="yamamoto2023bifractality">(<a href="#ref-yamamoto2023bifractality" role="doc-biblioref">Yamamoto and Yakubo 2023</a>)</span>.</p>
-</section>
-<section id="random-walks" class="level3">
-<h3 class="anchored" data-anchor-id="random-walks">Random walks</h3>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled" title="Random walks on bifractal networks">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Random walks on bifractal networks
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Following the bifractality conjecture, we investigated the the walk and spectral dimensions of random walks on fractal scale-free networks. We found that the walk dimension <span class="math inline">d_{\textup{w}}</span> of random walks on fractal scale-free networks (which characterizes the scaling of the mean topological displacement of random walkers) is constant and does not depend on the position in the network, while the spectral dimension (that determines the scaling of the return probability of a random walker) takes two distinct values, <span class="math inline">d_{\textup{s}}^{\min}</span> and <span class="math inline">d_{\textup{s}}^{\max}</span>, depending on the position in the network due to the bifractality of the network.</p>
 <p>To learn more, see <span class="citation" data-cites="yakubo2024random">(<a href="#ref-yakubo2024random" role="doc-biblioref">Yakubo, Shimojo, and Yamamoto 2024</a>)</span>.</p>
+</div>
+</div>
 
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
