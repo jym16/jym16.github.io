@@ -76,8 +76,8 @@ Networks with fractal structure exhibit intriguing properties, such as the long-
 
 ::: {.callout-note title="Bifractality"}
 
-In the coexistence of scale-free and fractal properties, a broad class of networks exhibits *bifractality*, characterized by the coexistence of two different local fractal dimensions, $d_{\textup{f}}^{\min}$ and $d_{\textup{f}}^{\max}$ depending on the position in the network [@yamamoto2023bifractality].
-In particular, if a fractal scale-free network satisfies the condition that the number $\nu_{\textup{B}}$ of nodes in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of the supernode (the number of adjacent subgraphs) in the renormalization process (the number of adjacent subgraphs), i.e.,
+In the coexistence of scale-free and fractal properties, a broad class of networks exhibits *bifractality*, characterized by the two distinct local fractal dimensions, $d_{\textup{f}}^{\min}$ and $d_{\textup{f}}^{\max}$ depending on the position in the network [@yamamoto2023bifractality].
+In particular, if a fractal scale-free network satisfies the condition that the number $\nu_{\textup{B}}$ of nodes in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of the supernode (the number of adjacent subgraphs) in the renormalization process, i.e.,
 \begin{equation}
   \nu_{\textup{B}} \propto k_{\textup{B}},
 \end{equation}
