@@ -7,35 +7,66 @@ bibliography:
   - _bibliography/posters.bib
 ---
 
+
 ### Talks
+
+#### Upcoming
+
+Shogo Mizutaka\*, **Jun Yamamoto**, and Kousuke Yakubo. 
+"Long-range degree correlations and fractal property of random networks." 
+The Physical Society of Japan 80th Annual Meeting,
+September 16, 2025.
 
 #### 2025
 
-**Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
-“Localization-delocalization transition in physical networks.”
-Presented at the 29th International Conference on Statistical Physics,
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"Localization-delocalization transition in physical networks."
+The 29th International Conference on Statistical Physics,
 July 14, 2025.
 \[[abstract](./assets/files/abstract/statphys29_abstract.pdf)\]
 
-**Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai. “Delocalization of
-Physical Laplacian Eigenvectors due to Degree-Volume Correlation.”
-Presented at the International School and Conference on Network
-Science, June 4, 2025.
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai. 
+"Delocalization of Physical Laplacian Eigenvectors due to Degree-Volume Correlation."
+The International School and Conference on Network Science, 
+June 4, 2025.
 \[[abstract](./assets/files/abstract/netsci2025_abstract.pdf)\]
+
+Marta Niedostatek\*, Anthony Baptista, **Jun Yamamoto**, Ben MacArthur, Jürgen Kurths, Ruben Sanchez-Garcia, Ginestra Bianconi.
+"Mining higher-order triadic interactions in gene-expression data."
+The International School and Conference on Network Science, 
+June 4, 2025.
+\[[abstract](./assets/files/abstract/netsci2025_abstract_triadic.pdf)\]
+
+#### 2024
+
+Marta Niedostatek\*, Anthony Baptista, **Jun Yamamoto**, Ben MacArthur, Jürgen Kurths, Ruben Sanchez-Garcia, Ginestra Bianconi.
+"Mining higher-order triadic interactions in gene-expression data."
+The Conference on Complex Systems 2024, 
+September 5, 2024.
+
+#### 2023
+
+Gentaro Shimojo\*, **Jun Yamamoto**, and Kousuke Yakubo.
+"Anomalous diffusion with two spectral dimensions on a fractal scale-free　network."
+The Physical Society of Japan 79th Annual Meeting,
+September 16, 2023. 
+\[[abstract (ja)](./assets/files/abstract/jps2023autumn_abstract.pdf)\]
 
 #### 2022
 
-**Jun Yamamoto** and Kousuke Yakubo. “Bifractal property of stochastic
-scale-free networks.” Presented at the Physical Society of Japan, JPS
-2022 77th Annual Meeting, March 15, 2022.
+**Jun Yamamoto**\* and Kousuke Yakubo. 
+"Bifractal property of stochastic scale-free networks." 
+The Physical Society of Japan 77th Annual Meeting,
+March 15, 2022.
 \[[abstract](./assets/files/abstract/jps2022spring_abstract.pdf)\]
 \[[slides](./assets/files/slides/jps2022spring.pdf)\]
 
 #### 2021
 
-**Jun Yamamoto** and Kousuke Yakubo. “Multifractality of scale-free
-networks.” Presented at the Physical Society of Japan, JPS 2021 Autumn
-Meeting, September 20, 2021.
+**Jun Yamamoto**\* and Kousuke Yakubo. 
+"Multifractality of scale-free networks." 
+The Physical Society of Japan, JPS 2021 Autumn Meeting, 
+September 20, 2021.
 \[[abstract](./assets/files/abstract/jps2021autumn_abstract.pdf)\]
 \[[slides](./assets/files/slides/jps2021autumn.pdf)\]
 
@@ -43,19 +74,28 @@ Meeting, September 20, 2021.
 
 #### 2024
 
-Kousuke Yakubo and **Jun Yamamoto**. “Bifractal property of scale-free
-networks.” Presented at the International School and Conference on
+Kousuke Yakubo\* and **Jun Yamamoto**. 
+"Bifractal property of scale-free networks." 
+The International School and Conference on
 Network Science, July 2024.
 \[[abstract](./assets/files/abstract/netsci2024_abstract.pdf)\]
 
 #### 2022
 
-**Jun Yamamoto**, Gentaro Shimojo, and Kousuke Yakubo. “Bifractal nature
-of fractal scale-free networks and its implications.” Presented at the
-Network Science Seminar 2022 in Kyoto, August 23-25, 2022.
+**Jun Yamamoto**\*, Gentaro Shimojo, and Kousuke Yakubo. 
+"Bifractal nature of fractal scale-free networks and its implications." 
+The Network Science Seminar 2022 in Kyoto, 
+August 23-25, 2022.
 
 #### 2021
 
-**Jun Yamamoto** and Kousuke Yakubo. “Bifractality of scale-free
-networks.” Presented at the Network Science Seminar 2021 in Kanawaza,
-December 11-12, 2021. *Poster Award*.
+**Jun Yamamoto**\* and Kousuke Yakubo. 
+"Bifractality of scale-free networks." 
+The Network Science Seminar 2021 in Kanawaza,
+December 11-12, 2021. 
+*Poster Award*.
+
+
+::: {.callout-note style="minimal"}
+Asterisk (\*) denotes the presenter.
+:::
