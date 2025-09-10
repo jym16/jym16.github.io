@@ -12,13 +12,13 @@ Under construction...
 
 ## Physical Networks
 
-Physical networks are networks of tangible objects, i.e., nodes and edges are embedded in a physical space under physical constraints including but not limited to volume exclusion [[@dehmamy2018structural]]. 
-Examples of physical networks include biological neural networks, vascular networks, porous media, granular materials, to name just a few [[@blagojevic2024three]].
-The recent advances of imaging techniques and machine learning have significantly improved the availablity of three-dimensional maps of complex physical systems, which motivates the study of physical networks.
+Physical networks are networks of tangible objects, in which nodes and edges are embedded in physical space and subject to constraints such as volume exclusion [[@dehmamy2018structural]]. 
+Examples include biological neural networks, vascular systems, porous media, and granular materials [[@blagojevic2024three]].
+Advances in imaging technologies and accelerated reconstruction by ML/AI have recently made it possible to obtain detailed three-dimensional maps of such complex systems, providing new opportunities for studying physical networks.
 
-Over the recent years, the physicality of the network has been shown to result in the emergent properties such as entanglement [[@liu2021isotopy], [@glover2024measuring]], bundling [@bonamassa2024logarithmic], jamming [@posfai2024impact], and degree-volume correlations [@pete2024physical].
+In recent years, the physical embedding of networks has been shown to give rise to emergent phenomena, including entanglement [[@liu2021isotopy], [@glover2024measuring]], bundling [@bonamassa2024logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical].
 
-For my PhD thesis, I am investigating the spectral and topological properties of physical networks, as well as dynamical processes on physical networks.
+For my PhD thesis, I am exploring the spectral and topological properties of physical networks, as well as the dynamical processes that unfold on them.
 
 ::: {.callout-note title="Localization"}
 
@@ -47,58 +47,65 @@ Coming soon...
 
 ## Higher-Order Networks
 
-Triadic interactions are three-body (higher-order) interactions in which a node regulates an edge between two other nodes positively or negatively. 
-Such interactions are ubiquitous in real-world networks, such as glia cells in the brain that regulate the connectivity between neurons.
+Triadic interactions are higher-order, three-body interactions in which a node modulates the edge between two other nodes. 
+Such interactions are ubiquitous in real-world systems, such as  glia cells in the brain regulate synaptic connectivity between neurons. 
 
 ::: {.callout-note title="Diffusion dynamics on networks with triadic interactions"}
 
-In order to understand the role of triadic interactions in diffusion processes, we investigated the diffusion dynamics on networks with triadic interactions and Gaussian noise and demonstrated that triadic interactions induce conditional correlation and conditional mutual information between the three nodes involved in the triadic interaction and provide information on the strength and direction of the triadic interactions. 
-We applied this model as a null model to detect the presence of triadic interactions in gene regulatory networks. 
+To investigate how triadic interactions affect dynamics, we studied diffusion dynamics on networks incorporating triadic interactions under Gaussian noise. 
+Our results show that these interactions generate conditional correlations and conditional mutual information among the three participating nodes, which in turn reveal both the strength and direction of the triadic interactions.
 
-To learn more, refer to [@baptista2024mining].
+We further applied this framework as a null model to identify potential triadic interactions in gene regulatory networks.
+
+For details, see [@baptista2024mining].
 
 :::
 
 ## Fractal Scale-Free Networks
 
-A network is *fractal* (with respect to shortest-path lengths) if the minimum number of subgraphs (boxes) of a given diameter $l_{\textup{B}}$ required to cover the network scales as
+A network is *fractal* (with respect to shortest-path lengths) if the minimum number of subgraphs (boxes) of diameter $l_{\textup{B}}$ required to cover the network scales as
 \begin{equation}
   N_{\textup{B}}(l_{\textup{B}}) \sim l_{\textup{B}}^{-D_{\textup{f}}}
 \end{equation}
 where $D_{\textup{f}}$ is the fractal dimension of the network [@song2005self]. 
-In fractal networks, the average path lengths also scales as the power-law of the network size, i.e.,
+In fractal networks, the average path lengths also scales as the power of the network size, 
 \begin{equation}
   \langle l \rangle \sim N^{1/D_{\textup{f}}}.
 \end{equation}
-While many empirical networks are shown to be *small-world*, in which the average path lengths scales as logarithm of the number of nodes, i.e., $D_{\textup{f}} \to \infty$, the fractality can still be valid in length scale shorter than the characteristic length scale of the network (although it is difficult to observe the scaling in terms of shortest path lengths, as most of the networks do not have long enough diameter).
+While many empirical networks exhibit the *small-world* property, where the average path lengths scales logarithmically with the number of nodes (corresponding to the absence of characteristic scales, i.e., $D_{\textup{f}} \to \infty$), the fractal property can still hold at length scales shorter than the network's characteristic size. 
+Detecting this scaling through shortest paths, however, is often challenging because most real networks lack a sufficiently large diameter.
 
-Networks with fractal structure exhibit intriguing properties, such as the long-range degree correlations in the form of *hub repulsion* [@rozenfeld2008fractal].
+Fractal networks are of particular interest because their structure gives rise to distinctive features, such as long-range degree correlations manifested in *hub repulsion* [@rozenfeld2008fractal].
 
 ::: {.callout-note title="Bifractality"}
 
-In the coexistence of scale-free and fractal properties, a broad class of networks exhibits *bifractality*, characterized by the two distinct local fractal dimensions, $d_{\textup{f}}^{\min}$ and $d_{\textup{f}}^{\max}$ depending on the position in the network [@yamamoto2023bifractality].
-In particular, if a fractal scale-free network satisfies the condition that the number $\nu_{\textup{B}}$ of nodes in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of the supernode (the number of adjacent subgraphs) in the renormalization process, i.e.,
+When scale-free and fractal properties coexist, a broad class of networks exhibits *bifractality*, characterized by two distinct local fractal dimensions, $d_{\textup{f}}^{\min}$ and $d_{\textup{f}}^{\max}$ that depend on position within the network [@yamamoto2023bifractality].
+In particular, consider a fractal scale-free network in which, under renormalization, the number of nodes $\nu_{\textup{B}}$ in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of that supernode (i.e., the number of adjacent subgraphs):
 \begin{equation}
-  \nu_{\textup{B}} \propto k_{\textup{B}},
+  \nu_{\textup{B}} \propto k_{\textup{B}}.
 \end{equation}
-then the network contains the local fractal dimension (equivalent to H\"{o}lder exponent) 
+Under this condition, the network exhibits two local fractal dimensions (equivalently, Hölder exponents):
 \begin{equation}
     d_{\textup{f}}^{\max} = D_{\textup{f}}, \quad d_{\textup{f}}^{\min} = D_{\textup{f}} \left(\frac{\gamma-2}{\gamma-1}\right),
 \end{equation}
-where $\gamma$ is the exponent of the degree distribution and $D_{\textup{f}}$ is the (global) fractal dimension of the network.
+where $\gamma$ is the exponent of the degree distribution and $D_{\textup{f}}$ is the global fractal dimension of the network.
 
-From extensive considerations of deterministic and stochastic models, the above condition seems to stand for any fractal scale-free networks and we conjectured that the bifractality is a generic property of fractal scale-free networks.
+Extensive analytical and numerical calculations for both deterministic and stochastic models suggest that this proportionality condition holds broadly across fractal scale-free networks. 
+We therefore conjecture that bifractality is a general property of fractal scale-free networks.
 
-To learn more about the bifractality, see [@yamamoto2023bifractality].
+For details, see [@yamamoto2023bifractality].
 
 :::
 
 ::: {.callout-tip title="Random walks on bifractal networks"}
 
-Following the bifractality conjecture, we investigated the the walk and spectral dimensions of random walks on fractal scale-free networks. 
-We found that the walk dimension $d_{\textup{w}}$ of random walks on fractal scale-free networks (which characterizes the scaling of the mean topological displacement of random walkers) is constant and does not depend on the position in the network, while the spectral dimension (that determines the scaling of the return probability of a random walker) takes two distinct values, $d_{\textup{s}}^{\min}$ and $d_{\textup{s}}^{\max}$, depending on the position in the network due to the bifractality of the network.
+Building on the bifractality conjecture, we studied the walk and spectral dimensions of random walks on fractal scale-free networks. 
+We found that the walk dimension $d_{\textup{w}}$, which characterizes how the mean topological displacement of random walkers scales, remains constant across the network and does not depend on position.
 
-To learn more, see [@yakubo2024random].
+In contrast, the spectral dimension, which governs the scaling of the return probability of a random walker, splits into two distinct values, $d_{\textup{s}}^{\min}$ and $d_{\textup{s}}^{\max}$. 
+This positional dependence arises directly from the network’s bifractal structure.
+
+For details, see [@yakubo2024random].
 
 :::
 
