@@ -40,7 +40,7 @@ about:
 ::: {#profile}
 :::
 
-I am a PhD candidate at the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria, interested in statistical physics of complex networks. 
+I am a PhD candidate in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria, interested in statistical physics of complex networks. 
 
 I am working on spectral, topological, and dynamical aspects of **physical networks**, networks consisting of tangible nodes and edges that are embedded in Euclidean space.
 In particular, my PhD project is centered around the spectral properties of **physical Laplacians** defined as node-weighted graph Laplacians that incorporate the physicality of nodes into combinatorial Laplacian.
