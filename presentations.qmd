@@ -7,17 +7,14 @@ bibliography:
   - _bibliography/posters.bib
 ---
 
-
 ### Talks
 
-#### Upcoming
+#### 2025
 
 Shogo Mizutaka\*, **Jun Yamamoto**, and Kousuke Yakubo. 
 "Long-range degree correlations and fractal property of random networks." 
 The Physical Society of Japan 80th Annual Meeting,
 September 16, 2025.
-
-#### 2025
 
 **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
 "Localization-delocalization transition in physical networks."
@@ -94,7 +91,6 @@ August 23-25, 2022.
 The Network Science Seminar 2021 in Kanawaza,
 December 11-12, 2021. 
 *Poster Award*.
-
 
 ::: {.callout-note style="minimal"}
 Asterisk (\*) denotes the presenter.

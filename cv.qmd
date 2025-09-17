@@ -35,8 +35,27 @@ of triadic interactions*
 *Department of Physics, ETH Zurich (Zurich, Switzerland)*  
 *Discontinued due to the COVID-19 pandemic.
 
+## Employment & Internship
+
+2022/07 – 2022/09  
+**Data Scientist**  
+*DX Large Data Platform Business Group, Fujitsu Limited (Tokyo, Japan)*
+
+2020/07 – 2020/08  
+**Summer Research Intern**  
+*Japan Atomic Energy Agency (Chiba, Japan)*  
+— Machine learning for accelerating molecular dynamics simulations
+
+2019/02 – 2019/03  
+**Research Intern**  
+*Okinawa Institute of Science and Technology*  
+— Diffraction electron microscopy of protein nanocrystals
 
 ## Teaching
+
+2025/09 – 2025/12  
+**Scientific Python, Teaching Assistant**  
+*Department of Network and Data Science, Central European University*
 
 2025/01 – 2025/03  
 **Introduction to Linear Algebra, Teaching Assistant**  
@@ -58,35 +77,23 @@ of triadic interactions*
 **MDS/AI Seminar, Teaching Assistant**  
 *Center for Mathematics and Data Sciences, Hokkaido University*
 
-## Employment & Internships
-
-2022/07 – 2022/09  
-**Data Scientist**  
-*DX Large Data Platform Business Group, Fujitsu Limited (Tokyo, Japan)*
-
-2020/07 – 2020/08  
-**Summer Research Intern**  
-*Japan Atomic Energy Agency (Chiba, Japan)*  
-— Machine learning for accelerating molecular dynamics simulations
-
-2019/02 – 2019/03  
-**Research Intern**  
-*Okinawa Institute of Science and Technology*  
-— Diffraction electron microscopy of protein nanocrystals
-
 ## Academic Services
 
-**Reviewer**  
-- *Nature Communications*  Since 2025.
-- *Transactions of the Japanese Society for Artificial Intelligence*, Since 2025.
+### Review Activity
 
-**Organizer, Physical Networks III Edition**  
-*International School and Conference on Network Science 2025*  (Maastricht, Netherlands)
-2024/12 – 2025/06
+- **Nature Communications** (Since 2025).
+- **Transactions of the Japanese Society for Artificial Intelligence** (Since 2025).
 
-**Organizer, Data Stories 11th Edition**  
-*Department of Network and Data Science, Central European University* 
-2024/11 – 2025/05
+
+### Organization
+
+- **Organizer, Physical Networks III Edition** <br>
+    *International School and Conference on Network Science 2025* (Maastricht, Netherlands) <br>
+    2024/12 – 2025/06.
+
+- **Organizer, Data Stories 11th Edition** <br>
+    *Department of Network and Data Science, Central European University* <br>
+    2024/11 – 2025/05.
 
 ## Awards
 
@@ -101,7 +108,7 @@ exam.
 2023/11  
 For outstanding academic achievements.
 
-**Ito Foundation Scholarship**  
+**Ito Foundation Scholarship Award**  
 *Ito Foundation for International Education Exchange*  
 2022/09 – 2023/09  
 ¥3,000,000 tuition + \$2,000/month stipend.
@@ -111,7 +118,7 @@ For outstanding academic achievements.
 2022/03  
 For the overall academic achievements during the undergraduate studies.
 
-**Japan Student Service Organization Scholarship**  
+**Japan Student Service Organization Scholarship Award**  
 *Japan Student Service Organization*  
 2019/09 - 2020/05  
 Awarded ¥80,000/month for the duration of the exchange programme.

@@ -40,16 +40,16 @@ about:
 ::: {#profile}
 :::
 
-I am a PhD candidate in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria, interested in statistical physics of complex networks. 
+I am a PhD candidate in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria. My research interests lie in the statistical physics of complex networks.
 
-I am working on spectral, topological, and dynamical aspects of **physical networks**, networks consisting of tangible nodes and edges that are embedded in Euclidean space.
-In particular, my PhD project is centered around the spectral properties of **physical Laplacians** defined as node-weighted graph Laplacians that incorporate the physicality of nodes into combinatorial Laplacian.
+I am working on spectral, topological, and dynamical aspects of **physical networks**, _i.e._, networks consisting of tangible nodes and edges that are embedded in Euclidean space.
+In particular, my PhD project is centered around the spectral properties of **physical Laplacians** formulated as node-weighted graph Laplacians that incorporate the physicality of nodes into combinatorial graph Laplacian, under the assumption of time scale separation between the internal and external dynamics of physical nodes.
 The ongoing projects include **eigenmode delocalization** in physical Laplacians and **synchronization** in networks of spin Hall nano-oscillators. 
 I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai) and Prof. [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz).
 
 
-Before starting my PhD, I completed Master of Science in Mathematics at [Queen Mary University of London](https://www.qmul.ac.uk/), with dissertation work on *higher-order network dynamics in the presence of triadic interactions* under the supervision of Prof. [Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html).
-I earned Bachelor of Engineering in Applied Physics at [Hokkaido University](https://www.global.hokudai.ac.jp/) in Sapporo, Japan, with thesis titled the *bifractal property of fractal scale-free networks* (supervised by Prof. [Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)).
+Prior to my PhD, I earned an MSc in Mathematics at [Queen Mary University of London](https://www.qmul.ac.uk/), where I worked with Prof. [Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html) on *higher-order network dynamics with triadic interactions*.
+I hold a BEng in Applied Physics from [Hokkaido University](https://www.global.hokudai.ac.jp/) in Sapporo, Japan, where my thesis, supervised by Prof. [Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en), explored the *bifractal properties of fractal scale-free networks*.
 
 
 ※日本語のプロファイルは[こちら](https://researchmap.jp/jun_yamamoto)を参照して下さい．
@@ -59,17 +59,17 @@ I earned Bachelor of Engineering in Applied Physics at [Hokkaido University](htt
 ::: {.g-col-12 .g-col-md-8 style="text-align: left;"}
 ## Education
 
-- **_PhD_ in Network Science**, (in progress)
-  *Department of Network and Data Science, Central European University*  
-  Vienna, Austria
+- **PhD in Network Science**, In progress. <br> 
+  *Department of Network and Data Science, Central European University*   
+  Vienna, Austria.
 
-- **_MSc_ in Mathematics**, **2023**  
-  *School of Mathematical Sciences, Queen Mary University of London*  
-  London, UK
+- **MSc in Mathematics**, **2023**. <br>
+  *School of Mathematical Sciences, Queen Mary University of London*   
+  London, UK.
 
-- **_BEng_ in Applied Physics**, **2022**  
-  *Department of Applied Physics, Faculty of Engineering, Hokkaido University*  
-  Sapporo, Japan
+- **BEng in Applied Physics**, **2022**. <br>
+  *Department of Applied Physics, Faculty of Engineering, Hokkaido University*   
+  Sapporo, Japan.
 :::
 
 ::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
