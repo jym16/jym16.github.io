@@ -1,4 +1,7 @@
 ---
+layout: default
+permalink: /
+
 title: "On the Four Knights Problem"
 description: ""
 author: "Jun Yamamoto"
