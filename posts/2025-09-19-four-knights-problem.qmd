@@ -20,12 +20,12 @@ Two white knights and two black knights are placed on it.
 Your task is to swap the positions of the white and black knights using the fewest possible moves. 
 Try to solve this within one minute.
 
-![FIG.1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]](assets/images/posts/four-knights-problem.png){width=33%}
+![FIG.1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]](/assets/images/posts/four-knights-problem.png){width=33%}
 
 :::
 
 I was delighted to see this problem reappear as an introductory example in Lovro’s course on machine learning with graphs. 
-It brought back memories, since this puzzle was what first drew me into graph theory nearly ten years ago, back when I was in high school. 
+It brought back memories, since this problem was what first drew me into graph theory a decade ago, back when I was still in high school. 
 At the same time, I was surprised by how few students in our department knew about it.
 For me, the problem represents a prime example that demonstrates how graph (or network) representations can make certain problems far easier to approach than representations in Euclidean space.
 The lack of recognition (in our department) motivated me to write a blog post on the problem, in the hope of introducing more people to it.
@@ -33,11 +33,11 @@ The lack of recognition (in our department) motivated me to write a blog post on
 
 The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in FIG.2 as gif:
 
-![FIG.2: The solution with 40 moves.](assets/images/posts/fkp-board.gif){width=33%}
+![FIG.2: The solution with 40 moves.](/assets/images/posts/fkp-board.gif){width=33%}
 
 While the animated solution in FIG.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.
 
-![FIG.3: Graph representation of the chessboard.](assets/images/posts/fkp_graph.png){width=100%}
+![FIG.3: Graph representation of the chessboard.](/assets/images/posts/fkp_graph.png){width=100%}
 
 To swap the positions of the black and white knights in the graph [FIG.3(b)], the strategy is clear:
 
@@ -63,7 +63,7 @@ To swap the positions of the black and white knights in the graph [FIG.3(b)], th
 
 The total number of steps adds up to 40 steps. 
 
-![FIG.4: Animation of the 40 moves in both the chessboard and the knight-move graph.](assets/images/posts/fkp.gif)
+![FIG.4: Animation of the 40 moves in both the chessboard and the knight-move graph.](/assets/images/posts/fkp.gif)
 
 In FIG.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.
 
@@ -71,16 +71,12 @@ In FIG.4, what appeared to be complicated 40 moves on the chessboard is a series
 
 _Why this matters for me_
 
-To me, this problem highlights why network science is so compelling for physicists. 
-Many real-world systems are not spatially regular:
+Many real-world systems are spatially irregular:
 1. The degrees (or coordination numbers) of their components vary considerably.
-2. Medium- to long-range connections often play critical roles in shaping their structure and dynamics.
-Knight moves share this character. 
+2. Medium- to long-range connections/correlations often play critical roles in shaping their structure and dynamics.
+To me, the four knights problem shares these two aspects. 
 Not every square has the same degree, and knights moves to third (non-vertical/horizontal) neighbors rather than adjacent ones. 
 Such dynamics are not intuitive in Euclidean space, but once projected onto a graph, their underlying simplicity often emerges.
 
-
-
 _P.S._
-
 As someone who studies physical networks, I try to always keep in mind that some problems are simply easier to deal with as abstract graphs, and more realistic but more complicated representations can obscure my understanding of the systems.
