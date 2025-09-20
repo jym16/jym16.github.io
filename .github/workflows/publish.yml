@@ -36,6 +36,9 @@ jobs:
   
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          target: gh-pages
+          path: subdirectory-to-use
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
