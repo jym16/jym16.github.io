@@ -55,10 +55,10 @@ website:
         text: "Presentations"
       - href: projects.qmd
         text: "Projects"
-      - href: links.qmd
-        text: "Links"
       - href: misc.qmd
         text: "Misc"
+      - href: links.qmd
+        text: "Links"
 
 format:
   html:

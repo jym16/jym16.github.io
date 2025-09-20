@@ -1,7 +1,4 @@
 ---
-layout: default
-permalink: /posts/fkp
-
 title: "On the Four Knights Problem"
 description: ""
 author: "Jun Yamamoto"
@@ -23,7 +20,7 @@ Two white knights and two black knights are placed on it.
 Your task is to swap the positions of the white and black knights using the fewest possible moves. 
 Try to solve this within one minute.
 
-![FIG.1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]](/assets/images/posts/four-knights-problem.png){width=33%}
+![FIG.1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]](fkp.png){width=33%}
 
 :::
 
@@ -36,11 +33,11 @@ The lack of recognition (in our department) motivated me to write a blog post on
 
 The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in FIG.2 as gif:
 
-![FIG.2: The solution with 40 moves.](/assets/images/posts/fkp-board.gif){width=33%}
+![FIG.2: The solution with 40 moves.](fkp-board.gif){width=33%}
 
 While the animated solution in FIG.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.
 
-![FIG.3: Graph representation of the chessboard.](/assets/images/posts/fkp-graph.png){width=100%}
+![FIG.3: Graph representation of the chessboard.](fkp-graph.png){width=100%}
 
 To swap the positions of the black and white knights in the graph [FIG.3(b)], the strategy is clear:
 
@@ -66,7 +63,7 @@ To swap the positions of the black and white knights in the graph [FIG.3(b)], th
 
 The total number of steps adds up to 40 steps. 
 
-![FIG.4: Animation of the 40 moves in both the chessboard and the knight-move graph.](/assets/images/posts/fkp.gif)
+![FIG.4: Animation of the 40 moves in both the chessboard and the knight-move graph.](fkp.gif)
 
 In FIG.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.
 

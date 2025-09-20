@@ -24,7 +24,7 @@ title: "Links"
 - [ネットワーク生態学研究会・ネットワーク科学勉強会](https://sites.google.com/view/networkpaperreading/)
 - [ドイツ物理学・応用物理学セミナー (Physics and Applied Physics Seminar in Germany for Japanese Researchers)](https://sites.google.com/site/jpsingermany/home)
 
-#### [Collaborators & Mentors]
+#### [Mentors & Collaborators]
 
 - [Prof. Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai)
 - [Prof. János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz)
