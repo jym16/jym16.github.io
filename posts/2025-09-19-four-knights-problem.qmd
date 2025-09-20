@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /
+permalink: /posts/fkp
 
 title: "On the Four Knights Problem"
 description: ""
@@ -40,7 +40,7 @@ The minimal solution of the problem is, to the best of my knowledge, 40 moves sh
 
 While the animated solution in FIG.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.
 
-![FIG.3: Graph representation of the chessboard.](/assets/images/posts/fkp_graph.png){width=100%}
+![FIG.3: Graph representation of the chessboard.](/assets/images/posts/fkp-graph.png){width=100%}
 
 To swap the positions of the black and white knights in the graph [FIG.3(b)], the strategy is clear:
 
