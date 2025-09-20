@@ -57,6 +57,8 @@ website:
         text: "Projects"
       - href: links.qmd
         text: "Links"
+      - href: misc.qmd
+        text: "Misc"
 
 format:
   html:

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jun Yamamoto">
+<meta name="dcterms.date" content="2025-09-19">
 
-<title>Jun Yamamoto</title>
+<title>On the Four Knights Problem – Jun Yamamoto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d36afda5f548264a7ea1732ef487ea6d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-957fa97c2c95420c88430f2339bbdb08.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bbc1fbe8288abddf12768bd4286895fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-3fd0ddc12988a243da9aa1561e58c972.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,26 +81,69 @@ gtag('config', 'G-GNGTP6GYPM', { 'anonymize_ip': true});
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
-<link rel="stylesheet" href="assets/css/main.scss">
-<meta name="twitter:title" content="Jun Yamamoto">
-<meta name="twitter:description" content="PhD candidate in Network Science  Department of Network and Data Science, Central European University">
-<meta name="twitter:image" content="assets/images/prof_pic.jpeg">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../assets/css/main.scss">
+<meta name="twitter:title" content="On the Four Knights Problem – Jun Yamamoto">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="../assets/images/posts/four-knights-problem.png">
 <meta name="twitter:site" content="@__jymmt__">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/images/logo.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/images/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Jun Yamamoto</span>
     </a>
   </div>
@@ -112,31 +154,31 @@ gtag('config', 'G-GNGTP6GYPM', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentations.html"> 
+    <a class="nav-link" href="../presentations.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./links.html"> 
+    <a class="nav-link" href="../links.html"> 
 <span class="menu-text">Links</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./misc.html"> 
+    <a class="nav-link" href="../misc.html"> 
 <span class="menu-text">Misc</span></a>
   </li>  
 </ul>
@@ -159,81 +201,131 @@ gtag('config', 'G-GNGTP6GYPM', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="2025-09-19-four-knights-problem.ipynb" download="2025-09-19-four-knights-problem.ipynb"><i class="bi bi-journal-code"></i>Jupyter</a></li></ul></div></div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jun Yamamoto</h1>
-<p class="subtitle lead">PhD candidate in Network Science <br> Department of Network and Data Science, Central European University</p>
-</div>
+<h1 class="title">On the Four Knights Problem</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">graph theory</div>
+    <div class="quarto-category">chess</div>
+  </div>
+  </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jun Yamamoto </p>
+          </div>
   </div>
-</header> <div class="about-links">
-  <a href="https://drive.google.com/file/d/1OkcJaa4jIXrGtG6E9YWIWxu_WiJdUZBS/view?usp=sharing" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-file" title="File" aria-label="File logo"></i> CV</span>
-  </a>
-  <a href="mailto:jun.j.yamamoto@gmail.com" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" title="Envelope logo" aria-label="Envelope logo"></i> Mail</span>
-  </a>
-  <a href="https://orcid.org/0009-0009-5089-3269" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-orcid" title="ORCID logo" aria-label="ORCID logo"></i> ORCID</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=ILnN9b4AAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-google-scholar" title="Google Scholar logo" aria-label="Google Scholar logo"></i> Google Scholar</span>
-  </a>
-  <a href="https://bsky.app/profile/jymmt.bsky.social" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span>
-  </a>
-  <a href="https://twitter.com/__jymmt__" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-brands fa-twitter" aria-label="twitter"></i></span>
-  </a>
-  <a href="https://www.linkedin.com/in/jun-yamamoto-579916199" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></span>
-  </a>
-</div>
-      <div class="about-contents"><div id="profile">
-</div></div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 19, 2025</p>
     </div>
-    <img src="assets/images/prof_pic.jpeg" class="about-image
-  rounded " style="width: 8em;">
   </div>
-</div>
+  
+    
+  </div>
+  
 
-<p>I am a PhD candidate in the <a href="https://networkdatascience.ceu.edu/">Department of Network and Data Science</a> at <a href="https://www.ceu.edu/">Central European University</a> in Vienna, Austria. My research interests lie in the statistical physics of complex networks.</p>
-<p>I am working on spectral, topological, and dynamical aspects of <strong>physical networks</strong>, <em>i.e.</em>, networks consisting of tangible nodes and edges that are embedded in Euclidean space. In particular, my PhD project is centered around the spectral properties of <strong>physical Laplacians</strong> formulated as node-weighted graph Laplacians that incorporate the physicality of nodes into combinatorial graph Laplacian, under the assumption of time scale separation between the internal and external dynamics of physical nodes. The ongoing projects include <strong>eigenmode delocalization</strong> in physical Laplacians and <strong>synchronization</strong> in networks of spin Hall nano-oscillators. I am supervised by Prof.&nbsp;<a href="https://networkdatascience.ceu.edu/people/marton-posfai">Márton Pósfai</a> and Prof.&nbsp;<a href="https://networkdatascience.ceu.edu/people/janos-kertesz">János Kertész</a>.</p>
-<p>Prior to my PhD, I earned an MSc in Mathematics at <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a>, where I worked with Prof.&nbsp;<a href="https://www.qmul.ac.uk/maths/profiles/bianconig.html">Ginestra Bianconi</a> on <em>higher-order network dynamics with triadic interactions</em>. I hold a BEng in Applied Physics from <a href="https://www.global.hokudai.ac.jp/">Hokkaido University</a> in Sapporo, Japan, where my thesis, supervised by Prof.&nbsp;<a href="https://researchmap.jp/read0166630?lang=en">Kousuke Yakubo</a>, explored the <em>bifractal properties of fractal scale-free networks</em>.</p>
-<p>※日本語のプロファイルは<a href="https://researchmap.jp/jun_yamamoto">こちら</a>を参照して下さい．</p>
-<div class="grid">
-<section id="education" class="level2 g-col-12 g-col-md-8" style="text-align: left;">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li><p><strong>PhD in Network Science</strong>, In progress. <br> <em>Department of Network and Data Science, Central European University</em><br>
-Vienna, Austria.</p></li>
-<li><p><strong>MSc in Mathematics</strong>, <strong>2023</strong>. <br> <em>School of Mathematical Sciences, Queen Mary University of London</em><br>
-London, UK.</p></li>
-<li><p><strong>BEng in Applied Physics</strong>, <strong>2022</strong>. <br> <em>Department of Applied Physics, Faculty of Engineering, Hokkaido University</em><br>
-Sapporo, Japan.</p></li>
-</ul>
-</section>
-<section id="interests" class="level2 g-col-12 g-col-md-4" style="text-align: left;">
-<h2 data-anchor-id="interests">Interests</h2>
-<ul>
-<li>Complex networks</li>
-<li>Scale invariance and renormalization of complex networks</li>
-<li>Laplacian dynamics</li>
-<li>Network physicality</li>
-</ul>
-</section>
-</div>
 
+</header>
+
+
+<p>Thanks to <a href="https://lovro.fri.uni-lj.si/">Lovro Šubelj</a>, I recently revisited the four knights problem for the first time in almost a decade.</p>
+<p>In Lovro’s words, the problem is as follows:</p>
+<div class="callout callout-style-default callout-note callout-titled" style="minimal" title="Problem">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You are given a section of a chessboard consisting of 10 squares. Two white knights and two black knights are placed on it. Your task is to swap the positions of the white and black knights using the fewest possible moves. Try to solve this within one minute.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/posts/four-knights-problem.png" class="img-fluid figure-img" style="width:33.0%"></p>
+<figcaption>FIG.1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>I was delighted to see this problem reappear as an introductory example in Lovro’s course on machine learning with graphs. It brought back memories, since this puzzle was what first drew me into graph theory nearly ten years ago, back when I was in high school. At the same time, I was surprised by how few students in our department knew about it. For me, the problem represents a prime example that demonstrates how graph (or network) representations can make certain problems far easier to approach than representations in Euclidean space. The lack of recognition (in our department) motivated me to write a blog post on the problem, in the hope of introducing more people to it.</p>
+<p>The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in FIG.2 as gif:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/posts/fkp-board.gif" class="img-fluid figure-img" style="width:33.0%"></p>
+<figcaption>FIG.2: The solution with 40 moves.</figcaption>
+</figure>
+</div>
+<p>While the animated solution in FIG.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/posts/fkp_graph.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>FIG.3: Graph representation of the chessboard.</figcaption>
+</figure>
+</div>
+<p>To swap the positions of the black and white knights in the graph [FIG.3(b)], the strategy is clear:</p>
+<ol type="1">
+<li>Move the three knights in the vertical branch to the left horizontal branch.
+<ul>
+<li>White knight on vertex 3 <span class="math inline">\rightarrow</span> vertex 7 (4 steps)</li>
+<li>Black knight on vertex 5 <span class="math inline">\rightarrow</span> vertex 2 (4 steps)</li>
+<li>Black knight on vertex 9 <span class="math inline">\rightarrow</span> vertex 4 (4 steps)</li>
+</ul></li>
+<li>Move the white knight in the right branch (vertex 1) to the vertical branch.
+<ul>
+<li>White knight on vertex 1 <span class="math inline">\rightarrow</span> vertex 9 (4 steps)</li>
+</ul></li>
+<li>Move the black knights in the left branch back to the vertical branch.
+<ul>
+<li>Black knight on vertex 4 <span class="math inline">\rightarrow</span> vertex 5 (3 steps)</li>
+<li>Black knight on vertex 2 <span class="math inline">\rightarrow</span> vertex 3 (3 steps)</li>
+</ul></li>
+<li>Move the white knights in the left branch to the right branch.
+<ul>
+<li>White knight on vertex 7 <span class="math inline">\rightarrow</span> vertex 1 (4 steps)</li>
+</ul></li>
+<li>Move the black knights in the vertical branch back to the left branch.
+<ul>
+<li>Black knight on vertex 3 <span class="math inline">\rightarrow</span> vertex 2 (3 steps)</li>
+<li>Black knight on vertex 5 <span class="math inline">\rightarrow</span> vertex 4 (3 steps)</li>
+</ul></li>
+<li>Move the white knight in the right branch to the vertical branch.
+<ul>
+<li>White knight on vertex 1 <span class="math inline">\rightarrow</span> vertex 5 (3 steps)</li>
+</ul></li>
+<li>Move the black knights in the left branch to the right and vertical branches.
+<ul>
+<li>Black knight on vertex 4 <span class="math inline">\rightarrow</span> vertex 1 or 3 (2 steps)</li>
+<li>Black knight on vertex 2 <span class="math inline">\rightarrow</span> vertex 3 or 1 (3 steps)</li>
+</ul></li>
+</ol>
+<p>The total number of steps adds up to 40 steps.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/posts/fkp.gif" class="img-fluid figure-img"></p>
+<figcaption>FIG.4: Animation of the 40 moves in both the chessboard and the knight-move graph.</figcaption>
+</figure>
+</div>
+<p>In FIG.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.</p>
+<p><em>Why this matters for me</em></p>
+<p>To me, this problem highlights why network science is so compelling for physicists. Many real-world systems are not spatially regular: 1. The degrees (or coordination numbers) of their components vary considerably. 2. Medium- to long-range connections often play critical roles in shaping their structure and dynamics. Knight moves share this character. Not every square has the same degree, and knights moves to third (non-vertical/horizontal) neighbors rather than adjacent ones. Such dynamics are not intuitive in Euclidean space, but once projected onto a graph, their underlying simplicity often emerges.</p>
+<p><em>P.S.</em></p>
+<p>As someone who studies physical networks, I try to always keep in mind that some problems are simply easier to deal with as abstract graphs, and more realistic but more complicated representations can obscure my understanding of the systems.</p>
 
 
 
@@ -402,6 +494,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
