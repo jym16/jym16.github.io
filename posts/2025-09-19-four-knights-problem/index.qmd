@@ -20,7 +20,12 @@ Two white knights and two black knights are placed on it.
 Your task is to swap the positions of the white and black knights using the fewest possible moves. 
 Try to solve this within one minute.
 
-![FIG.1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]](fkp.png){width=33%}
+::: {#fig-problem}
+
+<img src="fkp.png" width="33%">
+
+Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]
+:::
 
 :::
 
@@ -31,15 +36,26 @@ For me, the problem represents a prime example that demonstrates how graph (or n
 The lack of recognition (in our department) motivated me to write a blog post on the problem, in the hope of introducing more people to it.
 
 
-The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in FIG.2 as gif:
+The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in Fig.2 as gif:
 
-![FIG.2: The solution with 40 moves.](fkp-board.gif){width=33%}
+::: {#fig-solution-animation}
 
-While the animated solution in FIG.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.
+<img src="fkp-board.gif" width="33%">
 
-![FIG.3: Graph representation of the chessboard.](fkp-graph.png){width=100%}
+The solution with 40 moves.
+:::
 
-To swap the positions of the black and white knights in the graph [FIG.3(b)], the strategy is clear:
+
+While the animated solution in Fig.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.
+
+::: {#fig-graph-representation}
+
+<img src="fkp-graph.png" width="100%">
+
+Graph representation of the chessboard.
+:::
+
+To swap the positions of the black and white knights in the graph [Fig.3(b)], the strategy is clear:
 
 1. Move the three knights in the vertical branch to the left horizontal branch.
     - White knight on vertex 3 $\rightarrow$ vertex 7 (4 steps)
@@ -63,9 +79,14 @@ To swap the positions of the black and white knights in the graph [FIG.3(b)], th
 
 The total number of steps adds up to 40 steps. 
 
-![FIG.4: Animation of the 40 moves in both the chessboard and the knight-move graph.](fkp.gif)
+::: {#fig-graph-animation}
 
-In FIG.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.
+<img src="fkp.gif" width="100%">
+
+Animation of the 40 moves in both the chessboard and the knight-move graph.
+:::
+
+In Fig.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.
 
 
 

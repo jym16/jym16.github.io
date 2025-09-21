@@ -174,12 +174,12 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../links.html"> 
-<span class="menu-text">Links</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../misc.html"> 
 <span class="menu-text">Misc</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../links.html"> 
+<span class="menu-text">Links</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -255,30 +255,42 @@ Problem
 </div>
 <div class="callout-body-container callout-body">
 <p>You are given a section of a chessboard consisting of 10 squares. Two white knights and two black knights are placed on it. Your task is to swap the positions of the white and black knights using the fewest possible moves. Try to solve this within one minute.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="fkp.png" class="img-fluid figure-img" style="width:33.0%"></p>
-<figcaption>FIG.1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]</figcaption>
+<div id="fig-problem-figure" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-problem-figure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p><img src="fkp.png" width="33%" class="figure-img"></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-problem-figure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 <p>I was delighted to see this problem reappear as an introductory example in Lovro’s course on machine learning with graphs. It brought back memories, since this problem was what first drew me into graph theory a decade ago, back when I was still in high school. At the same time, I was surprised by how few students in our department knew about it. For me, the problem represents a prime example that demonstrates how graph (or network) representations can make certain problems far easier to approach than representations in Euclidean space. The lack of recognition (in our department) motivated me to write a blog post on the problem, in the hope of introducing more people to it.</p>
-<p>The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in FIG.2 as gif:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="fkp-board.gif" class="img-fluid figure-img" style="width:33.0%"></p>
-<figcaption>FIG.2: The solution with 40 moves.</figcaption>
+<p>The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in Fig.2 as gif:</p>
+<div id="fig-solution-animation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-solution-animation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p><img src="fkp-board.gif" width="33%" class="figure-img"></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-solution-animation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: The solution with 40 moves.
+</figcaption>
 </figure>
 </div>
-<p>While the animated solution in FIG.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="fkp-graph.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>FIG.3: Graph representation of the chessboard.</figcaption>
+<p>While the animated solution in Fig.2 looks quite intricate on the chessboard, it looks completely different when you represent the chessboard tiles as a graph with knight moves as edges.</p>
+<div id="fig-graph-representation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-graph-representation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p><img src="fkp-graph.png" width="100%" class="figure-img"></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-graph-representation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Graph representation of the chessboard.
+</figcaption>
 </figure>
 </div>
-<p>To swap the positions of the black and white knights in the graph [FIG.3(b)], the strategy is clear:</p>
+<p>To swap the positions of the black and white knights in the graph [Fig.3(b)], the strategy is clear:</p>
 <ol type="1">
 <li>Move the three knights in the vertical branch to the left horizontal branch.
 <ul>
@@ -315,13 +327,17 @@ Problem
 </ul></li>
 </ol>
 <p>The total number of steps adds up to 40 steps.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="fkp.gif" class="img-fluid figure-img"></p>
-<figcaption>FIG.4: Animation of the 40 moves in both the chessboard and the knight-move graph.</figcaption>
+<div id="fig-graph-animation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-graph-animation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p><img src="fkp.gif" width="100%" class="figure-img"></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-graph-animation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Animation of the 40 moves in both the chessboard and the knight-move graph.
+</figcaption>
 </figure>
 </div>
-<p>In FIG.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.</p>
+<p>In Fig.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.</p>
 <p><em>Why this matters for me</em></p>
 <p>Many real-world systems are spatially irregular: 1. The degrees (or coordination numbers) of their components vary considerably. 2. Medium- to long-range connections/correlations often play critical roles in shaping their structure and dynamics. To me, the four knights problem shares these two aspects. Not every square has the same degree, and knights moves to third (non-vertical/horizontal) neighbors rather than adjacent ones. Such dynamics are not intuitive in Euclidean space, but once projected onto a graph, their underlying simplicity often emerges.</p>
 <p><em>P.S.</em> As someone who studies physical networks, I try to always keep in mind that some problems are simply easier to deal with as abstract graphs, and more realistic but more complicated representations can obscure my understanding of the systems.</p>
