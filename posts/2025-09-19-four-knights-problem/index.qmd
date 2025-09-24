@@ -11,7 +11,7 @@ categories:
 
 Thanks to [Lovro Šubelj](https://lovro.fri.uni-lj.si/), I recently revisited the four knights problem for the first time in almost a decade.
 
-In Lovro’s words, the problem is as follows:
+The problem is as follows:
 
 ::: {.callout-note style="minimal" title="Problem"}
 
@@ -30,7 +30,7 @@ Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]
 :::
 
 I was delighted to see this problem reappear as an introductory example in Lovro’s course on machine learning with graphs. 
-It brought back memories, since this problem was what first drew me into graph theory a decade ago, back when I was still in high school. 
+It brought back memories, since this problem was one of the the first problems that drew me into graph theory a decade ago, back when I was still in high school. 
 At the same time, I was surprised by how few students in our department knew about it.
 For me, the problem represents a prime example that demonstrates how graph (or network) representations can make certain problems far easier to approach than representations in Euclidean space.
 The lack of recognition (in our department) motivated me to write a blog post on the problem, in the hope of introducing more people to it.
@@ -90,12 +90,12 @@ In Fig.4, what appeared to be complicated 40 moves on the chessboard is a series
 
 
 
-_Why this matters for me_
+_Why this matters_
 
 Many real-world systems are spatially irregular:
-1. The degrees (or coordination numbers) of their components vary considerably.
-2. Medium- to long-range connections/correlations often play critical roles in shaping their structure and dynamics.
-To me, the four knights problem shares these two aspects. 
+(i) The degrees (or coordination numbers) of their components vary considerably.
+(ii) Medium- to long-range connections/correlations often play critical roles in shaping their structure and dynamics.
+The four knights problem shares these two aspects.
 Not every square has the same degree, and knights moves to third (non-vertical/horizontal) neighbors rather than adjacent ones. 
 Such dynamics are not intuitive in Euclidean space, but once projected onto a graph, their underlying simplicity often emerges.
 
