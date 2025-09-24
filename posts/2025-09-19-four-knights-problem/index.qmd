@@ -99,5 +99,3 @@ The four knights problem shares these two aspects.
 Not every square has the same degree, and knights moves to third (non-vertical/horizontal) neighbors rather than adjacent ones. 
 Such dynamics are not intuitive in Euclidean space, but once projected onto a graph, their underlying simplicity often emerges.
 
-_P.S._
-As someone who studies physical networks, I try to always keep in mind that some problems are simply easier to deal with as abstract graphs, and more realistic but more complicated representations can obscure my understanding of the systems.
