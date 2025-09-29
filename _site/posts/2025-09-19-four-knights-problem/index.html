@@ -243,7 +243,7 @@ window.Quarto = {
 
 
 <p>Thanks to <a href="https://lovro.fri.uni-lj.si/">Lovro Šubelj</a>, I recently revisited the four knights problem for the first time in almost a decade.</p>
-<p>In Lovro’s words, the problem is as follows:</p>
+<p>The problem is as follows:</p>
 <div class="callout callout-style-default callout-note callout-titled" style="minimal" title="Problem">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -255,19 +255,19 @@ Problem
 </div>
 <div class="callout-body-container callout-body">
 <p>You are given a section of a chessboard consisting of 10 squares. Two white knights and two black knights are placed on it. Your task is to swap the positions of the white and black knights using the fewest possible moves. Try to solve this within one minute.</p>
-<div id="fig-problem-figure" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-problem" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-problem-figure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-problem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <p><img src="fkp.png" width="33%" class="figure-img"></p>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-problem-figure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-problem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Chessboard and positions of the 4 knights. [Credit: Lovro Šubelj]
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>I was delighted to see this problem reappear as an introductory example in Lovro’s course on machine learning with graphs. It brought back memories, since this problem was what first drew me into graph theory a decade ago, back when I was still in high school. At the same time, I was surprised by how few students in our department knew about it. For me, the problem represents a prime example that demonstrates how graph (or network) representations can make certain problems far easier to approach than representations in Euclidean space. The lack of recognition (in our department) motivated me to write a blog post on the problem, in the hope of introducing more people to it.</p>
+<p>I was delighted to see this problem reappear as an introductory example in Lovro’s course on machine learning with graphs. It brought back memories, since this problem was one of the the first problems that drew me into graph theory a decade ago, back when I was still in high school. At the same time, I was surprised by how few students in our department knew about it. For me, the problem represents a prime example that demonstrates how graph (or network) representations can make certain problems far easier to approach than representations in Euclidean space. The lack of recognition (in our department) motivated me to write a blog post on the problem, in the hope of introducing more people to it.</p>
 <p>The minimal solution of the problem is, to the best of my knowledge, 40 moves shown in Fig.2 as gif:</p>
 <div id="fig-solution-animation" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -338,9 +338,8 @@ Figure&nbsp;4: Animation of the 40 moves in both the chessboard and the knight-m
 </figure>
 </div>
 <p>In Fig.4, what appeared to be complicated 40 moves on the chessboard is a series of short walks in a tree.</p>
-<p><em>Why this matters for me</em></p>
-<p>Many real-world systems are spatially irregular: 1. The degrees (or coordination numbers) of their components vary considerably. 2. Medium- to long-range connections/correlations often play critical roles in shaping their structure and dynamics. To me, the four knights problem shares these two aspects. Not every square has the same degree, and knights moves to third (non-vertical/horizontal) neighbors rather than adjacent ones. Such dynamics are not intuitive in Euclidean space, but once projected onto a graph, their underlying simplicity often emerges.</p>
-<p><em>P.S.</em> As someone who studies physical networks, I try to always keep in mind that some problems are simply easier to deal with as abstract graphs, and more realistic but more complicated representations can obscure my understanding of the systems.</p>
+<p><em>Why this matters</em></p>
+<p>Many real-world systems are spatially irregular: (i) The degrees (or coordination numbers) of their components vary considerably. (ii) Medium- to long-range connections/correlations often play critical roles in shaping their structure and dynamics. The four knights problem shares these two aspects. Not every square has the same degree, and knights moves to third (non-vertical/horizontal) neighbors rather than adjacent ones. Such dynamics are not intuitive in Euclidean space, but once projected onto a graph, their underlying simplicity often emerges.</p>
 
 
 
