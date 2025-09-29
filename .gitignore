@@ -1,4 +1,10 @@
-/.quarto/
 **/.DS_Store
+/.quarto/
+_site/
 _backup/
 assets/cv
+_quarto_files/*
+cv_files/*
+index_files/*
+presentations_files/*
+projects_files/*
