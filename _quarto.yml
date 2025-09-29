@@ -1,5 +1,18 @@
 project:
   type: website
+  render:
+    - index.qmd
+    - cv.qmd
+    - publications.qmd
+    - presentations.qmd
+    - projects.qmd
+    - misc.qmd
+    - links.qmd
+    - posts/
+
+resources:
+  - assets/
+  - posts/
 
 website:
   title: "Jun Yamamoto"
