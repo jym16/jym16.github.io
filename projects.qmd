@@ -13,7 +13,7 @@ Under construction...
 ## Physical Networks
 
 Physical networks are networks of tangible objects, in which nodes and edges are embedded in physical space and subject to constraints such as volume exclusion [[@dehmamy2018structural]]. 
-Examples include biological neural networks, vascular systems, porous media, and granular materials [[@blagojevic2024three]].
+Examples include biological neural networks, vascular systems, porous media, and granular materials.
 Advances in imaging technologies and accelerated reconstruction by ML/AI have recently made it possible to obtain detailed three-dimensional maps of such complex systems, providing new opportunities for studying physical networks.
 
 In recent years, the physical embedding of networks has been shown to give rise to emergent phenomena, including entanglement [[@liu2021isotopy], [@glover2024measuring]], bundling [@bonamassa2024logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical].
