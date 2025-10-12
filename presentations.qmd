@@ -62,7 +62,7 @@ March 15, 2022.
 
 **Jun Yamamoto**\* and Kousuke Yakubo. 
 "Multifractality of scale-free networks." 
-The Physical Society of Japan, JPS 2021 Autumn Meeting, 
+The Physical Society of Japan 76th Annual Meeting, 
 September 20, 2021.
 \[[abstract](./assets/files/abstract/jps2021autumn_abstract.pdf)\]
 \[[slides](./assets/files/slides/jps2021autumn.pdf)\]
