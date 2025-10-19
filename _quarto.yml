@@ -9,10 +9,12 @@ project:
     - misc.qmd
     - links.qmd
     - posts/
+    - projects/
 
 resources:
   - assets/
   - posts/
+  - projects/
 
 website:
   title: "Jun Yamamoto"

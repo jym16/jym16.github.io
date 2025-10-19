@@ -1,0 +1,56 @@
+---
+layout: default
+permalink: /projects/bifractal-nets
+title: "Bifractal Networks"
+description: "Apr 2021 --- Present"
+year: 2022
+bibliography:
+  - reference.bib
+---
+
+A network is *fractal* (with respect to shortest-path lengths) if the minimum number of subgraphs (boxes) of diameter $l_{\textup{B}}$ required to cover the network scales as
+\begin{equation}
+  N_{\textup{B}}(l_{\textup{B}}) \sim l_{\textup{B}}^{-D_{\textup{f}}}
+\end{equation}
+where $D_{\textup{f}}$ is the fractal dimension of the network [@song2005self]. 
+In fractal networks, the average path lengths also scales as the power of the network size, 
+\begin{equation}
+  \langle l \rangle \sim N^{1/D_{\textup{f}}}.
+\end{equation}
+While many empirical networks exhibit the *small-world* property, where the average path lengths scales logarithmically with the number of nodes (corresponding to the absence of characteristic scales, i.e., $D_{\textup{f}} \to \infty$), the fractal property can still hold at length scales shorter than the network's characteristic size. 
+Detecting this scaling through shortest paths, however, is often challenging because most real networks lack a sufficiently large diameter.
+
+Fractal networks are of particular interest because their structure gives rise to distinctive features, such as long-range degree correlations manifested in *hub repulsion* [@rozenfeld2008fractal].
+
+::: {.callout-note title="Bifractality"}
+
+When scale-free and fractal properties coexist, a broad class of networks exhibits *bifractality*, characterized by two distinct local fractal dimensions, $d_{\textup{f}}^{\min}$ and $d_{\textup{f}}^{\max}$ that depend on position within the network [@yamamoto2023bifractality].
+In particular, consider a fractal scale-free network in which, under renormalization, the number of nodes $\nu_{\textup{B}}$ in a supernode (subgraph) of diameter $l_{\textup{B}}$ is proportional to the degree $k_{\textup{B}}$ of that supernode (i.e., the number of adjacent subgraphs):
+\begin{equation}
+  \nu_{\textup{B}} \propto k_{\textup{B}}.
+\end{equation}
+Under this condition, the network exhibits two local fractal dimensions (equivalently, Hölder exponents):
+\begin{equation}
+    d_{\textup{f}}^{\max} = D_{\textup{f}}, \quad d_{\textup{f}}^{\min} = D_{\textup{f}} \left(\frac{\gamma-2}{\gamma-1}\right),
+\end{equation}
+where $\gamma$ is the exponent of the degree distribution and $D_{\textup{f}}$ is the global fractal dimension of the network.
+
+Extensive analytical and numerical calculations for both deterministic and stochastic models suggest that this proportionality condition holds broadly across fractal scale-free networks. 
+We therefore conjecture that bifractality is a general property of fractal scale-free networks.
+
+For details, see [@yamamoto2023bifractality].
+
+:::
+
+::: {.callout-tip title="Random walks on bifractal networks"}
+
+Building on the bifractality conjecture, we studied the walk and spectral dimensions of random walks on fractal scale-free networks. 
+We found that the walk dimension $d_{\textup{w}}$, which characterizes how the mean topological displacement of random walkers scales, remains constant across the network and does not depend on position.
+
+In contrast, the spectral dimension, which governs the scaling of the return probability of a random walker, splits into two distinct values, $d_{\textup{s}}^{\min}$ and $d_{\textup{s}}^{\max}$. 
+This positional dependence arises directly from the network’s bifractal structure.
+
+For details, see [@yakubo2024random].
+
+:::
+

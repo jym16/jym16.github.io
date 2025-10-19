@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: /projects/phys-nets
+title: "Physical Networks"
+description: "Oct 2023 --- Present"
+year: 2024
+bibliography:
+  - reference.bib
+---
+
+Physical networks are networks of tangible objects, in which nodes and edges are embedded in physical space and subject to constraints such as volume exclusion [[@dehmamy2018structural]]. 
+Examples include biological neural networks, vascular systems, porous media, and granular materials.
+Advances in imaging technologies and accelerated reconstruction by ML/AI have recently made it possible to obtain detailed three-dimensional maps of such complex systems, providing new opportunities for studying physical networks.
+
+In recent years, the physical embedding of networks has been shown to give rise to emergent phenomena, including entanglement [[@liu2021isotopy], [@glover2024measuring]], bundling [@bonamassa2024logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical].
+
+For my PhD thesis, I am exploring the spectral and topological properties of physical networks, as well as the dynamical processes that unfold on them.
+
+::: {.callout-note title="Localization"}
+
+Coming soon...
+
+:::
+
+::: {.callout-tip title="Synchronization"}
+
+Coming soon...
+
+:::
+
+::: {.callout-important title="Magnetization"}
+
+Coming soon...
+
+:::
+
+::: {.callout-warning title="Entanglement"}
+
+Coming soon...
+
+:::

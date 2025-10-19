@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /projects/triadic-nets
+title: "Triadic Interactions"
+description: "Oct 2022 --- Present"
+year: 2023
+bibliography:
+  - reference.bib
+---
+
+Triadic interactions are higher-order, three-body interactions in which a node modulates the edge between two other nodes. 
+Such interactions are reported in various real-world systems; for example,  glia cells in the brain regulate synaptic connectivity between neurons. 
+
+::: {.callout-note title="Langevin dynamics on networks with triadic interactions"}
+
+To investigate how triadic interactions affect dynamics, we studied Langevin dynamics on networks incorporating triadic interactions under Gaussian noise. 
+Our results show that these interactions generate conditional correlations and conditional mutual information among the three participating nodes, which in turn reveal both the strength and direction of the triadic interactions.
+
+We further applied this framework as a null model to identify potential triadic interactions in gene regulatory networks.
+
+For details, see [@baptista2024mining].
+
+:::
