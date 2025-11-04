@@ -17,8 +17,8 @@ In fractal networks, the average path lengths also scales as the power of the ne
 \begin{equation}
   \langle l \rangle \sim N^{1/D_{\textup{f}}}.
 \end{equation}
-While many empirical networks exhibit the *small-world* property, where the average path lengths scales logarithmically with the number of nodes (corresponding to the absence of characteristic scales, i.e., $D_{\textup{f}} \to \infty$), the fractal property can still hold at length scales shorter than the network's characteristic size. 
-Detecting this scaling through shortest paths, however, is often challenging because most real networks lack a sufficiently large diameter.
+While many empirical networks exhibit the *small-world* property, where the average path lengths scales logarithmically with the number of nodes, the fractal property can still hold at length scales shorter than the network's characteristic size. 
+Detecting this scaling through shortest paths, however, is often challenging as most real networks do not have a sufficiently large diameter.
 
 Fractal networks are of particular interest because their structure gives rise to distinctive features, such as long-range degree correlations manifested in *hub repulsion* [@rozenfeld2008fractal].
 
