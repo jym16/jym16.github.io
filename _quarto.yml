@@ -70,8 +70,8 @@ website:
         text: "Presentations"
       - href: projects.qmd
         text: "Projects"
-      - href: misc.qmd
-        text: "Misc"
+      # - href: misc.qmd
+      #   text: "Misc"
       - href: links.qmd
         text: "Links"
 
