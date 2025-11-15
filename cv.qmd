@@ -10,7 +10,7 @@ title: "Curriculum Vitae"
 **PhD in Network Science**  
 *Department of Network and Data Science, Central European University
 (Vienna, Austria)*  
-— GPA: 4.0/4.0 (as of 2025/09)  
+— GPA: 4.0/4.0 (as of 2025/11)  
 — Supervisor: Prof. Márton Pósfai, Prof. János Kertész  
 — Dissertation: *Toward a general theory for physical network dynamics* (in progress)
 
