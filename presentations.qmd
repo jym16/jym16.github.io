@@ -11,11 +11,6 @@ bibliography:
 
 #### 2025
 
-Shogo Mizutaka\*, **Jun Yamamoto**, and Kousuke Yakubo. 
-"Long-range degree correlations and fractal property of random networks." 
-The Physical Society of Japan 80th Annual Meeting,
-September 16, 2025.
-
 **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
 "Localization-delocalization transition in physical networks."
 The 29th International Conference on Statistical Physics,
@@ -27,27 +22,6 @@ July 14, 2025.
 The International School and Conference on Network Science, 
 June 4, 2025.
 \[[abstract](./assets/files/abstract/netsci2025_abstract.pdf)\]
-
-Marta Niedostatek\*, Anthony Baptista, **Jun Yamamoto**, Ben MacArthur, Jürgen Kurths, Ruben Sanchez-Garcia, Ginestra Bianconi.
-"Mining higher-order triadic interactions in gene-expression data."
-The International School and Conference on Network Science, 
-June 4, 2025.
-\[[abstract](./assets/files/abstract/netsci2025_abstract_triadic.pdf)\]
-
-#### 2024
-
-Marta Niedostatek\*, Anthony Baptista, **Jun Yamamoto**, Ben MacArthur, Jürgen Kurths, Ruben Sanchez-Garcia, Ginestra Bianconi.
-"Mining higher-order triadic interactions in gene-expression data."
-The Conference on Complex Systems 2024, 
-September 5, 2024.
-
-#### 2023
-
-Gentaro Shimojo\*, **Jun Yamamoto**, and Kousuke Yakubo.
-"Anomalous diffusion with two spectral dimensions on a fractal scale-free　network."
-The Physical Society of Japan 79th Annual Meeting,
-September 16, 2023. 
-\[[abstract (ja)](./assets/files/abstract/jps2023autumn_abstract.pdf)\]
 
 #### 2022
 
@@ -68,14 +42,6 @@ September 20, 2021.
 \[[slides](./assets/files/slides/jps2021autumn.pdf)\]
 
 ### Posters
-
-#### 2024
-
-Kousuke Yakubo\* and **Jun Yamamoto**. 
-"Bifractal property of scale-free networks." 
-The International School and Conference on
-Network Science, July 2024.
-\[[abstract](./assets/files/abstract/netsci2024_abstract.pdf)\]
 
 #### 2022
 

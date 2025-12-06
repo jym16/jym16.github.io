@@ -11,11 +11,12 @@ bibliography: _bibliography/papers.bib
 "Localization-delocalization transition in physical networks."
 In preparation.
 
-### Preprints
+### 2025
 
 Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi. 
 "Mining higher-order triadic interactions."
-arXiv:2404.14997 (2024). 
+Nature Commununications (2025).
+\[[paper](https://doi.org/10.1038/s41467-025-66577-z)]
 \[[arXiv](https://doi.org/10.48550/arXiv.2404.14997)\]
 
 ### 2024
@@ -31,7 +32,7 @@ Physical Review E **110**, 064318 (2024).
 **Jun Yamamoto**. 
 "Modelling Higher-Order Network Dynamics in Presence of Triadic Interactions."
 Master Dissertation, Queen Mary University of London (2023). 
-\[[pdf](./assets/files/thesis/MSc_dissertation.pdf)\]
+<!-- \[[pdf](./assets/files/thesis/MSc_dissertation.pdf)\] -->
 
 **Jun Yamamoto** and Kousuke Yakubo. 
 "Bifractality of fractal scale-free networks."
@@ -44,4 +45,4 @@ Physical Review E **108**, 024302 (2023).
 **Jun Yamamoto**. 
 "Bifractality of fractal scale-free networks."
 Bachelor Thesis, Hokkaido University (2022).
-\[[pdf](./assets/files/thesis/BEng_thesis.pdf)\]
+<!-- \[[pdf](./assets/files/thesis/BEng_thesis.pdf)\] -->
