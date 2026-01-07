@@ -27,7 +27,7 @@ To investigate how triadic interactions affect dynamics, we studied Langevin dyn
 \begin{align}
   d\mathbf{X} = - (\mathbf{L}^{\textrm{(T)}} + \alpha \mathbf{I}) \mathbf{X} dt + \mathbf{\Gamma} d\mathbf{W}_{t}
 \end{align}
-where $d\mathbf{W}_{t}$ is the standard Brownian process and $\mathbf{L}^{\textrm{(T)}}$ is the triadic Laplacian 
+where $d\mathbf{W}_{t}$ is the $|V|$-dimensional Wiener process and $\mathbf{L}^{\textrm{(T)}}$ is the triadic Laplacian 
 \begin{align}
   L_{ij}^{\textrm{(T)}} (\mathbf{X}) &= \left(\sum_{k} J_{i k} (\mathbf{X}) \right) \delta_{ij} - J_{ij} (\mathbf{X})\\
   J_{ij}(\mathbf{X}; \hat{T}) &= w_{-} + (w_{+} - w_{-}) \theta\left(\sum_{k} K_{[i,j] k} X_{k} - \hat{T} \right)

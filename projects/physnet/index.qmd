@@ -12,9 +12,13 @@ Physical networks are networks of tangible components, in which nodes and edges 
 Examples include biological neural networks, vascular systems, porous media, and granular materials.
 Advances in imaging technologies and accelerated 3D reconstruction by ML/AI have enabled to obtain detailed three-dimensional maps of such complex systems, providing new opportunities to study general organizing principles for tangible complex systems.
 
-In recent years, the physical embedding of networks has been shown to give rise to emergent phenomena, including entanglement [[@liu2021isotopy, @glover2024measuring]], bundling [@bonamassa2024logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical].
+While the physical layout of networks has been shown to give rise to emergent structural properties, such as entanglement [[@liu2021isotopy, @glover2024measuring]], bundling [@bonamassa2025logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical], it remains elusive how these would impact dynamical processes that unfold on physical networks.
 
-For my PhD thesis, I am exploring the spectral and topological properties of physical networks and their dynamical implications.
+For my PhD thesis, I am exploring the spectral and topological properties of physical networks and their dynamical implications through *physical Laplacian*, a vertex-weighted graph Laplacian for physical networks derived in [@pete2024physical]
+\begin{align}
+  \mathbf{Q}_{\textrm{P}} = \mathbf{V}^{-1/2} \mathbf{Q}_{\textrm{G}} \mathbf{V}^{-1/2}
+\end{align}
+where $\mathbf{G_{\textrm{G}}}$ is the combinatorial graph Laplacian and $\mathbf{V}=\mathrm{diag}(v_1, \dots, v_{N})$ is the diagonal volume matrix.
 
 ::: {.callout-note title="Localization"}
 
