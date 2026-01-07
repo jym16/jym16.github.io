@@ -15,7 +15,7 @@ In preparation.
 
 Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi. 
 "Mining higher-order triadic interactions."
-Nature Commununications (2025).
+Nature Commununications **16**, 11613 (2025).
 \[[paper](https://doi.org/10.1038/s41467-025-66577-z)]
 \[[arXiv](https://doi.org/10.48550/arXiv.2404.14997)\]
 

@@ -45,8 +45,8 @@ html:
 
 I am a PhD candidate in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria. My research interests lie in the statistical physics of complex networks.
 
-I am working on spectral, topological, and dynamical aspects of **physical networks**, _i.e._, networks consisting of tangible nodes and edges that are embedded in Euclidean space.
-In particular, my PhD project is centered around the spectral properties of **physical Laplacians** formulated as node-weighted graph Laplacians that incorporate the physicality of nodes into combinatorial graph Laplacian, under the assumption of time scale separation between the internal and external dynamics of physical nodes.
+I am working on spectral, topological, and dynamical aspects of **physical networks**, consisting of tangible nodes and edges that are embedded in Euclidean space under physical constraints.
+In particular, my PhD project is centered around the spectral properties of **physical Laplacians** formulated as vertex-weighted graph Laplacians that incorporate the physicality of nodes into combinatorial graph Laplacian through vertex weights, under dynamic time scale separation ansatz for internal and external dynamics of physical nodes.
 The ongoing projects include **eigenmode delocalization** in physical Laplacians and **synchronization** in networks of spin Hall nano-oscillators. 
 I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai) and Prof. [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz).
 

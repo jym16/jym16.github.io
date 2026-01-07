@@ -12,8 +12,7 @@ title: "Links"
     [School of Mathematical Sciences](https://www.qmul.ac.uk/maths/)
 - [Hokkaido University](https://www.global.hokudai.ac.jp/) |
     [Division of Applied Physics](https://applphys.net/diven/) |
-    [Laboratory of Condensed Matter
-    Physics](https://subutu-ap.eng.hokudai.ac.jp/index.html)
+    [Laboratory of Condensed Matter Physics](https://subutu-ap.eng.hokudai.ac.jp/index.html)
 
 #### [Societies]
 
@@ -30,6 +29,7 @@ title: "Links"
 - [Prof. János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz)
 - [Prof. Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html)
 - [Prof. Albert-László Barabási](https://barabasi.com/)
+- [Prof. Johan Akerman](http://www.akermanlab.com/)
 - [Prof. Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)
 - [Prof. Shogo Mizutaka](https://mizutaka.cis.ibaraki.ac.jp/)
 - [Prof. Takehisa Hasegawa](https://takehisahasegawa.sci.ibaraki.ac.jp/)

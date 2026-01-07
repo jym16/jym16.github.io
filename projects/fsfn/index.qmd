@@ -8,7 +8,7 @@ bibliography:
   - reference.bib
 ---
 
-A network is *fractal* (with respect to shortest-path lengths) if the minimum number of subgraphs (boxes) of diameter $l_{\textup{B}}$ required to cover the network scales as
+A network is *fractal* with respect to shortest-path lengths, if the minimum number of subgraphs (boxes) of diameter $l_{\textup{B}}$ required to cover the network scales as
 \begin{equation}
   N_{\textup{B}}(l_{\textup{B}}) \sim l_{\textup{B}}^{-D_{\textup{f}}}
 \end{equation}
