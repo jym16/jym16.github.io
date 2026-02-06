@@ -8,8 +8,8 @@ project:
     - projects.qmd
     - misc.qmd
     - links.qmd
-    - posts/
-    - projects/
+    # - posts/
+    # - projects/
 
 resources:
   - assets/

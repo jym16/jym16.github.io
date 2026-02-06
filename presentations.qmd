@@ -43,18 +43,25 @@ September 20, 2021.
 
 ### Posters
 
+#### Upcoming
+
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"When node volume matters: Spectral transitions in physical Laplacians"
+The Network Science Seminar AY2025/26 in Kyoto, 
+February 17-20, 2026.
+
 #### 2022
 
 **Jun Yamamoto**\*, Gentaro Shimojo, and Kousuke Yakubo. 
 "Bifractal nature of fractal scale-free networks and its implications." 
-The Network Science Seminar 2022 in Kyoto, 
+The Network Science Seminar AY2022/23 in Kyoto, 
 August 23-25, 2022.
 
 #### 2021
 
 **Jun Yamamoto**\* and Kousuke Yakubo. 
 "Bifractality of scale-free networks." 
-The Network Science Seminar 2021 in Kanawaza,
+The Network Science Seminar AY2021/22 in Kanazawa,
 December 11-12, 2021. 
 *Poster Award*.
 
