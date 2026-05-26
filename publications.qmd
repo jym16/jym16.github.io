@@ -3,46 +3,48 @@ layout: default
 permalink: /publications
 title: "Publications"
 bibliography: _bibliography/papers.bib
+page-layout: full
 ---
 
-### In Preparation
+## In Preparation
 
 **Jun Yamamoto**, Ivan Bonamassa, M. Posfai 
 "Localization-delocalization transition in physical networks."
-In preparation.
 
-### 2025
 
-Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi. 
+## Journal articles
+
+
+[3] Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi. 
 "Mining higher-order triadic interactions."
 Nature Commununications **16**, 11613 (2025).
-\[[paper](https://doi.org/10.1038/s41467-025-66577-z)]
+\[[paper](https://doi.org/10.1038/s41467-025-66577-z)\]
 \[[arXiv](https://doi.org/10.48550/arXiv.2404.14997)\]
+\[[code](https://github.com/anthbapt/trim)\]
 
-### 2024
-
-Kousuke Yakubo, Gentaro Shimojo, **Jun Yamamoto**. 
+[2] Kousuke Yakubo, Gentaro Shimojo, **Jun Yamamoto**. 
 "Random walks on bifractal networks."
 Physical Review E **110**, 064318 (2024).
 \[[paper](https://doi.org/10.1103/PhysRevE.110.064318)\]
 \[[arXiv](https://doi.org/10.48550/arXiv.2407.16183)\]
 
-### 2023
-
-**Jun Yamamoto**. 
-"Modelling Higher-Order Network Dynamics in Presence of Triadic Interactions."
-Master Dissertation, Queen Mary University of London (2023). 
-<!-- \[[pdf](./assets/files/thesis/MSc_dissertation.pdf)\] -->
-
-**Jun Yamamoto** and Kousuke Yakubo. 
+[1] **Jun Yamamoto** and Kousuke Yakubo. 
 "Bifractality of fractal scale-free networks."
 Physical Review E **108**, 024302 (2023).
 \[[paper](https://doi.org/10.1103/PhysRevE.108.024302)\]
 \[[arXiv](https://doi.org/10.48550/arXiv.2304.13438)\]
 
-### 2022
 
-**Jun Yamamoto**. 
+
+## Theses
+
+
+[MSc] **Jun Yamamoto**. 
+"Modelling higher-order network dynamics in presence of triadic interactions."
+Master Dissertation, Queen Mary University of London (2023). 
+<!-- \[[pdf](./assets/files/thesis/MSc_dissertation.pdf)\] -->
+
+[BEng] **Jun Yamamoto**. 
 "Bifractality of fractal scale-free networks."
 Bachelor Thesis, Hokkaido University (2022).
 <!-- \[[pdf](./assets/files/thesis/BEng_thesis.pdf)\] -->

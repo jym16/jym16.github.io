@@ -2,19 +2,19 @@ project:
   type: website
   render:
     - index.qmd
-    - cv.qmd
+    - research.qmd
     - publications.qmd
-    - presentations.qmd
-    - projects.qmd
-    - misc.qmd
+    - talks.qmd
+    # - cv.qmd
+    # - misc.qmd
     - links.qmd
     # - posts/
     # - projects/
 
 resources:
   - assets/
-  - posts/
-  - projects/
+  # - posts/
+  # - projects/
 
 website:
   title: "Jun Yamamoto"
@@ -28,23 +28,21 @@ website:
   search:
     type: overlay
 
-  twitter-card: 
-    site: "@__jymmt__"
-
   page-footer:
     left:
       - text: "Powered by Quarto"
     center:
-      - text: "2025 Copyright © Jun Yamamoto"
+      - text: "2026 Copyright © Jun Yamamoto"
     right:
       - icon: envelope
         href: mailto:jun.j.yamamoto@gmail.com
         aria-label: Email
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=ILnN9b4AAAAJ
+        aria-label: Google Scholar
       - icon: github
         href: https://github.com/jym16
         aria-label: GitHub
-      - icon: globe
-        href: https://jym16.github.io/
 
   navbar:
     logo: assets/images/logo.png
@@ -54,24 +52,22 @@ website:
     tools:
       - icon: envelope
         href: mailto:jun.j.yamamoto@gmail.com
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=ILnN9b4AAAAJ
       - icon: github
         href: https://github.com/jym16/jym16.github.io
-      - icon: globe
-        href: https://jym16.github.io/
   
     left:
       - file: index.qmd
         text: "Home"
-      - href: cv.qmd
-        text: "CV"
+      - href: research.qmd
+        text: "Research"
       - href: publications.qmd
         text: "Publications"
-      - href: presentations.qmd
-        text: "Presentations"
-      - href: projects.qmd
-        text: "Projects"
-      # - href: misc.qmd
-      #   text: "Misc"
+      - href: talks.qmd
+        text: "Talks"
+      - href: assets/cv_jyamamoto.pdf
+        text: "CV"
       - href: links.qmd
         text: "Links"
 

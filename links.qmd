@@ -14,9 +14,10 @@ title: "Links"
     [Division of Applied Physics](https://applphys.net/diven/) |
     [Laboratory of Condensed Matter Physics](https://subutu-ap.eng.hokudai.ac.jp/index.html)
 
-#### [Societies]
+#### [Communities]
 
 - [Network Science Society](https://www.netscisociety.net/home)
+- [American Physical Society](https://www.aps.org/)
 - [Austrian Physical Society](https://oepg.at/en)
 - [日本物理学会 (Japanese Physical Society)](https://www.jps.or.jp/)
 - [ネットワーク科学研究会 (Japanese Network Science Society)](https://www.network-science-seminar.com/)
@@ -29,7 +30,7 @@ title: "Links"
 - [Prof. János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz)
 - [Prof. Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html)
 - [Prof. Albert-László Barabási](https://barabasi.com/)
-- [Prof. Johan Akerman](http://www.akermanlab.com/)
+- [Prof. Johan Åkerman](http://www.akermanlab.com/)
 - [Prof. Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)
 - [Prof. Shogo Mizutaka](https://mizutaka.cis.ibaraki.ac.jp/)
 - [Prof. Takehisa Hasegawa](https://takehisahasegawa.sci.ibaraki.ac.jp/)

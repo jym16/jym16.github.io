@@ -32,3 +32,108 @@
 
 @import "fontawesome";
 @import "fontawesome/fontawesome-free/js/brands";
+
+// url("../fonts/...")
+
+/* ============================================================
+   Typography: serif-first academic style
+   ============================================================ */
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --serif: Times, "Times New Roman", "STIX Two Text", serif;
+  --mono: "JuliaMono", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+/* Main text */
+html,
+body {
+  font-family: var(--serif);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  line-height: 1.25;
+  font-size: 18px;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+.quarto-title h1,
+.quarto-title h2,
+.quarto-title h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  letter-spacing: 0.0em;
+}
+
+/* Navbar and menus */
+.navbar,
+.navbar-brand,
+.navbar-title,
+.navbar-nav,
+.navbar-nav .nav-link,
+.navbar .dropdown-menu,
+.navbar .dropdown-item,
+.quarto-navbar-tools,
+.quarto-navigation-tool {
+  font-family: var(--serif);
+}
+
+/* Buttons and small UI elements */
+.btn,
+.button,
+.button-link,
+.sidebar,
+.sidebar nav,
+.toc-active,
+#TOC,
+.quarto-listing,
+.quarto-categories,
+.quarto-category {
+  font-family: var(--serif);
+}
+
+/* Code should remain monospace */
+code,
+pre,
+kbd,
+samp,
+.sourceCode {
+  font-family: var(--mono);
+}

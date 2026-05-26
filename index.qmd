@@ -1,14 +1,11 @@
 ---
 layout: default
+page-layout: full
 permalink: /
 
 title: "Jun Yamamoto"
 subtitle: PhD candidate in Network Science <br> Department of Network and Data Science, Central European University
 image: assets/images/prof_pic.jpeg
-format:
-  html:
-    grid:
-      body-width: 1000px
 about:
   id: profile
   template: solana
@@ -30,9 +27,9 @@ about:
     - text: '{{< fa brands bluesky >}}'
       href: "https://bsky.app/profile/jymmt.bsky.social"
       aria-label: "BlueSky logo"
-    - text: '{{< fa brands twitter >}}'
-      href: "https://twitter.com/__jymmt__"
-      aria-label: "Twitter logo"
+    # - text: '{{< fa brands twitter >}}'
+    #   href: "https://twitter.com/__jymmt__"
+    #   aria-label: "Twitter logo"
     - text: '{{< fa brands linkedin >}}'
       href: "https://www.linkedin.com/in/jun-yamamoto-579916199"
       aria-label: "LinkedIn logo"
@@ -43,23 +40,20 @@ html:
 ::: {#profile}
 :::
 
-I am a PhD candidate in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna, Austria. My research interests lie in the statistical physics of complex networks, with particular focus on the **coarse-graining** of network structure and dynamics.
+I am a PhD candidate in Network Science in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna. 
+My research develops analytical and numerical methods for complex networks whose effective structure is shaped not only by adjacency, but also by physical node volumes, spatial embedding, and multiscale organization.
 
-I am currently working on spectral, topological, and dynamical aspects of **physical networks**, consisting of tangible nodes and edges that are embedded in Euclidean space under physical constraints.
-My PhD project is centered around the spectral properties of **physical Laplacians** formulated as vertex-weighted graph Laplacians that incorporate the physicality of nodes into combinatorial graph Laplacian through vertex weights, under dynamic time scale separation ansatz for internal and external dynamics of physical nodes.
-The ongoing projects include **eigenmode delocalization** in physical Laplacians and **synchronization** in networks of spin Hall nano-oscillators. 
+The ongoing projects at CEU include **eigenmode delocalization** in physical Laplacians and **modular synchronization** in networks of spin Hall nano-oscillators. 
 I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai) and Prof. [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz).
 
-
-Prior to my PhD, I earned an MSc in Mathematics at [Queen Mary University of London](https://www.qmul.ac.uk/), where I worked with Prof. [Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html) on *higher-order network dynamics with triadic interactions*.
-I hold a BEng in Applied Physics from [Hokkaido University](https://www.global.hokudai.ac.jp/) in Sapporo, Japan, where my thesis, supervised by Prof. [Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en), explored the *bifractal properties of fractal scale-free networks*.
 
 
 ※日本語のプロファイルは[こちら](https://researchmap.jp/jun_yamamoto)を参照して下さい．
 
-:::: {.grid}
+::::{.grid}
 
 ::: {.g-col-12 .g-col-md-8 style="text-align: left;"}
+
 ## Education
 
 - **PhD in Network Science**, In progress. <br> 
@@ -76,13 +70,32 @@ I hold a BEng in Applied Physics from [Hokkaido University](https://www.global.h
 :::
 
 ::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
+
 ## Interests
 
 - Complex networks
-- Coarse-graining/renormalization of complex networks
+- Network coarse-graining
 - Laplacian dynamics
 - Network physicality
+- Multi-scale organization & scale-invariance
+
+:::
+
+::: {.g-col-12 style="text-align: left;"}
+
+## News
+
+- **2026-06-15**: I will be visiting the [Barabasi Lab](https://barabasilab.com/) at Northeastern University in Boston, USA, for a research stay as an [Accelnet-Multinet fellow](https://www.accelnet-multinet.org/).
+
+- **2026-02-17**: I presented a poster on "When node volume matters: Spectral transitions in physical Laplacians" at the [Network Science Seminar AY2025/26](https://www.network-science-seminar.com/activities/2025) in Kyoto, Japan.
+
+- **2026-02-16**: I visited the [Åkerman Lab](http://www.akermanlab.com/) at Tohoku University in Sendai, Japan.
+
+- **2026-02-10**~**2026-02-13**: I visited the [Hasegawa Lab](https://takehisahasegawa.sci.ibaraki.ac.jp/) and [Mizutaka Lab](https://mizutaka.cis.ibaraki.ac.jp/) at Ibaraki University in Mito, Japan.
+
+- **2026-02-09**: I visited the [Nakao Lab](https://www.k.sc.e.titech.ac.jp/) at the Science Tokyo. 
 
 :::
 
 ::::
+

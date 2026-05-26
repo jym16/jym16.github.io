@@ -1,0 +1,81 @@
+---
+layout: default
+permalink: /talks
+title: "Talks"
+bibliography:
+  - _bibliography/talks.bib
+  - _bibliography/posters.bib
+page-layout: full
+---
+
+A subset of talks and posters that I have given at conferences.
+
+### Conference talks
+
+1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"Localization-delocalization transition in physical networks."
+The 29th International Conference on Statistical Physics,
+July 14, 2025.
+\[[abstract](./assets/files/abstract/statphys29_abstract.pdf)\]
+
+2. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai. 
+"Delocalization of Physical Laplacian Eigenvectors due to Degree-Volume Correlation."
+The International School and Conference on Network Science, 
+June 4, 2025.
+\[[abstract](./assets/files/abstract/netsci2025_abstract.pdf)\]
+
+3. **Jun Yamamoto**\* and Kousuke Yakubo. 
+"Bifractal property of stochastic scale-free networks." 
+The Physical Society of Japan 77th Annual Meeting,
+March 15, 2022.
+\[[abstract](./assets/files/abstract/jps2022spring_abstract.pdf)\]
+\[[slides](./assets/files/slides/jps2022spring.pdf)\]
+
+4. **Jun Yamamoto**\* and Kousuke Yakubo. 
+"Multifractality of scale-free networks." 
+The Physical Society of Japan 76th Annual Meeting, 
+September 20, 2021.
+\[[abstract](./assets/files/abstract/jps2021autumn_abstract.pdf)\]
+\[[slides](./assets/files/slides/jps2021autumn.pdf)\]
+
+### Conference posters
+
+1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"When node volume matters: Spectral transitions in physical Laplacians."
+The Network Science Seminar AY2025/26 in Kyoto, 
+February 17-20, 2026.
+
+2. **Jun Yamamoto**\*, Gentaro Shimojo, and Kousuke Yakubo. 
+"Bifractal nature of fractal scale-free networks and its implications." 
+The Network Science Seminar AY2022/23 in Kyoto, 
+August 23-25, 2022.
+
+3. **Jun Yamamoto**\* and Kousuke Yakubo. 
+"Bifractality of scale-free networks." 
+The Network Science Seminar AY2021/22 in Kanazawa,
+December 11-12, 2021. 
+*Poster Award*.
+
+### Seminar talks
+
+1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"Eigenmode Localization in Physical Network Laplacians
+and Its Implications for Synchronization."
+Group seminar at the Nakao Lab, Science Tokyo,
+February 9, 2026.
+
+2. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"Physical Networks as Network-of-Networks."
+ネットワーク科学勉強会,
+May 25, 2025 (Online).
+
+3. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"Reentrant localization in physical Laplacian eigenvectors."
+DYNASNET workshop on graphs, networks, and brains,
+May 13, 2025 (Budapest, Hungary).
+
+4. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+"Laplacian Spectra and Angular Constraints in Physical Networks."
+Annual DYNASNET Meeting,
+October 16, 2024 (Valtice, Czech).
+
