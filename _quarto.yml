@@ -6,7 +6,7 @@ project:
     - publications.qmd
     - talks.qmd
     # - cv.qmd
-    # - misc.qmd
+    - misc.qmd
     - links.qmd
     # - posts/
     # - projects/
@@ -55,7 +55,7 @@ website:
       - icon: mortarboard
         href: https://scholar.google.com/citations?user=ILnN9b4AAAAJ
       - icon: github
-        href: https://github.com/jym16/jym16.github.io
+        href: https://github.com/jym16/
   
     left:
       - file: index.qmd
@@ -68,6 +68,8 @@ website:
         text: "Talks"
       - href: assets/cv_jyamamoto.pdf
         text: "CV"
+      - href: misc.qmd
+        text: "Misc."
       - href: links.qmd
         text: "Links"
 

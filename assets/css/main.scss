@@ -74,6 +74,15 @@
 :root {
   --serif: Times, "Times New Roman", "STIX Two Text", serif;
   --mono: "JuliaMono", "SFMono-Regular", Menlo, Consolas, monospace;
+  --ink: #14213d;
+  --text: #202124;
+  --muted: #5f6673;
+  --accent: #2454c6;
+  --accent-soft: #e9eefc;
+  --line: #e5e7eb;
+  --card: #ffffff;
+  --card-soft: #f8f9fb;
+  --warm: #f6f2ec;
 }
 
 /* Main text */
@@ -136,4 +145,63 @@ kbd,
 samp,
 .sourceCode {
   font-family: var(--mono);
+}
+
+/* ============================================================
+   Misc page: community service cards
+   ============================================================ */
+
+.misc-page {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.misc-page > p {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.service-card {
+  border: 1px solid rgba(128, 128, 128, 0.28);
+  border-radius: 1rem;
+  padding: 1.15rem 1.25rem;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.service-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+}
+
+.service-card p {
+  margin-bottom: 0.75rem;
+}
+
+.service-link {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.service-link::after {
+  content: " ↗";
+  font-size: 0.9em;
+}
+
+.link-list {
+  max-width: 760px;
+}
+
+@media (max-width: 760px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
 }
