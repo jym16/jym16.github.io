@@ -1,0 +1,84 @@
+/* ============================================================
+   Global typography override
+   Loaded after the main site stylesheet.
+   ============================================================ */
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "STIX Two Text";
+  src: url("../fonts/STIXTwoText-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --jy-serif: "STIX Two Text", "Times New Roman", Times, serif;
+  --jy-mono: "JuliaMono", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+/* Main body */
+html,
+body,
+.quarto-container,
+.content,
+main,
+main p,
+main li,
+main td,
+main th {
+  font-family: var(--jy-serif) !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+.quarto-title h1,
+.quarto-title h2,
+.quarto-title h3,
+.navbar,
+.navbar-brand,
+.navbar-title,
+.navbar-nav,
+.navbar-nav .nav-link,
+.navbar .dropdown-menu,
+.navbar .dropdown-item {
+  font-family: var(--jy-serif) !important;
+}
+
+/* Code remains monospace */
+code,
+pre,
+kbd,
+samp,
+.sourceCode {
+  font-family: var(--jy-mono) !important;
+}

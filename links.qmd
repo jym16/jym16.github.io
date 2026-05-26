@@ -1,35 +1,101 @@
 ---
 title: "Links"
+description: "A collection of links to institutional affiliations, academic communities, and collaborators."
+page-layout: full
+css: assets/css/links.css
 ---
 
-#### [Affiliations]
+::: {.links-page}
 
-- [Central European University](https://www.ceu.edu/) | [Department
-    of Network and Data Science](https://networkdatascience.ceu.edu/)
-- [Queen Mary University of London](https://www.qmul.ac.uk/) |
-    [School of Mathematical Sciences](https://www.qmul.ac.uk/maths/)
-- [Hokkaido University](https://www.global.hokudai.ac.jp/) |
-    [Division of Applied Physics](https://applphys.net/diven/) |
-    [Laboratory of Condensed Matter Physics](https://subutu-ap.eng.hokudai.ac.jp/index.html)
+## Affiliations
 
-#### [Communities]
+::: {.links-grid}
 
-- [Network Science Society](https://www.netscisociety.net/home)
-- [American Physical Society](https://www.aps.org/)
-- [Austrian Physical Society](https://oepg.at/en)
-- [日本物理学会 (Japanese Physical Society)](https://www.jps.or.jp/)
-- [ネットワーク科学研究会 (Japanese Network Science Society)](https://www.network-science-seminar.com/)
-- [ネットワーク生態学研究会・ネットワーク科学勉強会](https://sites.google.com/view/networkpaperreading/)
-- [ドイツ物理学・応用物理学セミナー (Physics and Applied Physics Seminar in Germany for Japanese Researchers)](https://sites.google.com/site/jpsingermany/home)
+::: {.link-card}
+### Central European University
 
-#### [Mentors & Collaborators]
+Current doctoral affiliation.
 
-- [Prof. Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai)
-- [Prof. János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz)
-- [Prof. Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html)
-- [Prof. Albert-László Barabási](https://barabasi.com/)
-- [Prof. Johan Åkerman](http://www.akermanlab.com/)
-- [Prof. Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)
-- [Prof. Shogo Mizutaka](https://mizutaka.cis.ibaraki.ac.jp/)
-- [Prof. Takehisa Hasegawa](https://takehisahasegawa.sci.ibaraki.ac.jp/)
+::: {.link-list}
+[University](https://www.ceu.edu/)  
+[Department of Network and Data Science](https://networkdatascience.ceu.edu/)
+:::
+:::
 
+::: {.link-card}
+### Queen Mary University of London
+
+MSc affiliation.
+
+::: {.link-list}
+[University](https://www.qmul.ac.uk/)  
+[School of Mathematical Sciences](https://www.qmul.ac.uk/maths/)
+:::
+:::
+
+::: {.link-card}
+### Hokkaido University
+
+Undergraduate affiliation.
+
+::: {.link-list}
+[University](https://www.global.hokudai.ac.jp/)  
+[Division of Applied Physics](https://applphys.net/diven/)  
+[Laboratory of Condensed Matter Physics](https://subutu-ap.eng.hokudai.ac.jp/index.html)
+:::
+:::
+
+:::
+
+## Communities
+
+::: {.links-grid}
+
+::: {.link-card}
+### Network science and complex systems
+
+::: {.link-list}
+[Network Science Society](https://www.netscisociety.net/home)  
+[ネットワーク科学研究会](https://www.network-science-seminar.com/)  
+[ネットワーク科学勉強会](https://sites.google.com/view/networkpaperreading/)
+:::
+:::
+
+::: {.link-card}
+### Physics societies
+
+::: {.link-list}
+[American Physical Society](https://www.aps.org/)  
+[Austrian Physical Society](https://oepg.at/en)  
+[日本物理学会](https://www.jps.or.jp/)
+:::
+:::
+
+::: {.link-card}
+### Japanese researcher communities
+
+::: {.link-list}
+[ドイツ物理学・応用物理学セミナー](https://sites.google.com/site/jpsingermany/home)  
+[Japanese Researchers in Austria mailing list](https://groups.google.com/g/ja-researchers-in-at)  
+[Japanese-Austrian Researcher Network](https://jpn-aut-research.github.io/)
+:::
+:::
+
+:::
+
+## Mentors and collaborators
+
+::: {.person-grid}
+
+- [Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)
+- [Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html)
+- [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai)
+- [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz)
+- [Albert-László Barabási](https://barabasi.com/)
+- [Johan Åkerman](http://www.akermanlab.com/)
+- [Shogo Mizutaka](https://mizutaka.cis.ibaraki.ac.jp/)
+- [Takehisa Hasegawa](https://takehisahasegawa.sci.ibaraki.ac.jp/)
+
+:::
+
+:::

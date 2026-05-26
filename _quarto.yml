@@ -8,13 +8,9 @@ project:
     # - cv.qmd
     - misc.qmd
     - links.qmd
-    # - posts/
-    # - projects/
 
 resources:
   - assets/
-  # - posts/
-  # - projects/
 
 website:
   title: "Jun Yamamoto"
@@ -78,7 +74,9 @@ format:
     theme:
       light: cosmo
       dark: cyborg
-    css: assets/css/main.scss
+    css: 
+      - assets/css/main.scss
+      - assets/css/typography.css
     toc: true
     link-external-newwindow: true
     code-copy: true
