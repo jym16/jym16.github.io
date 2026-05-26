@@ -69,7 +69,7 @@ website:
       - href: assets/cv_jyamamoto.pdf
         text: "CV"
       - href: misc.qmd
-        text: "Misc."
+        text: "Misc"
       - href: links.qmd
         text: "Links"
 

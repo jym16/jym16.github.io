@@ -1,13 +1,12 @@
 ---
+layout: default
+permalink: /misc
 title: "Miscellaneous"
-# subtitle: "Community service, organization, and academic outreach"
-# description: "Community service, scientific organization, and outreach activities."
+description: "Community service, scientific organization, and outreach activities."
 page-layout: full
 ---
 
 ::: {.misc-page}
-
-This page collects selected community-oriented activities and related links.
 
 ## Community service and organization
 
@@ -45,9 +44,12 @@ Data Stories is a department-level seminar and community event series designed t
 
 This initiative aims to connect Japanese researchers based in Austria and to support academic exchange, information sharing, and community building across institutions.
 
+[Mailing list](https://groups.google.com/g/ja-researchers-in-at){.service-link}
+
 [Website](https://jpn-aut-research.github.io/){.service-link}
 :::
 
 :::
 
 :::
+
