@@ -16,34 +16,43 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     permissions:
+      contents: read
       pages: write
       id-token: write
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: pre-release
-      - name: "Build"
-        shell: bash
+          version: 1.6.43
+
+      - name: Render Quarto website
+        run: quarto render --output-dir _site
+
+      - name: Check rendered Misc page
         run: |
-          [ ! -f _quarto.yml ] && echo -e "project:\n  output-dir: _site" > _quarto.yml
-          if grep -q "output-dir: _site" _quarto.yml; then
-            quarto render
-          else
-            quarto render --output-dir _site
-          fi
-      - name: "Configure GitHub Pages"
+          echo "Checking rendered files..."
+          test -f _site/misc.html
+          grep -n "service-card\|service-grid\|misc-page" _site/misc.html
+          find _site/assets -maxdepth 4 -type f | sort | grep -E "misc|main|css" || true
+
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-      - name: "Upload Pages Artifact"
+
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "_site"
-      - name: "Deploy"
+          path: _site
+
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

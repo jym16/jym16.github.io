@@ -2,6 +2,7 @@
 title: "Miscellaneous"
 description: "Community service, scientific organization, and outreach activities."
 page-layout: full
+css: assets/css/misc.css
 ---
 
 ::: {.misc-page}
@@ -19,8 +20,7 @@ page-layout: full
 PhysNet is a NetSci satellite that brings together researchers working on physical networks from diverse tangible complex systems. 
 I co-organize the Physical Networks satellites at NetSci25 & NetSci26.
 
-[PhysNet IV](https://sites.google.com/view/physnet26){.service-link}
-
+[PhysNet IV](https://sites.google.com/view/physnet26){.service-link}  
 [Web Archive](https://jym16.github.io/physnet-satellite/){.service-link}
 :::
 
@@ -43,8 +43,7 @@ Data Stories is a data visualization and storytelling workshop series organized 
 
 This initiative aims to connect Japanese researchers based in Austria and to support academic exchange, information sharing, and community building across institutions.
 
-[Mailing list](https://groups.google.com/g/ja-researchers-in-at){.service-link}
-
+[Mailing list](https://groups.google.com/g/ja-researchers-in-at){.service-link}  
 [Website](https://jpn-aut-research.github.io/){.service-link}
 :::
 
