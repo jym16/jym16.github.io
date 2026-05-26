@@ -17,7 +17,7 @@ page-layout: full
 
 ### Physical networks {#physical-networks-card}
 
-Network models for systems whose nodes and edges are tangible objects embedded in space and constrained by volume, geometry, or capacity.
+Network models for systems whose nodes and edges are tangible objects embedded in space and constrained by volume and geometry.
 
 [Jump to section](#physical-networks)
 :::
@@ -27,7 +27,7 @@ Network models for systems whose nodes and edges are tangible objects embedded i
 
 ### Fractal scale-free networks {#fractal-scale-free-networks-card}
 
-Bifractality, random walks, and local scaling structure in networks that are simultaneously scale-free and fractal.
+Bifractality and diffusion in networks that are simultaneously scale-free and fractal.
 
 [Jump to section](#fractal-scale-free-networks)
 :::
@@ -37,7 +37,7 @@ Bifractality, random walks, and local scaling structure in networks that are sim
 
 ### Triadic interactions {#triadic-interactions-card}
 
-Stochastic dynamics on networks in which a node can activate or inhibit an edge between two other nodes.
+Stochastic diffusion dynamics on networks in which a node can activate or inhibit an edge between two other nodes.
 
 [Jump to section](#triadic-interactions)
 :::
@@ -48,21 +48,21 @@ Stochastic dynamics on networks in which a node can activate or inhibit an edge 
 
 ## Physical networks {#physical-networks .project-section}
 
-Physical networks are networks of tangible components, in which nodes and edges are embedded in physical space and subject to constraints such as volume exclusion [@dehmamy2018structural]. 
-Examples include biological neural networks, vascular systems, porous media, granular materials, and infrastructural networks.
+Physical networks are networks of tangible components, in which nodes and edges are embedded in physical space and subject to volume exclusion [@dehmamy2018structural]. 
+Examples include biological neural networks, vascular systems, porous media, and granular materials.
 
-Advances in imaging technologies and accelerated three-dimensional reconstruction by AI/ML have made detailed empirical maps of these systems increasingly available. 
+Advances in imaging technologies and accelerated three-dimensional reconstruction by AI/ML have made detailed empirical maps of these systems increasingly accessible. 
 This creates an opportunity to develop new theoretical frameworks for incorporating physicality into abstract network models and to understand how physical constraints reshape network structure and dynamics.
 
 The physical layout of networks has been shown to give rise to structural features such as entanglement [@liu2021isotopy; @glover2024measuring], bundling [@bonamassa2025logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical; @piazza2025physical]. 
-However, it remains less explored how these constraints affect diffusion, synchronization, spectral localization, and other dynamical processes.
+However, it remains less explored how these constraints affect diffusion, synchronization, and other dynamical processes.
 
 
 
 ### Laplacian localization {#physical-laplacian-localization}
 
 As an analytical model of dynamics on physical networks, we study a multi-scale diffusion dynamics on a network-of-networks representation of physical networks [@pete2024physical]. 
-In the weak inter-subnetwork coupling limit (relative to the intra-subnetwork coupling), the relevant operator reduces to a (node-weighted) physical Laplacian
+In the weak inter-subnetwork coupling limit (relative to the intra-subnetwork coupling), the relevant operator reduces to a node-weighted Laplacian for physical networks,
 
 \begin{equation}
 \mathbf{Q}_{\mathrm{P}} = \mathbf{V}^{-1/2} \mathbf{Q}_{\mathrm{G}} \mathbf{V}^{-1/2},
@@ -70,16 +70,16 @@ In the weak inter-subnetwork coupling limit (relative to the intra-subnetwork co
 
 where $\mathbf{Q}_{\mathrm{G}}$ is the combinatorial graph Laplacian of the inter-subnetwork edges and $\mathbf{V}=\mathrm{diag}(v_1,\dots,v_N)$ is the diagonal matrix of node volumes (subnetwork sizes).
 
-We study eigenmode localization of this operator and identify how physicality reshapes the localization phenomena in physical networks.
+We study eigenmode localization of this operator and identify how node physicality reshapes the localization phenomena in physical networks.
 
-More to be coming soon...
+More coming soon...
 
 ### Modular synchronization {#physical-modular-synchronization}
 
 Motivated by the coarse-grained Laplacians that arise in the weak-subnetwork coupling limit of diffusions on a network-of-networks, we study modular synchronization dynamics in heterogeneous modular networks.
 As demonstration, we are working in collaboration with an experimental group to design and test modular synchronization in a physical network of coupled spin-Hall nano-oscillators.
 
-More to be coming soon...
+More coming soon...
 
 ## Fractal scale-free networks {#fractal-scale-free-networks .project-section}
 
