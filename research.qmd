@@ -1,5 +1,4 @@
 ---
-permalink: /research
 title: "Research"
 description: "A collection of my research projects."
 bibliography:

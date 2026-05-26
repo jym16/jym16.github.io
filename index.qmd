@@ -1,7 +1,5 @@
 ---
-layout: default
 page-layout: full
-permalink: /
 
 title: "Jun Yamamoto"
 subtitle: PhD candidate in Network Science <br> Department of Network and Data Science, Central European University

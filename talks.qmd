@@ -1,6 +1,4 @@
 ---
-layout: default
-permalink: /talks
 title: "Talks"
 bibliography:
   - _bibliography/talks.bib

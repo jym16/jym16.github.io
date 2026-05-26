@@ -1,6 +1,4 @@
 ---
-layout: default
-permalink: /misc
 title: "Miscellaneous"
 description: "Community service, scientific organization, and outreach activities."
 page-layout: full
