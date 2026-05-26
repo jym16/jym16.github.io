@@ -35,9 +35,61 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../fonts/NotoSerifJP-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+3000-303F,
+    U+3040-309F,
+    U+30A0-30FF,
+    U+31F0-31FF,
+    U+3400-4DBF,
+    U+4E00-9FFF,
+    U+F900-FAFF,
+    U+FF00-FFEF;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../fonts/NotoSerifJP-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+3000-303F,
+    U+3040-309F,
+    U+30A0-30FF,
+    U+31F0-31FF,
+    U+3400-4DBF,
+    U+4E00-9FFF,
+    U+F900-FAFF,
+    U+FF00-FFEF;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../fonts/NotoSerifJP-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+3000-303F,
+    U+3040-309F,
+    U+30A0-30FF,
+    U+31F0-31FF,
+    U+3400-4DBF,
+    U+4E00-9FFF,
+    U+F900-FAFF,
+    U+FF00-FFEF;
+}
+
 :root {
-  --jy-serif: "STIX Two Text", "Times New Roman", Times, serif;
-  --jy-mono: "JuliaMono", "SFMono-Regular", Menlo, Consolas, monospace;
+  --serif: "STIX Two Text", "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", "Times New Roman", Times, serif;
+  --serif-ja: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  --mono: "JuliaMono", "SFMono-Regular", Menlo, Consolas, monospace;
 }
 
 /* Main body */
@@ -50,7 +102,7 @@ main p,
 main li,
 main td,
 main th {
-  font-family: var(--jy-serif) !important;
+  font-family: var(--serif) !important;
 }
 
 /* Headings */
@@ -71,7 +123,7 @@ h6,
 .navbar-nav .nav-link,
 .navbar .dropdown-menu,
 .navbar .dropdown-item {
-  font-family: var(--jy-serif) !important;
+  font-family: var(--serif) !important;
 }
 
 /* Code remains monospace */
@@ -80,5 +132,11 @@ pre,
 kbd,
 samp,
 .sourceCode {
-  font-family: var(--jy-mono) !important;
+  font-family: var(--mono) !important;
+}
+
+:lang(ja),
+html:lang(ja),
+[lang="ja"] {
+  font-family: var(--serif-ja) !important;
 }
