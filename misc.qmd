@@ -16,6 +16,7 @@ page-layout: full
 **Role:** Organizer  
 **Period:** 2024--2025, 2025--2026  
 
+PhysNet is a NetSci satellite that brings together researchers working on physical networks from diverse tangible complex systems. 
 I co-organize the Physical Networks satellites at NetSci25 & NetSci26.
 
 [PhysNet IV](https://sites.google.com/view/physnet26){.service-link}
@@ -29,13 +30,13 @@ I co-organize the Physical Networks satellites at NetSci25 & NetSci26.
 **Role:** Organizer  
 **Period:** 2024--2025  
 
-Data Stories is a department-level seminar and community event series designed to create informal exchange around data science, network science, and complex systems research.
+Data Stories is a data visualization and storytelling workshop series organized by student volunteers in the Department of Network and Data Science at CEU. I co-organize the 11th edition of the workshop.
 
 [Website](https://networkdatascience.ceu.edu/data-stories){.service-link}
 :::
 
 ::: {.service-card}
-### Japanese--Austrian Researcher Network
+### Japanese Researcher Network in Austria
 
 **Role:** Organizer / coordinator  
 **Period:** 2025--present  
@@ -50,4 +51,3 @@ This initiative aims to connect Japanese researchers based in Austria and to sup
 :::
 
 :::
-

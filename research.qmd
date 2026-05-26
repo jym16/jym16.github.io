@@ -11,17 +11,6 @@ page-layout: full
 
 ::: {.project-portfolio}
 
-<!-- 
-::: {.project-hero}
-
-::: {.project-lead}
-I study analytical models and methods for understanding the structure and dynamics of complex systems, with a focus on physical networks, critical phenomena, and multiscale organization. 
-My research is motivated by the need to understand how additional structures beyond adjacency, such as node physcality and multi-scale organization, impact network structures and dynamics, such as diffusion, synchronization, and critical phenomena.
-:::
-
-::: 
--->
-
 ::: {.project-card-grid}
 ::: {.project-card}
 <span class="project-tag">Physical networks</span>
