@@ -250,3 +250,97 @@ body.quarto-dark .project-sidebox,
 [data-bs-theme="dark"] .project-sidebox {
   background: var(--project-soft);
 }
+
+/* ============================================================
+   Research page hierarchy and section separation
+   ============================================================ */
+
+/* Overall research page width */
+.project-portfolio {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* Top-level pillar headings: Network structure / Network dynamics */
+.project-portfolio h2.project-section {
+  margin-top: 4.2rem;
+  margin-bottom: 1.4rem;
+  padding-top: 1.4rem;
+  border-top: 2px solid rgba(128, 128, 128, 0.35);
+  font-size: 1.9rem;
+  letter-spacing: -0.015em;
+}
+
+/* Add more space before the second pillar */
+.project-portfolio h2.project-section:not(:first-of-type) {
+  margin-top: 5rem;
+}
+
+/* Major research areas: Physical networks, Fractal scale-free networks, etc. */
+.project-portfolio h3 {
+  margin-top: 3.2rem;
+  margin-bottom: 1rem;
+  padding: 0.85rem 1rem;
+  border-left: 5px solid rgba(70, 100, 160, 0.55);
+  border-radius: 0.75rem;
+  background: rgba(128, 128, 128, 0.06);
+  font-size: 1.45rem;
+}
+
+/* Specific subprojects: Bifractality, Laplacian localization, etc. */
+.project-portfolio h4 {
+  margin-top: 2.4rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+  font-size: 1.18rem;
+}
+
+/* Keep card titles from inheriting the research-section h3 styling */
+.project-card h3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding: 0;
+  border-left: none;
+  border-radius: 0;
+  background: transparent;
+  font-size: 1.2rem;
+}
+
+/* More breathing room around displayed equations */
+.project-portfolio .math.display,
+.project-portfolio mjx-container[display="true"] {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Optional: make paragraphs slightly narrower for readability */
+.project-portfolio > p,
+.project-portfolio h2.project-section ~ p {
+  max-width: 860px;
+}
+
+/* Mobile refinement */
+@media (max-width: 760px) {
+  .project-portfolio {
+    max-width: 100%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .project-portfolio h2.project-section {
+    margin-top: 3.2rem;
+    font-size: 1.55rem;
+  }
+
+  .project-portfolio h3 {
+    margin-top: 2.4rem;
+    padding: 0.75rem 0.85rem;
+    font-size: 1.28rem;
+  }
+
+  .project-portfolio h4 {
+    margin-top: 2rem;
+    font-size: 1.08rem;
+  }
+}

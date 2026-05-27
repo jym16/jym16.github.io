@@ -15,7 +15,7 @@ css: assets/css/misc.css
 ### Physical Networks Satellite
 
 **Role:** Organizer  
-**Period:** 2024--2025, 2025--2026  
+**Period:** 2024--2025 (NetSci25), 2025--2026 (NetSci26)  
 
 PhysNet is a NetSci satellite that brings together researchers working on physical networks from diverse tangible complex systems. 
 I co-organize the Physical Networks satellites at NetSci25 & NetSci26.
