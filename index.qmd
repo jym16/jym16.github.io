@@ -75,7 +75,7 @@ I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/pe
 - Network coarse-graining
 - Laplacian dynamics
 - Network physicality
-- Multi-scale organization & scale-invariance
+- Multi-scale organization
 
 :::
 
