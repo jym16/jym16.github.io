@@ -120,8 +120,6 @@ This formulation makes node volume an explicit part of the network operator and 
 
 We study eigenmode localization of the node-weighted Laplacian and ask how node physicality reshapes localization phenomena in empirical and synthetic physical networks.
 
-In the ordinary graph Laplacian, localization is often controlled by topological heterogeneity such as high degree nodes or local motifs. In the node-weighted Laplacian, the effective local scale is instead controlled by the relation between degree and volume. This shifts attention from degree alone to the ratio between connectivity and physical size.
-
 This project aims to identify when physical constraints suppress, enhance, or reorganize Laplacian localization, and how this affects dynamical observables such as diffusion timescales and eigenmode shapes.
 
 More coming soon.
