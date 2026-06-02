@@ -34,7 +34,7 @@ How network architecture is shaped by physical constraints, hierarchy, scale-inv
 
 ### Network dynamics {#network-dynamics-card}
 
-How network structural constraints impact diffusion, synchronization, and stochastic dynamics.
+How structural properties of networks impact diffusion, synchronization, and stochastic dynamics.
 
 [Jump to section](#network-dynamics)
 :::
@@ -48,20 +48,20 @@ I am particularly interested in (i) complex networks where the abstract graph re
 
 ### Physical networks {#physical-networks}
 
-Physical networks are networks of tangible components, in which nodes and edges are embedded in physical space and subject to volume exclusion, geometry, and material constraints [@dehmamy2018structural]. Examples include biological neural networks, vascular systems, porous media, and granular materials, just to name a few.
+Physical networks are networks of tangible components, in which nodes and edges are embedded in physical space and subject to volume exclusion, geometry, and material constraints [@dehmamy2018structural]. Examples include biological neural networks, vascular systems, porous media, and granular materials, to list a few.
 
-Advances in imaging technologies and accelerated three-dimensional reconstruction by AI/machine learning have made detailed empirical maps of these systems increasingly accessible. This creates an opportunity to develop theoretical frameworks that incorporate physicality into abstract network models.
+Advances in imaging technologies and accelerated three-dimensional reconstruction by AI/machine learning have made detailed spatial maps of these systems increasingly accessible. This creates an opportunity to develop theoretical frameworks that incorporate physicality into abstract network models.
 
 The physical layout of networks has been shown to give rise to structural features such as entanglement [@liu2021isotopy; @glover2024measuring], bundling [@bonamassa2025logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical; @piazza2025physical]. These observations motivate a broader question: how should network theory change when nodes and edges are not dimensionless objects, but physical entities occupying space?
 
-One approach is to represent a full-scale physical network as a network-of-networks, where each subnetwork is a network representation of the physical (spatial) layout of a physical node while the inter-subnetwork edges represent interactions between subnetworks [@pete2024physical]. In the limit of weak inter-subnetwork coupling, this leads to a reduction with node-weighted Laplacian operator that explicitly incorporates node volumes into combinatorial graph Laplacians. This framework provides a route to studying how physical constraints reshape structural properties and dynamical processes on networks.
+One approach is to represent a full-scale physical network as a network-of-networks, in which each subnetwork is a network representation of the (spatial) layout of a physical node while the inter-subnetwork edges represent interactions between subnetworks [@pete2024physical]. In the limit of weak inter-subnetwork coupling, this leads to a dynamical reduction with node-weighted Laplacian operator that explicitly incorporates node volumes into combinatorial graph Laplacians. This framework provides a route to studying how physical constraints reshape structural properties and dynamical processes on networks.
 
 ### Fractal scale-free networks {#fractal-scale-free-networks}
 
-Fractal networks emerge in various contexts, including the giant component at the percolation critical point [@cohen2004fractal] and hierarchical network models [@rozenfeld2008fractal; @song2006origins; @yakubo2022general].
-Fractal scale-free networks provide analytically tractable models for understanding scale-invariance, network renormalization, and long-range degree correlations in networks.
+Fractal networks emerge in various contexts, including the incipient percolation cluster at the percolation critical point [@cohen2004fractal] and hierarchical network models [@rozenfeld2008fractal; @song2006origins; @yakubo2022general].
+Fractal scale-free networks provide analytically tractable models for understanding scale-invariance and long-range degree correlations in networks.
 
-A network is fractal with respect to shortest-path lengths if the minimum number of boxes of diameter $l_{\mathrm{B}}$ required to cover the network scales as
+A network is *fractal* with respect to shortest-path lengths if the minimum number of boxes (subgraphs) of diameter $l_{\mathrm{B}}$ required to cover the network scales as
 
 \begin{equation}
 N_{\mathrm{B}}(l_{\mathrm{B}})\sim l_{\mathrm{B}}^{-D_{\mathrm{f}}},
@@ -73,9 +73,9 @@ where $D_{\mathrm{f}}$ is the fractal dimension [@song2005self]. In fractal netw
 \langle l\rangle\sim N^{1/D_{\mathrm{f}}},
 \end{equation}
 
-in contrast to small-world networks with logarithmic scaling. 
+in contrast to logarithmic scaling in small-world networks. 
 
-Fractal network models are useful because they posess well-defined structural scale-invariance and renormalization. They also exhibit non-trivial structural properties, including long-range degree correlations (beyond nearest neighbors) which manifest as hub repulsions.
+Fractal network models are useful because they posess well-defined structural scale-invariance and renormalization. They are also known to possess non-trivial structural properties, including hub repulsions, a manifestion of long-range degree correlations beyond nearest neighbors.
 
 #### Bifractality {#bifractality}
 
@@ -114,7 +114,7 @@ In the weak inter-subnetwork coupling limit relative to the intra-subnetwork cou
 
 where $\mathbf{Q}_{\mathrm{G}}$ is the combinatorial graph Laplacian of the inter-subnetwork edges and $\mathbf{V}=\mathrm{diag}(v_1,\dots,v_N)$ is the diagonal matrix of node volumes or subnetwork sizes.
 
-This formulation makes node volume an explicit part of the network operator and provides a route to studying diffusion, spectral gaps, localization, and synchronization in physical networks.
+This formulation makes node volume an explicit part of the network operator and provides a route to studying diffusion, localization, and synchronization in physical networks.
 
 #### Laplacian localization {#physical-laplacian-localization}
 
@@ -134,13 +134,13 @@ More coming soon.
 
 ### Random walks in bifractal networks {#bifractal-random-walks}
 
-Building on the bifractality conjecture [@yamamoto2023bifractality], we studied random walks on bifractal networks and found that the walk dimension remains position-independent, whereas the spectral dimension splits into two local values. This splitting reflects the underlying bifractal structure and shows how local structural scaling can appear in dynamical observables [@yakubo2024random].
+Building on the bifractality conjecture [@yamamoto2023bifractality], we studied random walks on bifractal networks and found that the walk dimension remains position-independent, whereas the spectral dimension splits into two distinct local values. This splitting reflects the underlying bifractal structure and shows how local structural scaling can appear in dynamical observables [@yakubo2024random].
 
 This project connects the structural pillar of bifractality to dynamical questions about diffusion and transport on fractal scale-free networks.
 
 ### Higher-order network dynamics with triadic interactions {#triadic-interactions}
 
-Triadic interactions are higher-order, three-body interactions in which a node modulates an edge between two other nodes. Such interactions are reported in real systems. For example, glial cells can regulate synaptic interactions between neurons, and a third species can interfere with pairwise ecological interactions [@wang2009genome; @cho2016optogenetic; @grilli2017higher; @li2026higher].
+Triadic interactions are higher-order, three-body interactions in which a node modulates an edge between two other nodes. Such interactions are reported in real systems: for example, glial cells can regulate synaptic interactions between neurons, and a third species can interfere with pairwise ecological interactions [@wang2009genome; @cho2016optogenetic; @grilli2017higher; @li2026higher].
 
 To model such interactions, we define a triadic interaction on a network $G=(V,E)$ as an interaction between a node $i\in V$ and an edge $\ell\in E$, encoded by an incidence matrix $\mathbf{K}\in\{-1,0,1\}^{|E|\times |V|}$ with entries
 
@@ -163,6 +163,6 @@ d\mathbf{X}=-(\mathbf{L}^{(\mathrm{T})}+\alpha\mathbf{I})\mathbf{X}\,dt+\mathbf{
 
 where $\mathbf{L}^{(\mathrm{T})}$ is a state-dependent triadic Laplacian. The pairwise baseline without triadic interactions is analytically tractable, while triadic interactions produce conditional statistical signatures.
 
-The results show that conditional correlations and conditional mutual information can reveal the existence, sign, and strength of triadic interactions. This framework was used as a null model to identify potential triadic interactions in gene regulatory networks [@niedostatek2025mining].
+We show that conditional correlations and conditional mutual information can reveal the existence, sign, and strength of triadic interactions. This framework was used as a null model to identify node tuples with triadic interactions in gene regulatory networks [@niedostatek2025mining].
 
 :::
