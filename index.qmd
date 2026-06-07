@@ -83,11 +83,11 @@ I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/pe
 
 ## News
 
-- **2026-06-15**: I will be visiting the [Barabasi Lab](https://barabasilab.com/) at Northeastern University in Boston, USA, for a research stay as an [Accelnet-Multinet fellow](https://www.accelnet-multinet.org/).
+- **2026-06-15**: I will be visiting the [Barabasi Lab](https://barabasi.com/science) at Northeastern University in Boston, USA, for a research stay as an [Accelnet-Multinet fellow](https://www.accelnet-multinet.org/).
 
-- **2026-02-17**: I presented a poster titled "When node volume matters: Spectral transitions in physical Laplacians" at the [Network Science Seminar AY2025/26](https://www.network-science-seminar.com/activities/2025) in Kyoto, Japan.
+- **2026-06-02**: [Physical Networks, IV edition](https://sites.google.com/view/physnet26), a NetSci satellite event for physical networks was held at NetSci26 in Boston. 
 
-- **2026-02-16**: I visited Prof. [Johan Åkerman](http://www.akermanlab.com/) at Tohoku University in Japan.
+- **2026-02-17**: I presented a poster on localization transitions in Laplacian eigenmodes of physical networks at the [Network Science Seminar AY2025/26](https://www.network-science-seminar.com/activities/2025) in Kyoto, Japan.
 
 - **2026-02-10**~**2026-02-13**: I visited Prof. [Takehisa Hasegawa](https://takehisahasegawa.sci.ibaraki.ac.jp/) and Prof. [Shogo Mizutaka](https://mizutaka.cis.ibaraki.ac.jp/) at Ibaraki University in Japan.
 

@@ -76,7 +76,6 @@ Undergraduate affiliation.
 
 ::: {.link-list}
 [ドイツ物理学・応用物理学セミナー](https://sites.google.com/site/jpsingermany/home)  
-[Japanese Researchers in Austria mailing list](https://groups.google.com/g/ja-researchers-in-at)  
 [Japanese-Austrian Researcher Network](https://jpn-aut-research.github.io/)
 :::
 :::
