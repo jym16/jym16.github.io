@@ -39,7 +39,7 @@ html:
 :::
 
 I am a PhD candidate in Network Science in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna. 
-My research develops analytical and numerical methods for complex networks whose effective structure is shaped not only by adjacency, but also by physical node volumes, spatial embedding, and multiscale organization.
+My research develops analytical and numerical methods for complex networks whose structure and dynamics are shaped not only by adjacency, but also by multiscale organization and physical constraints.
 
 The ongoing projects at CEU include **eigenmode delocalization** in physical Laplacians and **modular synchronization** in networks of spin Hall nano-oscillators. 
 I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai) and Prof. [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz).
