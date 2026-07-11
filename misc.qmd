@@ -20,7 +20,7 @@ css: assets/css/misc.css
 PhysNet is a NetSci satellite that brings together researchers working on physical networks from diverse tangible complex systems. 
 I co-organize the Physical Networks satellites at NetSci25 & NetSci26.
 
-[Web site](https://jym16.github.io/physnet-satellite/){.service-link}
+[Website](https://jym16.github.io/physnet-satellite/){.service-link}
 :::
 
 ::: {.service-card}

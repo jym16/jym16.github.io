@@ -4,10 +4,13 @@ bibliography: _bibliography/papers.bib
 page-layout: full
 ---
 
+<!-- 
 ## In Preparation
 
 **Jun Yamamoto**, Ivan Bonamassa, M. Posfai 
-"Localization-delocalization transition in physical networks."
+"Localization transitions of diffusion dynamics in physical networks"
+-->
+
 
 
 ## Journal articles

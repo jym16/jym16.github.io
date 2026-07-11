@@ -18,7 +18,7 @@ Current doctoral affiliation.
 
 ::: {.link-list}
 [University](https://www.ceu.edu/)  
-[Department of Network and Data Science](https://networkdatascience.ceu.edu/)
+[Department of Network and Data Science](https://www.ceu.edu/departments/network-data-science)
 :::
 :::
 
@@ -88,8 +88,8 @@ Undergraduate affiliation.
 
 - [Kousuke Yakubo](https://researchmap.jp/read0166630?lang=en)
 - [Ginestra Bianconi](https://www.qmul.ac.uk/maths/profiles/bianconig.html)
-- [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai)
-- [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz)
+- [Márton Pósfai](https://people.ceu.edu/marton_posfai)
+- [János Kertész](https://people.ceu.edu/janos_kertesz)
 - [Albert-László Barabási](https://barabasi.com/)
 - [Johan Åkerman](http://www.akermanlab.com/)
 - [Shogo Mizutaka](https://mizutaka.cis.ibaraki.ac.jp/)

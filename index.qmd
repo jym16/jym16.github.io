@@ -38,11 +38,11 @@ html:
 ::: {#profile}
 :::
 
-I am a PhD candidate in Network Science in the [Department of Network and Data Science](https://networkdatascience.ceu.edu/) at [Central European University](https://www.ceu.edu/) in Vienna. 
-My research develops analytical and numerical methods for complex networks whose structure and dynamics are shaped not only by adjacency, but also by multiscale organization and physical constraints.
+I am a PhD candidate in Network Science in the [Department of Network and Data Science](https://www.ceu.edu/departments/network-data-science) at [Central European University](https://www.ceu.edu/) in Vienna. 
+My research develops analytical and numerical methods for complex networks whose structure and dynamics are shaped not only by network topology, but also by multiscale organization and physical constraints.
 
 The ongoing projects at CEU include **eigenmode delocalization** in physical Laplacians and **modular synchronization** in networks of spin Hall nano-oscillators. 
-I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/people/marton-posfai) and Prof. [János Kertész](https://networkdatascience.ceu.edu/people/janos-kertesz).
+I am supervised by Prof. [Márton Pósfai](https://people.ceu.edu/marton_posfai) and Prof. [János Kertész](https://people.ceu.edu/janos_kertesz).
 
 
 
@@ -83,7 +83,7 @@ I am supervised by Prof. [Márton Pósfai](https://networkdatascience.ceu.edu/pe
 
 ## News
 
-- **2026-06-15**: I will be visiting the [Barabasi Lab](https://barabasi.com/science) at Northeastern University in Boston, USA, for a research stay as an [Accelnet-Multinet fellow](https://www.accelnet-multinet.org/).
+- **2026-06**: I visited the [Barabasi Lab](https://barabasi.com/science) at Northeastern University in Boston, USA, for a research stay as an [AccelNet-MultiNet fellow](https://www.accelnet-multinet.org/).
 
 - **2026-06-02**: [Physical Networks, IV edition](https://sites.google.com/view/physnet26), a NetSci satellite event for physical networks was held at NetSci26 in Boston. 
 
