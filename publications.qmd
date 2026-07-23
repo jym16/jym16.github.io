@@ -4,18 +4,21 @@ bibliography: _bibliography/papers.bib
 page-layout: full
 ---
 
+## Working papers
+
+[6] Shogo Mizutaka, **Jun Yamamoto**, and Kousuke Yakubo.
+"Structural crossover of complex networks: bridging degree correlation and fractality."
 
 ## Preprints
 
-<!-- 
 [5] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
-"Laplacian eigenmode localization in physical complex networks."
-Submitted (2026). 
--->
+"Laplacian eigenmode localization in physical complex networks." 
+Manuscript submitted (2026). Joint submission with arXiv:2607.19486.
+
 
 [4] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
 "Localization transitions of diffusion dynamics in physical networks."
-Submitted (2026).
+arXiv:2607.19486 (2026).
 
 
 ## Journal articles
