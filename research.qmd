@@ -97,7 +97,7 @@ The completed projects are listed below. For a full list of publications, see th
 
 ### Bifractality of fractal scale-free networks {#bifractality}
 
-Fractal scale-free networks can possess two local dimensions: one near hubs and another near ordinary nodes. Analytical and numerical results connect this bifractality to the combination of fractal geometry and a scale-free degree distribution [@yamamoto2023bifractality].
+We showed that fractal scale-free networks are characterized by two distinct local fractal dimensions: one governing neighborhoods around hubs and another governing regions far from them. Our analytical and numerical results suggest that such bifractality is generic, leading us to conjecture that any network combining scale-free connectivity with fractal structure exhibits this behavior. [@yamamoto2023bifractality].
 
 ::: {.research-actions .research-actions--compact}
 [Paper](https://doi.org/10.1103/PhysRevE.108.024302){.research-button .research-button--small}
@@ -121,7 +121,7 @@ Fractal scale-free networks can possess two local dimensions: one near hubs and 
 
 Building on bifractality, we showed that a random walk's walk dimension remains position-independent, whereas the spectral dimension splits into two local values.
 
-The result connects static geometry to transport: local structural scaling remains visible in return probabilities even when the spreading exponent is global [@yakubo2024random].
+The result connects structural bifractality to transport properties: local structural scaling remains visible in return-to-origin probabilities [@yakubo2024random].
 
 ::: {.research-actions .research-actions--compact}
 [Paper](https://doi.org/10.1103/PhysRevE.110.064318){.research-button .research-button--small}
@@ -143,7 +143,7 @@ The result connects static geometry to transport: local structural scaling remai
 
 ### Inferring higher-order triadic interactions {#triadic-interactions}
 
-This completed project used conditional correlations and mutual information to infer when a third node modulates an edge, then applied the framework to gene-regulatory networks [@niedostatek2025mining].
+We considered diffusive dynamics in networks with triadic interactions in which a node can influence the connection between two other nodes. We demonstrated that such interactions can be inferred from conditional correlations and mutual information [@niedostatek2025mining].
 
 ::: {.research-actions .research-actions--compact}
 [Paper](https://doi.org/10.1038/s41467-025-66577-z){.research-button .research-button--small}
