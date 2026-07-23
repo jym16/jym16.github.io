@@ -3,11 +3,18 @@ title: "Publications"
 bibliography: _bibliography/papers.bib
 page-layout: full
 ---
-
+<!-- 
 ## Working papers
 
+[8] **Jun Yamamoto**, Márton Pósfai, Ginestra Bianconi, Albert-László Barabási, Johan Åkerman, et al.
+"Synchronization in networks of spin Hall nano-oscillators."
+
+[7] Charlotte Geier, **Jun Yamamoto**, and Márton Pósfai.
+"Synchronization and coarse-graining in heterogeneous networks of modules."
+
 [6] Shogo Mizutaka, **Jun Yamamoto**, and Kousuke Yakubo.
-"Structural crossover of complex networks: bridging degree correlation and fractality."
+"Structural crossover of complex networks: bridging degree correlation and fractality." 
+-->
 
 ## Preprints
 
@@ -18,30 +25,58 @@ Manuscript submitted (2026). Joint submission with arXiv:2607.19486.
 
 [4] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
 "Localization transitions of diffusion dynamics in physical networks."
-arXiv:2607.19486 (2026).
-
+arXiv:2607.19486 (2026). <span class="publication-links" aria-label="Publication links">
+  <a class="publication-badge publication-badge--arxiv" href="https://doi.org/10.48550/arXiv.2607.19486" target="_blank" rel="noopener noreferrer" aria-label="View preprint on arXiv">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-arxiv"></i></span>
+    <span class="publication-badge__label">arXiv</span>
+  </a>
+</span>
 
 ## Journal articles
 
 
 [3] Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi. 
 "Mining higher-order triadic interactions."
-Nature Commununications **16**, 11613 (2025).
-\[[paper](https://doi.org/10.1038/s41467-025-66577-z)\]
-\[[arXiv](https://doi.org/10.48550/arXiv.2404.14997)\]
-\[[code](https://github.com/anthbapt/trim)\]
+Nature Commununications **16**, 11613 (2025). <span class="publication-links" aria-label="Publication links">
+  <a class="publication-badge publication-badge--doi" href="https://doi.org/10.1038/s41467-025-66577-z" target="_blank" rel="noopener noreferrer" aria-label="View published article via DOI">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-doi"></i></span>
+    <span class="publication-badge__label">DOI</span>
+  </a>
+  <a class="publication-badge publication-badge--arxiv" href="https://doi.org/10.48550/arXiv.2404.14997" target="_blank" rel="noopener noreferrer" aria-label="View preprint on arXiv">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-arxiv"></i></span>
+    <span class="publication-badge__label">arXiv</span>
+  </a>
+  <a class="publication-badge publication-badge--github" href="https://github.com/anthbapt/trim" target="_blank" rel="noopener noreferrer" aria-label="View code repository on GitHub">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="fa-brands fa-github"></i></span>
+    <span class="publication-badge__label">GitHub</span>
+  </a>
+</span>
 
 [2] Kousuke Yakubo, Gentaro Shimojo, **Jun Yamamoto**. 
 "Random walks on bifractal networks."
-Physical Review E **110**, 064318 (2024).
-\[[paper](https://doi.org/10.1103/PhysRevE.110.064318)\]
-\[[arXiv](https://doi.org/10.48550/arXiv.2407.16183)\]
+Physical Review E **110**, 064318 (2024). <span class="publication-links" aria-label="Publication links">
+  <a class="publication-badge publication-badge--doi" href="https://doi.org/10.1103/PhysRevE.110.064318" target="_blank" rel="noopener noreferrer" aria-label="View published article via DOI">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-doi"></i></span>
+    <span class="publication-badge__label">DOI</span>
+  </a>
+  <a class="publication-badge publication-badge--arxiv" href="https://doi.org/10.48550/arXiv.2407.16183" target="_blank" rel="noopener noreferrer" aria-label="View preprint on arXiv">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-arxiv"></i></span>
+    <span class="publication-badge__label">arXiv</span>
+  </a>
+</span>
 
 [1] **Jun Yamamoto** and Kousuke Yakubo. 
 "Bifractality of fractal scale-free networks."
-Physical Review E **108**, 024302 (2023).
-\[[paper](https://doi.org/10.1103/PhysRevE.108.024302)\]
-\[[arXiv](https://doi.org/10.48550/arXiv.2304.13438)\]
+Physical Review E **108**, 024302 (2023). <span class="publication-links" aria-label="Publication links">
+  <a class="publication-badge publication-badge--doi" href="https://doi.org/10.1103/PhysRevE.108.024302" target="_blank" rel="noopener noreferrer" aria-label="View published article via DOI">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-doi"></i></span>
+    <span class="publication-badge__label">DOI</span>
+  </a>
+  <a class="publication-badge publication-badge--arxiv" href="https://doi.org/10.48550/arXiv.2304.13438" target="_blank" rel="noopener noreferrer" aria-label="View preprint on arXiv">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-arxiv"></i></span>
+    <span class="publication-badge__label">arXiv</span>
+  </a>
+</span>
 
 
 

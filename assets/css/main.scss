@@ -147,3 +147,157 @@ samp,
   font-family: var(--mono);
 }
 
+/* Publication resource badges */
+.publication-links {
+  display: inline;
+  margin-left: 0.35rem;
+}
+
+.publication-badge {
+  --badge-rgb: 36, 84, 198;
+  --badge-accent: rgb(var(--badge-rgb));
+
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  padding: 0.06rem 0.38rem 0.06rem 0.18rem;
+  border: 1px solid rgba(var(--badge-rgb), 0.22);
+  border-radius: 999px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(var(--badge-rgb), 0.1),
+      rgba(255, 255, 255, 0.92) 72%
+    );
+  box-shadow:
+    0 1px 2px rgba(20, 33, 61, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.76);
+  color: #263248 !important;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  margin: 0.08rem 0.28rem 0.08rem 0;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    color 180ms ease,
+    transform 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.publication-badge::after {
+  content: "↗";
+  margin: 0 0.05rem 0 0.02rem;
+  color: var(--badge-accent);
+  font-size: 0.64rem;
+  font-weight: 500;
+  opacity: 0.48;
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.publication-badge:hover {
+  border-color: rgba(var(--badge-rgb), 0.42);
+  box-shadow:
+    0 4px 10px rgba(20, 33, 61, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  color: #14213d !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.publication-badge:hover::after {
+  opacity: 0.9;
+  transform: translate(1px, -1px);
+}
+
+.publication-badge:active {
+  box-shadow: 0 2px 5px rgba(20, 33, 61, 0.09);
+  transform: translateY(0);
+}
+
+.publication-badge:focus-visible {
+  outline: 3px solid rgba(var(--badge-rgb), 0.24);
+  outline-offset: 2px;
+}
+
+.publication-badge__icon,
+.publication-badge__label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication-badge__icon {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 1rem;
+  border-radius: 50%;
+  background: rgba(var(--badge-rgb), 0.12);
+  color: var(--badge-accent);
+  font-size: 0.67rem;
+}
+
+.publication-badge__label {
+  padding-bottom: 0.02rem;
+}
+
+.publication-badge--doi {
+  --badge-rgb: 0, 117, 178;
+}
+
+.publication-badge--arxiv {
+  --badge-rgb: 179, 27, 27;
+}
+
+.publication-badge--github {
+  --badge-rgb: 36, 41, 47;
+}
+
+body.quarto-dark .publication-badge {
+  border-color: rgba(var(--badge-rgb), 0.36);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(var(--badge-rgb), 0.2),
+      rgba(255, 255, 255, 0.055) 76%
+    );
+  box-shadow:
+    0 2px 7px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  color: #f2f4f8 !important;
+}
+
+body.quarto-dark .publication-badge:hover {
+  border-color: rgba(var(--badge-rgb), 0.62);
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  color: #fff !important;
+}
+
+body.quarto-dark .publication-badge--github {
+  --badge-rgb: 210, 214, 219;
+  --badge-accent: #f0f3f6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication-badge {
+    transition: none;
+  }
+
+  .publication-badge:hover,
+  .publication-badge:active {
+    transform: none;
+  }
+
+  .publication-badge::after {
+    transition: none;
+  }
+}
