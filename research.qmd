@@ -1,168 +1,156 @@
 ---
 title: "Research"
-description: "A overview of my research interests and projects."
+description: "A overview of my research projects."
 bibliography:
   - _bibliography/papers.bib
   - _bibliography/reference.bib
-callout-appearance: minimal
 css: assets/css/project-page.css
 page-layout: full
+toc: true
+toc-depth: 2
 ---
 
-::: {.project-portfolio}
+::: {.research-page}
 
-My research explores how the structures of complex networks impact dynamical processes on them.
+## Current projects {#current-projects}
 
-::: {.project-card-grid}
-
-::: {.project-card}
-<span class="project-tag">Physical networks</span>
-<span class="project-tag">Hierarchical networks</span>
-<span class="project-tag">Critical networks</span>
-
-### Network structure {#network-structure-card}
-
-How network architecture is shaped by physical constraints, hierarchy, scale-invariance, and heterogeneity.
-
-[Jump to section](#network-structure)
+::: {.research-section-lead}
 :::
 
-::: {.project-card}
-<span class="project-tag">Random walks</span>
-<span class="project-tag">Diffusion</span>
-<span class="project-tag">Synchronization</span>
+::: {.research-program-grid}
 
-### Network dynamics {#network-dynamics-card}
-
-How structural properties of networks impact diffusion, synchronization, and stochastic dynamics.
-
-[Jump to section](#network-dynamics)
+:::: {.research-program-card}
+::: {.research-program-card__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/physical-laplacian-fig1.png" alt="Three-dimensional rendering of a porous medium inside a cubic volume, with an inner sampling region.">
+  <figcaption>A three-dimensional porous medium as a physical network.</figcaption>
+</figure>
 :::
 
+::: {.research-program-card__body}
+<div class="research-program-card__meta"><span>01</span><span>Physical structure · spectral theory · dynamics</span></div>
+
+### Physical networks {#physnets}
+
+How physical constraints impact network structure and dynamics, including how degree-volume disorder controls Laplacian eigenmode localization [@yamamoto2026localization; @yamamoto2026laplacian].
+
+<p class="research-program-card__focus"><span>Current focus</span>Laplacian eigenmode localization, diffusion, synchronization</p>
+:::
+::::
+
+:::: {.research-program-card}
+::: {.research-program-card__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/network-scaling-critical-branching-tree.png" alt="A branching tree rooted at the center and expanding radially with degree heterogeneity.">
+  <figcaption>A branching tree with heterogeneous branching.</figcaption>
+</figure>
 :::
 
-## Network structure {#network-structure .project-section}
+::: {.research-program-card__body}
+<div class="research-program-card__meta"><span>02</span><span>Scaling theory · criticality · hierarchy</span></div>
 
-The first pillar of my research concerns the non-trivial structural organization of complex networks. 
-I am particularly interested in (i) complex networks where the abstract graph representation is incomplete due to the physicality of nodes and edges, (ii) hierarchical and critical networks with scale-invariant properties, and (iii) the coarse-graining of complex networks.
+### Scaling theory for networks {#netscale}
 
-### Physical networks {#physical-networks}
+Scaling laws and critical phenomena for networks with heterogeneous topologies [@yamamoto2023bifractality; @yakubo2024random].
 
-Physical networks are networks of tangible components, in which nodes and edges are embedded in physical space and subject to volume exclusion, geometry, and material constraints [@dehmamy2018structural]. Examples include biological neural networks, vascular systems, porous media, and granular materials, to list a few.
+<p class="research-program-card__focus"><span>Current focus</span>Crossover · percolation criticality</p>
+:::
+::::
 
-Advances in imaging technologies and accelerated three-dimensional reconstruction by AI/machine learning have made detailed spatial maps of these systems increasingly accessible. This creates an opportunity to develop theoretical frameworks that incorporate physicality into abstract network models.
+:::: {.research-program-card}
+::: {.research-program-card__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/network-synchronization-oscillator-graph.png" alt="Schematic of phase oscillators coupled through a network.">
+  <figcaption>Phase oscillators coupled through a network.</figcaption>
+</figure>
+:::
 
-The physical layout of networks has been shown to give rise to structural features such as entanglement [@liu2021isotopy; @glover2024measuring], bundling [@bonamassa2025logarithmic], jamming [@posfai2024impact], and correlations between node degree and node volume [@pete2024physical; @piazza2025physical]. These observations motivate a broader question: how should network theory change when nodes and edges are not dimensionless objects, but physical entities occupying space?
+::: {.research-program-card__body}
+<div class="research-program-card__meta"><span>03</span><span>Nonlinear dynamics · experiments</span></div>
 
-One approach is to represent a full-scale physical network as a network-of-networks, in which each subnetwork is a network representation of the (spatial) layout of a physical node while the inter-subnetwork edges represent interactions between subnetworks [@pete2024physical]. In the limit of weak inter-subnetwork coupling, this leads to a dynamical reduction with node-weighted Laplacian operator that explicitly incorporates node volumes into combinatorial graph Laplacians. This framework provides a route to studying how physical constraints reshape structural properties and dynamical processes on networks.
+### Network synchronization {#netsync}
 
-### Fractal scale-free networks {#fractal-scale-free-networks}
+How network structure and physical heterogeneity organize collective order in experimentally realized oscillator systems.
 
-Fractal networks emerge in various contexts, including the incipient percolation cluster at the percolation critical point [@cohen2004fractal] and hierarchical network models [@rozenfeld2008fractal; @song2006origins; @yakubo2022general].
-Fractal scale-free networks provide analytically tractable models for understanding scale-invariance and long-range degree correlations in networks.
+<p class="research-program-card__focus"><span>Current focus</span>Modular synchronization · spin oscillators</p>
+:::
+::::
 
-A network is *fractal* with respect to shortest-path lengths if the minimum number of boxes (subgraphs) of diameter $l_{\mathrm{B}}$ required to cover the network scales as
+:::
 
-\begin{equation}
-N_{\mathrm{B}}(l_{\mathrm{B}})\sim l_{\mathrm{B}}^{-D_{\mathrm{f}}},
-\end{equation}
+## Past project {#past-project}
 
-where $D_{\mathrm{f}}$ is the fractal dimension [@song2005self]. In fractal networks, average path lengths scale as a power of the network size,
+::: {.research-section-lead}
+The completed projects are listed below. For a full list of publications, see the publications page.
+:::
 
-\begin{equation}
-\langle l\rangle\sim N^{1/D_{\mathrm{f}}},
-\end{equation}
+:::: {.research-project .research-project--reverse}
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/bifractality-fig1.png" alt="Generator construction and box covering for a fractal scale-free network.">
+  <figcaption>Generator construction and box covering used to analyze bifractality.</figcaption>
+</figure>
+:::
 
-in contrast to logarithmic scaling in small-world networks. 
+::: {.research-project__body}
+<div class="research-project__meta"><span class="research-status research-status--published">Published</span><span>Physical Review E · 2023</span></div>
 
-Fractal network models are useful because they posess well-defined structural scale-invariance and renormalization. They are also known to possess non-trivial structural properties, including hub repulsions, a manifestion of long-range degree correlations beyond nearest neighbors.
+### Bifractality of fractal scale-free networks {#bifractality}
 
-#### Bifractality {#bifractality}
+Fractal scale-free networks can possess two local dimensions: one near hubs and another near ordinary nodes. Analytical and numerical results connect this bifractality to the combination of fractal geometry and a scale-free degree distribution [@yamamoto2023bifractality].
 
-An interesting property of fractal scale-free networks is bifractality [@yamamoto2023bifractality], which implies the distinct local dimensionality of the neighborhood of hub nodes versus non-hub nodes. 
-For a class of fractal scale-free networks in which, under renormalization, the number of nodes $\nu_{\mathrm{B}}$ in a supernode of diameter $l_{\mathrm{B}}$ is proportional to the degree $k_{\mathrm{B}}$ of that supernode,
+::: {.research-actions .research-actions--compact}
+[Paper](https://doi.org/10.1103/PhysRevE.108.024302){.research-button .research-button--small}
+[arXiv](https://doi.org/10.48550/arXiv.2304.13438){.research-button .research-button--small}
+:::
+:::
+::::
 
-\begin{equation}
-\nu_{\mathrm{B}}\propto k_{\mathrm{B}},
-\end{equation}
+:::: {.research-project}
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/random-walks-fig3.png" alt="A bifractal network colored by local spectral dimension, with a color scale.">
+  <figcaption>Local spectral dimension across a bifractal network.</figcaption>
+</figure>
+:::
 
-the network exhibits two distinct local fractal dimensions,
+::: {.research-project__body}
+<div class="research-project__meta"><span class="research-status research-status--published">Published</span><span>Physical Review E · 2024</span></div>
 
-\begin{equation}
-d_{\mathrm{f}}^{\max}=D_{\mathrm{f}},\qquad
-d_{\mathrm{f}}^{\min}=D_{\mathrm{f}}\left(\frac{\gamma-2}{\gamma-1}\right),
-\end{equation}
+### Random walks on bifractal networks {#bifractal-random-walks}
 
-where $\gamma$ is the exponent of the degree distribution and $D_{\mathrm{f}}$ is the box-covering fractal dimension.
+Building on bifractality, we showed that a random walk's walk dimension remains position-independent, whereas the spectral dimension splits into two local values.
 
-The minimum local fractal dimension $d_{\mathrm{f}}^{\min}$ is associated with the neighborhood of hub nodes, while the maximum local fractal dimension $d_{\mathrm{f}}^{\max}$ is associated with the neighborhood of non-hub nodes. Analytical and numerical calculations for deterministic and stochastic hierarchical fractal scale-free networks, together with fractal scale-free random graphs, suggest that bifractality is a general property of fractal scale-free networks [@yamamoto2023bifractality].
+The result connects static geometry to transport: local structural scaling remains visible in return probabilities even when the spreading exponent is global [@yakubo2024random].
 
+::: {.research-actions .research-actions--compact}
+[Paper](https://doi.org/10.1103/PhysRevE.110.064318){.research-button .research-button--small}
+[arXiv](https://doi.org/10.48550/arXiv.2407.16183){.research-button .research-button--small}
+:::
+:::
+::::
 
-## Network dynamics {#network-dynamics .project-section}
+:::: {.research-project .research-project--reverse}
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/triadic-interactions-fig1-panels-ab.png" alt="Panels showing a single triadic interaction and its extension to a structural network with regulatory nodes.">
+  <figcaption>Structural and regulatory layers of a triadic-interaction network.</figcaption>
+</figure>
+:::
 
-The second pillar of my research concerns dynamical processes on networks. I am interested in how non-trivial structural properties of complex networks modify dynamical processes such as diffusion and synchronization.
+::: {.research-project__body}
+<div class="research-project__meta"><span class="research-status research-status--published">Published</span><span>Nature Communications · 2025</span></div>
 
-### Dynamics on physical networks {#physical-network-dynamics}
+### Inferring higher-order triadic interactions {#triadic-interactions}
 
-A central question is how physical constraints should enter the dynamical operators used to model diffusion and synchronization. As an analytical model, we study multiscale diffusion on a network-of-networks representation of physical networks [@pete2024physical].
+This completed project used conditional correlations and mutual information to infer when a third node modulates an edge, then applied the framework to gene-regulatory networks [@niedostatek2025mining].
 
-In the weak inter-subnetwork coupling limit relative to the intra-subnetwork coupling, the relevant operator reduces to a node-weighted Laplacian,
-
-\begin{equation}
-\mathbf{Q}_{\mathrm{P}} = \mathbf{V}^{-1/2} \mathbf{Q}_{\mathrm{G}} \mathbf{V}^{-1/2},
-\end{equation}
-
-where $\mathbf{Q}_{\mathrm{G}}$ is the combinatorial graph Laplacian of the inter-subnetwork edges and $\mathbf{V}=\mathrm{diag}(v_1,\dots,v_N)$ is the diagonal matrix of node volumes or subnetwork sizes.
-
-This formulation makes node volume an explicit part of the network operator and provides a route to studying diffusion, localization, and synchronization in physical networks.
-
-#### Laplacian localization {#physical-laplacian-localization}
-
-We study eigenmode localization of the node-weighted Laplacian and ask how node physicality reshapes localization phenomena in empirical and synthetic physical networks.
-
-This project aims to identify when physical constraints suppress, enhance, or reorganize Laplacian localization, and how this affects dynamical observables such as diffusion timescales and eigenmode shapes.
-
-More coming soon.
-
-#### Modular synchronization {#physical-modular-synchronization}
-
-Motivated by the coarse-grained Laplacians that arise in the weak-subnetwork coupling limit, we study synchronization dynamics in heterogeneous modular networks.
-
-As a concrete physical setting, we are working in collaboration with an experimental group to design and test modular synchronization in a physical network of coupled spin-Hall nano-oscillators. The goal is to understand how local synchronization within modules and global synchronization across modules are controlled by topological and physical heterogeneity of physical networks.
-
-More coming soon.
-
-### Random walks in bifractal networks {#bifractal-random-walks}
-
-Building on the bifractality conjecture [@yamamoto2023bifractality], we studied random walks on bifractal networks and found that the walk dimension remains position-independent, whereas the spectral dimension splits into two distinct local values. This splitting reflects the underlying bifractal structure and shows how local structural scaling can appear in dynamical observables [@yakubo2024random].
-
-This project connects the structural pillar of bifractality to dynamical questions about diffusion and transport on fractal scale-free networks.
-
-### Higher-order network dynamics with triadic interactions {#triadic-interactions}
-
-Triadic interactions are higher-order, three-body interactions in which a node modulates an edge between two other nodes. Such interactions are reported in real systems: for example, glial cells can regulate synaptic interactions between neurons, and a third species can interfere with pairwise ecological interactions [@wang2009genome; @cho2016optogenetic; @grilli2017higher; @li2026higher].
-
-To model such interactions, we define a triadic interaction on a network $G=(V,E)$ as an interaction between a node $i\in V$ and an edge $\ell\in E$, encoded by an incidence matrix $\mathbf{K}\in\{-1,0,1\}^{|E|\times |V|}$ with entries
-
-\begin{equation}
-K_{\ell i} =
-\begin{cases}
--1, & \text{if node } i \text{ inhibits edge } \ell,\\
- 1, & \text{if node } i \text{ activates edge } \ell,\\
- 0, & \text{otherwise}.
-\end{cases}
-\end{equation}
-
-Signed triadic interactions turn percolation processes into dynamical ones and can induce phenomena such as period doubling and chaos [@sun2023dynamic; @sun2024higher; @millan2024triadic].
-
-In my MSc dissertation and subsequent collaborative work, I studied Langevin dynamics on networks with triadic interactions, where the interaction matrix coevolves with node states through a triadic Laplacian. The model takes the form
-
-\begin{equation}
-d\mathbf{X}=-(\mathbf{L}^{(\mathrm{T})}+\alpha\mathbf{I})\mathbf{X}\,dt+\mathbf{\Gamma}\,d\mathbf{W}_t,
-\end{equation}
-
-where $\mathbf{L}^{(\mathrm{T})}$ is a state-dependent triadic Laplacian. The pairwise baseline without triadic interactions is analytically tractable, while triadic interactions produce conditional statistical signatures.
-
-We show that conditional correlations and conditional mutual information can reveal the existence, sign, and strength of triadic interactions. This framework was used as a null model to identify node tuples with triadic interactions in gene regulatory networks [@niedostatek2025mining].
+::: {.research-actions .research-actions--compact}
+[Paper](https://doi.org/10.1038/s41467-025-66577-z){.research-button .research-button--small}
+[arXiv](https://doi.org/10.48550/arXiv.2404.14997){.research-button .research-button--small}
+[Code](https://github.com/anthbapt/trim){.research-button .research-button--small}
+:::
+:::
+::::
 
 :::

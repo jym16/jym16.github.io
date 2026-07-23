@@ -4,13 +4,18 @@ bibliography: _bibliography/papers.bib
 page-layout: full
 ---
 
-<!-- 
-## In Preparation
 
-**Jun Yamamoto**, Ivan Bonamassa, M. Posfai 
-"Localization transitions of diffusion dynamics in physical networks"
+## Preprints
+
+<!-- 
+[5] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
+"Laplacian eigenmode localization in physical complex networks."
+Submitted (2026). 
 -->
 
+[4] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
+"Localization transitions of diffusion dynamics in physical networks."
+Submitted (2026).
 
 
 ## Journal articles
