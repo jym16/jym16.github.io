@@ -141,9 +141,9 @@ The result connects structural bifractality to transport properties: local struc
 ::: {.research-project__body}
 <div class="research-project__meta"><span class="research-status research-status--published">Published</span><span>Nature Communications · 2025</span></div>
 
-### Inferring higher-order triadic interactions {#triadic-interactions}
+### Mining triadic interactions {#triadic-interactions}
 
-We considered diffusive dynamics in networks with triadic interactions in which a node can influence the connection between two other nodes. We demonstrated that such interactions can be inferred from conditional correlations and mutual information [@niedostatek2025mining].
+We considered diffusive dynamics in networks with triadic interactions in which a node can influence the connection between two other nodes. We demonstrated that such interactions can be mined from conditional correlations and mutual information between node triplets [@niedostatek2025mining].
 
 ::: {.research-actions .research-actions--compact}
 [Paper](https://doi.org/10.1038/s41467-025-66577-z){.research-button .research-button--small}
