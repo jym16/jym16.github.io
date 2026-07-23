@@ -62,7 +62,7 @@ and Its Implications for Synchronization."
 Group seminar at the Nakao Lab, Science Tokyo,
 February 9, 2026.
 
-2. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+2. **Jun Yamamoto**\*.
 "Physical Networks as Network-of-Networks."
 ネットワーク科学勉強会,
 May 25, 2025 (Online).
