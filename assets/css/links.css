@@ -1,6 +1,7 @@
-.links-page {
+body.links-page #quarto-document-content {
+  width: 100%;
   max-width: 1120px;
-  margin: 0 auto;
+  justify-self: center;
 }
 
 .links-intro {

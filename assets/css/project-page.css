@@ -59,11 +59,20 @@ body.research-page #quarto-document-content a {
 body.research-page #quarto-document-content h2 {
   position: relative;
   margin: 5.4rem 0 0.75rem;
-  padding-top: 1.35rem;
+  padding-top: 1rem;
   color: var(--research-ink);
   border-top: 1px solid var(--research-line);
-  font-size: clamp(1.65rem, 3vw, 2.25rem);
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  line-height: 1.2;
   letter-spacing: -0.025em;
+}
+
+body.research-page #title-block-header {
+  margin-bottom: 0;
+}
+
+body.research-page #quarto-document-content > #current-projects > h2 {
+  margin-top: 1.5rem;
 }
 
 body.research-page #quarto-document-content h2::before {
