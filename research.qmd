@@ -23,7 +23,7 @@ toc-depth: 2
 ::: {.research-program-card__visual}
 <figure class="research-figure">
   <img class="research-paper-image" src="assets/images/research/physical-laplacian-fig1.png" alt="Three-dimensional rendering of a porous medium inside a cubic volume, with an inner sampling region.">
-  <figcaption>A three-dimensional porous medium as a physical network.</figcaption>
+  <!-- <figcaption>A three-dimensional porous medium as a physical network.</figcaption> -->
 </figure>
 :::
 
@@ -42,7 +42,7 @@ How physical constraints impact network structure and dynamics, including how de
 ::: {.research-program-card__visual}
 <figure class="research-figure">
   <img class="research-paper-image" src="assets/images/research/network-scaling-critical-branching-tree.png" alt="A branching tree rooted at the center and expanding radially with degree heterogeneity.">
-  <figcaption>A branching tree with heterogeneous branching.</figcaption>
+  <!-- <figcaption>A branching tree with heterogeneous branching.</figcaption> -->
 </figure>
 :::
 
@@ -61,7 +61,7 @@ Scaling laws and critical phenomena for networks with heterogeneous topologies [
 ::: {.research-program-card__visual}
 <figure class="research-figure">
   <img class="research-paper-image" src="assets/images/research/network-synchronization-oscillator-graph.png" alt="Schematic of phase oscillators coupled through a network.">
-  <figcaption>Phase oscillators coupled through a network.</figcaption>
+  <!-- <figcaption>Phase oscillators coupled through a network.</figcaption> -->
 </figure>
 :::
 

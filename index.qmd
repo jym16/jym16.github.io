@@ -88,6 +88,8 @@ I am supervised by Prof. [Márton Pósfai](https://people.ceu.edu/marton_posfai)
 
 ## News
 
+- **2026-09-07**: I will present my work on structural crossover in critical random networks at the [Complexity of Life Conference 2026](https://colibri.uni-graz.at/en/complexity-of-life-conference-2026/) at University of Graz, Austria.
+
 - **2026-07-16**: I co-organized a networking event for Japanese researchers in Austria at the Official Residence of the Japanese Ambassador in Vienna, Austria. 
 
 - **2026-06~2026-07**: I visited the [Barabasi Lab](https://barabasi.com/science) at Northeastern University in Boston, USA, for a research stay as an [AccelNet-MultiNet fellow](https://www.accelnet-multinet.org/).

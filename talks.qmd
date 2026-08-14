@@ -8,7 +8,15 @@ page-layout: full
 
 A subset of talks and posters that I have given at conferences.
 
-### Conference talks
+## Upcoming talks
+
+1. Shogo Mizutaka, **Jun Yamamoto**\*, and Kousuke Yakubo.
+"Long-range degree correlations reveal structural crossover in critical random graphs"
+Complexity of Life Conference 2026, 
+September 7, 2026.
+\[[abstract](./assets/files/abstract/col2026_abstract.pdf)\]
+
+## Conference talks
 
 1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
 "Localization-delocalization transition in physical networks."
@@ -36,7 +44,7 @@ September 20, 2021.
 \[[abstract](./assets/files/abstract/jps2021autumn_abstract.pdf)\]
 \[[slides](./assets/files/slides/jps2021autumn.pdf)\]
 
-### Conference posters
+## Conference posters
 
 1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
 "When node volume matters: Spectral transitions in physical Laplacians."
@@ -54,7 +62,7 @@ The Network Science Seminar AY2021/22 in Kanazawa,
 December 11-12, 2021. 
 *Poster Award*.
 
-### Seminar talks
+## Seminar talks
 
 1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
 "Eigenmode Localization in Physical Network Laplacians
@@ -64,7 +72,7 @@ February 9, 2026.
 
 2. **Jun Yamamoto**\*.
 "Physical Networks as Network-of-Networks."
-ネットワーク科学勉強会,
+Network Science Study Group (ネットワーク科学勉強会),
 May 25, 2025 (Online).
 
 3. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
