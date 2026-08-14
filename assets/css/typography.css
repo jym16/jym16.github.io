@@ -140,3 +140,9 @@ html:lang(ja),
 [lang="ja"] {
   font-family: var(--serif-ja) !important;
 }
+
+/* Justify paragraph text across all site pages. */
+#quarto-document-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}

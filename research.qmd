@@ -5,12 +5,12 @@ bibliography:
   - _bibliography/papers.bib
   - _bibliography/reference.bib
 css: assets/css/project-page.css
+body-classes: research-page
 page-layout: full
 toc: true
+toc-location: right
 toc-depth: 2
 ---
-
-::: {.research-page}
 
 ## Current projects {#current-projects}
 
@@ -152,5 +152,3 @@ We considered diffusive dynamics in networks with triadic interactions in which 
 :::
 :::
 ::::
-
-:::

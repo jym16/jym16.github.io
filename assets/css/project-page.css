@@ -1,6 +1,6 @@
 /* Research portfolio page */
 
-.research-page {
+body.research-page {
   --research-ink: #13223f;
   --research-text: #283344;
   --research-muted: #647084;
@@ -22,13 +22,9 @@
   --viz-gold: #d4a13a;
   --viz-teal: #3d9388;
   --viz-violet: #7867b8;
-  max-width: 1180px;
-  margin: 0 auto;
-  color: var(--research-text);
 }
 
-body.quarto-dark .research-page,
-[data-bs-theme="dark"] .research-page {
+body.quarto-dark.research-page {
   --research-ink: #f1f4fb;
   --research-text: #dce2ed;
   --research-muted: #a9b4c7;
@@ -52,11 +48,15 @@ body.quarto-dark .research-page,
   --viz-violet: #ad9ce5;
 }
 
-.research-page a {
+body.research-page #quarto-document-content > section {
+  color: var(--research-text);
+}
+
+body.research-page #quarto-document-content a {
   text-underline-offset: 0.18em;
 }
 
-.research-page h2 {
+body.research-page #quarto-document-content h2 {
   position: relative;
   margin: 5.4rem 0 0.75rem;
   padding-top: 1.35rem;
@@ -66,7 +66,7 @@ body.quarto-dark .research-page,
   letter-spacing: -0.025em;
 }
 
-.research-page h2::before {
+body.research-page #quarto-document-content h2::before {
   position: absolute;
   top: -2px;
   left: 0;
@@ -77,7 +77,7 @@ body.quarto-dark .research-page,
   content: "";
 }
 
-.research-page h3 {
+body.research-page #quarto-document-content h3 {
   margin: 0 0 0.75rem;
   color: var(--research-ink);
   font-size: clamp(1.28rem, 2vw, 1.62rem);
@@ -593,7 +593,7 @@ body.quarto-dark .research-page,
 }
 
 @media (max-width: 640px) {
-  .research-page h2 {
+  body.research-page #quarto-document-content h2 {
     margin-top: 4rem;
   }
 

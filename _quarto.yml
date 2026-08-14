@@ -16,7 +16,6 @@ website:
   title: "Jun Yamamoto"
   image: assets/images/logo.png
   repo-url: "https://github.com/jym16/homepage"
-  repo-actions: [issue]
   page-navigation: true
   reader-mode: true
   back-to-top-navigation: true
@@ -71,6 +70,7 @@ website:
 
 format:
   html:
+    format-links: false
     theme:
       light: cosmo
       dark: cyborg

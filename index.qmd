@@ -1,4 +1,5 @@
 ---
+body-classes: home-page
 page-layout: full
 
 title: "Jun Yamamoto"

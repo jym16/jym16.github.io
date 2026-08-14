@@ -264,3 +264,10 @@ body.quarto-dark .publication-badge--github {
     transition: none;
   }
 }
+
+/* Keep the home page slightly narrower than the full-width site layout. */
+body.home-page #quarto-document-content {
+  width: 100%;
+  max-width: 1120px;
+  justify-self: center;
+}
