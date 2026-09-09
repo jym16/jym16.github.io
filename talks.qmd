@@ -8,7 +8,9 @@ page-layout: full
 
 A subset of talks and posters that I have given at conferences.
 
-## Upcoming talks
+<!-- ## Upcoming talks -->
+
+## Conference talks
 
 1. Shogo Mizutaka, **Jun Yamamoto**\*, and Kousuke Yakubo.
 "Long-range degree correlations reveal structural crossover in critical random graphs"
@@ -16,28 +18,26 @@ Complexity of Life Conference 2026,
 September 7, 2026.
 \[[abstract](./assets/files/abstract/col2026_abstract.pdf)\]
 
-## Conference talks
-
-1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+2. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
 "Localization-delocalization transition in physical networks."
 The 29th International Conference on Statistical Physics,
 July 14, 2025.
 \[[abstract](./assets/files/abstract/statphys29_abstract.pdf)\]
 
-2. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai. 
+3. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai. 
 "Delocalization of Physical Laplacian Eigenvectors due to Degree-Volume Correlation."
 The International School and Conference on Network Science, 
 June 4, 2025.
 \[[abstract](./assets/files/abstract/netsci2025_abstract.pdf)\]
 
-3. **Jun Yamamoto**\* and Kousuke Yakubo. 
+4. **Jun Yamamoto**\* and Kousuke Yakubo. 
 "Bifractal property of stochastic scale-free networks." 
 The Physical Society of Japan 77th Annual Meeting,
 March 15, 2022.
 \[[abstract](./assets/files/abstract/jps2022spring_abstract.pdf)\]
 \[[slides](./assets/files/slides/jps2022spring.pdf)\]
 
-4. **Jun Yamamoto**\* and Kousuke Yakubo. 
+5. **Jun Yamamoto**\* and Kousuke Yakubo. 
 "Multifractality of scale-free networks." 
 The Physical Society of Japan 76th Annual Meeting, 
 September 20, 2021.
