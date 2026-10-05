@@ -11,12 +11,18 @@ page-layout: full
 
 [7] Charlotte Geier, **Jun Yamamoto**, and Márton Pósfai.
 "Synchronization and coarse-graining in heterogeneous networks of modules."
-
-[6] Shogo Mizutaka, **Jun Yamamoto**, and Kousuke Yakubo.
-"Structural crossover of complex networks: bridging degree correlation and fractality." 
 -->
 
 ## Preprints
+
+[6] Shogo Mizutaka, **Jun Yamamoto**, and Kousuke Yakubo.
+"Structural crossover of complex networks: bridging degree correlation and fractality." 
+arXiv:2610.02883 (2026). <span class="publication-links" aria-label="Publication links">
+  <a class="publication-badge publication-badge--arxiv" href="https://doi.org/10.48550/arXiv.2610.02883" target="_blank" rel="noopener noreferrer" aria-label="View preprint on arXiv">
+    <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-arxiv"></i></span>
+    <span class="publication-badge__label">arXiv</span>
+  </a>
+</span>
 
 [5] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
 "Laplacian eigenmode localization in physical complex networks." 
