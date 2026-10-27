@@ -11,7 +11,7 @@ from urllib.parse import unquote, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PRIVATE_DIRS = {"_backup", "_extensions", "_includes", ".git", ".quarto", "node_modules", "scripts", "research"}
+PRIVATE_DIRS = {"_backup", "_extensions", "_filters", "_includes", ".git", ".quarto", "node_modules", "scripts", "research"}
 SOURCE_SUFFIXES = {".qmd", ".ipynb", ".py", ".lua", ".tex", ".bib", ".npz", ".csv"}
 WITHHELD_IMAGES = {"synchronization-overview.svg", "synchronization-reentrance.svg"}
 

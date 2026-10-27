@@ -12,7 +12,8 @@ toc-depth: 3
 ---
 
 ::: {#current-projects .research-introduction .page-introduction}
-I study the structure and dynamics of physical networks embedded in low-dimensional Euclidean space, and of fractal networks with finite dimension. These two directions connect spatial constraints and network geometry to transport and collective behavior.
+I study the structure and dynamics of physical networks embedded in low-dimensional Euclidean space, and of networks with finite fractal dimension defined by shortest-path box covering. 
+These two directions bridge network topology, geometry, and dynamics.
 :::
 
 <nav class="research-overview-links" aria-label="Research sections">
@@ -31,21 +32,24 @@ I study the structure and dynamics of physical networks embedded in low-dimensio
 ## Physical networks {#physnets}
 
 ::: {.research-program__lead}
-Physical networks are embedded in low-dimensional Euclidean space.
-I investigate how spatial and physical constraints shape their connectivity, node volumes, and dynamics.
+Physical networks with spatially extended components are embedded in low-dimensional Euclidean space.
+I investigate how spatial and physical constraints shape network topology, node properties, and collective dynamics.
 :::
 
 ### Structural properties {#physnets-structure}
 
 :::: {.research-topic-row}
 ::: {.research-topic-row__body}
-<p class="research-question">How does spatial organization connect network topology with physical node size?</p>
+<p class="research-question">How does spatial organization couple network topology with physical node properties?</p>
 
-I study **degree–volume correlations**: how a physical node's volume relates to the number and strength of its connections. These structural relations connect physical constraints with coarse-grained network representations and provide the starting point for models of transport and collective dynamics [@yamamoto2026localization; @yamamoto2026laplacian].
+I study **degree–volume correlations**, the relationship between a physical node's size and the number and strength of its connections, commonly observed in many empirical physical networks. 
+These correlations relate physical constraints with network representations and provide the starting point for models of transport and collective dynamics in physical complex systems [@yamamoto2026localization; @yamamoto2026laplacian].
 
+<!-- 
 ::: {.research-actions}
-[Physical-network preprint](https://doi.org/10.48550/arXiv.2607.19486){.button-link .button-link--compact}
-:::
+[Preprint](https://doi.org/10.48550/arXiv.2607.19486){.button-link .button-link--compact}
+::: 
+-->
 :::
 
 ::: {.research-topic-row__visual}
@@ -58,7 +62,7 @@ I study **degree–volume correlations**: how a physical node's volume relates t
 
 ### Dynamics {#physnets-dynamics}
 
-I investigate how physical heterogeneity shapes diffusion, localization, mechanical response, and synchronization.
+I investigate how network physicality shapes diffusion, localization, and synchronization.
 
 :::: {.research-topic-row}
 ::: {.research-topic-row__body}
@@ -93,7 +97,8 @@ A node's volume affects how long it stores flow before passing it on. We identif
 
 <p class="research-question">How does physical network structure shape synchronization patterns?</p>
 
-I study the emergence of synchronization in coupled oscillator networks. I also collaborate with experimentalists on **spin Hall nano-oscillators**.
+I study the emergence of synchronization in coupled oscillator networks with physical constraints. 
+I collaborate with an [experimental spintronics group](https://www.akermanlab.com/) on **spin Hall nano-oscillators**.
 
 <p class="research-working-note">Further details will be shared when the preprint is available on arXiv.</p>
 :::
@@ -113,7 +118,8 @@ I study the emergence of synchronization in coupled oscillator networks. I also 
 ## Fractal networks {#netscale}
 
 ::: {.research-program__lead}
-I study fractal networks with finite dimensions defined through scaling with shortest-path distance. My work examines how these dimensions depend on position and observation scale, and how they govern transport.
+I study complex networks with finite fractal dimensions defined through the scaling of the minimal number of boxes (subgraphs) of a given diameter needed to cover the network.
+My work examines how these dimensions depend on position and observation scale, and how they govern transport.
 :::
 
 ### Structural properties {#netscale-structure}
@@ -122,7 +128,7 @@ I study fractal networks with finite dimensions defined through scaling with sho
 ::: {.research-topic-row__body}
 <p class="research-project__meta"><span>Published work / preprint</span></p>
 
-<p class="research-question">How can one network have different local dimensions, and how does its structure change across scales?</p>
+<p class="research-question">How can the coexistence of fractal and scale-free properties impact network structures, and how do network structures change across scales?</p>
 
 **Bifractality.** We identified two distinct local fractal dimensions in a broad range of fractal scale-free networks: one near hubs and another away from them. Analytical and numerical results suggest that this bifractality is a general property of networks possessing scale-free topology with fractal structure [@yamamoto2023bifractality].
 
@@ -151,9 +157,9 @@ I study fractal networks with finite dimensions defined through scaling with sho
 
 <p class="research-project__meta"><span>Published · Physical Review E · 2024</span></p>
 
-<p class="research-question">How does local fractal geometry affect a random walk's return probability?</p>
+<p class="research-question">How does local fractal geometry affect random walks?</p>
 
-Our work on random walks connects structural bifractality to **two local spectral dimensions**, while the walk dimension remains position-independent. The spectral dimension governs the decay of the return-to-origin probability, $P_i(t) \propto t^{-d_{\mathrm{s}}(i)/2}$. Walks starting at hubs and at distant non-hub nodes therefore exhibit distinct local transport properties [@yakubo2024random].
+Our work on random walks connects structural bifractality to **two local spectral dimensions**, while the walk dimension remains position-independent. The spectral dimension governs the decay of the return-to-origin probability, $P_i(t) \propto t^{-d_{\mathrm{s}}(i)/2}$. Walks starting at hubs and at distant non-hub nodes therefore exhibit distinct local transport properties in the large-network limit [@yakubo2024random].
 
 ::: {.research-actions}
 [Paper](https://doi.org/10.1103/PhysRevE.110.064318){.button-link .button-link--compact}
@@ -171,55 +177,11 @@ Our work on random walks connects structural bifractality to **two local spectra
 
 :::::
 
-## Selected published work {#past-project}
+## Past projects {#past-project}
 
 ::: {.research-section-lead}
-Earlier results on network geometry, transport, and higher-order interactions. See [Publications](publications.qmd) for the full list.
+Here I summarize other research projects I have worked on. See [Publications](publications.qmd) for the full list.
 :::
-
-:::: {.research-project}
-::: {.research-project__body}
-<p class="research-project__meta"><span>Published</span><span>Physical Review E · 2023</span></p>
-
-### Bifractality of fractal scale-free networks {#bifractality}
-
-We identified two distinct local fractal dimensions in a broad range of fractal scale-free networks: one near hubs and another away from them. Analytical and numerical results suggest this bifractality is a general property of networks combining scale-free connectivity with fractal structure [@yamamoto2023bifractality].
-
-::: {.research-actions}
-[Paper](https://doi.org/10.1103/PhysRevE.108.024302){.button-link .button-link--compact}
-[arXiv](https://doi.org/10.48550/arXiv.2304.13438){.button-link .button-link--compact}
-:::
-:::
-
-::: {.research-project__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/bifractality-fig1.png" width="890" height="940" alt="Generator construction and box covering for a fractal scale-free network." loading="lazy" decoding="async">
-  <figcaption>Generator construction and box covering for a bifractal network.</figcaption>
-</figure>
-:::
-::::
-
-:::: {.research-project}
-::: {.research-project__body}
-<p class="research-project__meta"><span>Published</span><span>Physical Review E · 2024</span></p>
-
-### Random walks on bifractal networks {#bifractal-random-walks}
-
-Building on bifractality, we showed that the walk dimension remains position-independent while the spectral dimension takes two local values. These distinct structural environments leave a measurable signature in return-to-origin probabilities [@yakubo2024random].
-
-::: {.research-actions}
-[Paper](https://doi.org/10.1103/PhysRevE.110.064318){.button-link .button-link--compact}
-[arXiv](https://doi.org/10.48550/arXiv.2407.16183){.button-link .button-link--compact}
-:::
-:::
-
-::: {.research-project__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/random-walks-return-probability.png" width="976" height="748" alt="Original published return-to-origin probability plot, with different decay exponents for walks starting at hubs and far from hubs in bifractal networks." loading="lazy" decoding="async">
-  <figcaption>Published return probabilities for bifractal networks, vertically offset for clarity.</figcaption>
-</figure>
-:::
-::::
 
 :::: {.research-project}
 ::: {.research-project__body}
@@ -227,7 +189,8 @@ Building on bifractality, we showed that the walk dimension remains position-ind
 
 ### Mining triadic interactions {#triadic-interactions}
 
-In a triadic interaction, a node influences the connection between two other nodes. We showed how these higher-order interactions can be inferred from diffusive dynamics using conditional correlations and mutual information between node triplets [@niedostatek2025mining].
+In a triadic interaction, a node influences the connection between two other nodes. 
+We developed a method to identify candidate triadic interactions by measuring how mutual information between two node states varies with a third node’s state, with significance assessed against null models [@niedostatek2025mining].
 
 ::: {.research-actions}
 [Paper](https://doi.org/10.1038/s41467-025-66577-z){.button-link .button-link--compact}

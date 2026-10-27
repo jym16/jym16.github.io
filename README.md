@@ -8,7 +8,7 @@ Use Quarto 1.6 and Python 3.10 or newer. The website itself needs no npm package
 
 ```sh
 quarto render
-python3 scripts/validate_site.py
+python3 .github/validate_site.py
 quarto preview --no-browser --port 5343
 ```
 
@@ -21,6 +21,11 @@ index, and accidental inclusion of private or source files.
 The six English pages are at the repository root. Japanese Home and Research
 live in `ja/`, inheriting `lang: ja` from `ja/_metadata.yml`. Keep research claims,
 publication links, and homepage news aligned between languages.
+
+Japanese Research keeps `lang: ja` but uses `_filters/english-citations.lua`
+to format citations and references in English. Keep its `citeproc: false` and
+filter settings together: the filter runs Pandoc's citation processor once with
+`en-US`, then restores the document language.
 
 `_quarto.yml` defines the eight rendered pages, shared content grid, and native
 navigation. The navbar's language variants are intentional: CSS shows the
@@ -35,9 +40,10 @@ on the Publications page.
 
 ## Figures and public resources
 
-Current figure builders, retained data, and provenance live in `scripts/figures/`;
-see its README for rebuilding instructions. Only displayed figure exports belong
-in `assets/images/research/`.
+Figure builders, retained data, and provenance stay in the ignored local
+`scripts/` directory. They are not included in the public repository and are not
+needed to build the website. Quarto uses the prebuilt figure exports in
+`assets/images/research/`.
 
 Quarto discovers linked images and styles automatically. The only additional
 resources copied explicitly are the public CV, PDF downloads in `assets/files/`,

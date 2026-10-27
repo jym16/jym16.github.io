@@ -2,14 +2,11 @@
 **/.DS_Store
 /.quarto/
 /_site/
-/*_files/
-/ja/*_files/
 node_modules/
 __pycache__/
 *.py[cod]
 /.venv/
-/tmp/
 
-# Local archives and private academic materials
+# Local archives and private materials
 _backup/
-/assets/cv/
+/scripts/

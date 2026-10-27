@@ -15,7 +15,8 @@ image: assets/images/prof_pic.jpeg
 <p class="home-intro__role">PhD candidate in Network Science</p>
 <p class="home-intro__affiliation">Department of Network and Data Science<br>Central European University · Vienna, Austria</p>
 
-<p class="home-intro__summary">I investigate the organizing principles underlying network structure and dynamics using statistical physics. My current work focuses on physical networks, network coarse-graining and scale invariance, and network diffusion and synchronization.</p>
+<p class="home-intro__summary">I am a theoretical network scientist, investigating the organizing principles of network structures and dynamics using statistical physics. 
+My active research topics include physical networks, network coarse-graining and fractality, and network diffusion and synchronization.</p>
 
 <div class="home-actions">
 <a class="button-link button-link--primary" href="research.qmd">Explore research</a>
@@ -37,7 +38,7 @@ image: assets/images/prof_pic.jpeg
 ## Research
 
 ::: {.section-intro}
-My research connects structure and dynamics in physical and fractal networks.
+My research focuses on the structure and dynamics of physical and fractal networks, exploring how network topology and geometry influence transport and collective behavior.
 :::
 
 :::: {.theme-grid}
@@ -60,7 +61,7 @@ How do network connectivity and spatial layout jointly shape transport and dynam
 
 ### [Fractal networks](research.qmd#netscale)
 
-How do fractal properties influence network structure and function?
+How do fractal property and scales impact network structure and function?
 
 [More details](research.qmd#netscale){.theme-card__link .button-link .button-link--compact}
 :::

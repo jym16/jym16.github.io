@@ -16,7 +16,7 @@ image: /assets/images/prof_pic.jpeg
 <p class="home-intro__role">ネットワーク科学・博士課程</p>
 <p class="home-intro__affiliation">中央ヨーロッパ大学 ネットワーク・データ科学専攻<br>オーストリア・ウィーン</p>
 
-<p class="home-intro__summary">統計物理学の手法を用いて、ネットワークの構造や動力学を特徴づける原理を探っています。現在は、物理ネットワーク、粗視化とスケール不変性、ネットワーク上の拡散と同期を主な研究テーマとしています。</p>
+<p class="home-intro__summary">統計物理学の手法を用いて、ネットワークの構造と動力学を特徴づける原理を探る理論研究に取り組んでいます。現在は、物理ネットワーク、ネットワークの粗視化とフラクタル性、ネットワーク上の拡散と同期を主な研究テーマとしています。</p>
 
 <div class="home-actions">
 <a class="button-link button-link--primary" href="research.qmd">研究紹介</a>
@@ -37,7 +37,7 @@ image: /assets/images/prof_pic.jpeg
 ## 研究
 
 ::: {.section-intro}
-物理ネットワークとフラクタルネットワークを対象に、構造と動力学の関係を調べています。
+物理ネットワークとフラクタルネットワークの構造と動力学を主テーマに、ネットワークの構造や幾何学的な性質が、ネットワーク上の輸送や集団現象に与える影響を調べています。
 :::
 
 :::: {.theme-grid}
@@ -60,7 +60,7 @@ image: /assets/images/prof_pic.jpeg
 
 ### [フラクタルネットワーク](research.qmd#netscale)
 
-フラクタル性は、ネットワークの構造と機能にどのような影響を与えるか？
+フラクタル性と観測スケールは、ネットワークの構造や機能にどのような影響を与えるか？
 
 [詳細](research.qmd#netscale){.theme-card__link .button-link .button-link--compact}
 :::
@@ -70,9 +70,9 @@ image: /assets/images/prof_pic.jpeg
 <div class="theme-card__image"><img src="/assets/images/research/home-fhn-voltage.svg" alt="結合したFitzHugh–Nagumo振動子の電圧の時間変化を示す曲線。" width="640" height="400" loading="lazy" decoding="async"></div>
 </figure>
 
-### [ネットワークの同期](research.qmd#netsync)
+### [ネットワーク上の同期](research.qmd#netsync)
 
-複雑なネットワークでは、どのような同期パターンが現れるか？
+複雑ネットワーク上では、どのような同期パターンが現れるか？
 
 [詳細](research.qmd#netsync){.theme-card__link .button-link .button-link--compact}
 :::
@@ -85,12 +85,12 @@ image: /assets/images/prof_pic.jpeg
 
 <ul class="education-list">
 <li><strong>博士課程・ネットワーク科学</strong><span>在学中・中央ヨーロッパ大学<br>オーストリア・ウィーン</span></li>
-<li><strong>修士（数学）</strong><span>2023年・クイーン・メアリー大学ロンドン<br>英国・ロンドン</span></li>
+<li><strong>修士（数学）</strong><span>2023年・ロンドン大学クイーン・メアリー校<br>英国・ロンドン</span></li>
 <li><strong>学士（工学）</strong><span>2022年・北海道大学<br>日本・札幌</span></li>
 </ul>
 
 ::: {.supervisors}
-[Márton Pósfai](https://people.ceu.edu/marton_posfai) 准教授と [János Kertész](https://people.ceu.edu/janos_kertesz) 教授の指導を受けています。
+博士課程では、[Márton Pósfai](https://people.ceu.edu/marton_posfai) 准教授と [János Kertész](https://people.ceu.edu/janos_kertesz) 教授の指導を受けています。
 :::
 
 ::: {.home-actions}
@@ -107,8 +107,8 @@ image: /assets/images/prof_pic.jpeg
 <li><time datetime="2026-09-07">2026年9月7日</time>オーストリアのグラーツ大学で開催された<a href="https://colibri.uni-graz.at/en/complexity-of-life-conference-2026/">Complexity of Life Conference 2026</a>で、臨界ランダムネットワークにおける構造のクロスオーバーについて発表しました。</li>
 <li><time datetime="2026-07-16">2026年7月16日</time>ウィーンの日本大使公邸で、オーストリアで活動する日本人研究者の交流会を共同で企画・運営しました。</li>
 <li><time datetime="2026-06">2026年6〜7月</time><a href="https://www.accelnet-multinet.org/">AccelNet-MultiNet</a>フェローとして、ノースイースタン大学の<a href="https://barabasi.com/science">Barabási研究室</a>を訪問しました。</li>
-<li><time datetime="2026-06-02">2026年6月2日</time>ボストンで開催されたNetSciサテライト研究会<a href="https://sites.google.com/view/physnet26">Physical Networks IV</a>を共同で企画・運営しました。</li>
-<li><time datetime="2026-02-17">2026年2月17日</time><a href="https://www.network-science-seminar.com/activities/2025">Network Science Seminar</a>（京都）で、ラプラシアン固有モードの局在についてポスター発表しました。</li>
+<li><time datetime="2026-06-02">2026年6月2日</time>ボストンで開催されたNetSciサテライト研究会<a href="https://sites.google.com/view/physnet26">Physical Networks IV</a>を企画・運営しました。</li>
+<li><time datetime="2026-02-17">2026年2月17日</time><a href="https://www.network-science-seminar.com/activities/2025">Network Science Seminar</a>（@同志社大）で、物理ネットワーク上のラプラシアン固有モードの局在についてポスター発表しました。</li>
 </ul>
 
 :::

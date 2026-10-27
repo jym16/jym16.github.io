@@ -190,7 +190,6 @@ Physical Review E **108**, 024302 (2023). <span class="publication-links" aria-l
 
 ::: {.entry-meta}
 Master Dissertation, Queen Mary University of London (2023). 
-<!-- \[[pdf](./assets/files/thesis/MSc_dissertation.pdf)\] -->
 :::
 ::::
 :::::
@@ -211,7 +210,6 @@ Master Dissertation, Queen Mary University of London (2023).
 
 ::: {.entry-meta}
 Bachelor Thesis, Hokkaido University (2022).
-<!-- \[[pdf](./assets/files/thesis/BEng_thesis.pdf)\] -->
 :::
 ::::
 :::::

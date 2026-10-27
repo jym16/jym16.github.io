@@ -39,7 +39,7 @@ jobs:
         run: quarto render --output-dir _site
 
       - name: Validate rendered website
-        run: python3 scripts/validate_site.py
+        run: python3 .github/validate_site.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
