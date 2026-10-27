@@ -38,12 +38,8 @@ jobs:
       - name: Render Quarto website
         run: quarto render --output-dir _site
 
-      - name: Check rendered Misc page
-        run: |
-          echo "Checking rendered files..."
-          test -f _site/misc.html
-          grep -n "service-card\|service-grid\|misc-page" _site/misc.html
-          find _site/assets -maxdepth 4 -type f | sort | grep -E "misc|main|css" || true
+      - name: Validate rendered website
+        run: python3 scripts/validate_site.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

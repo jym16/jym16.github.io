@@ -1,0 +1,32 @@
+{
+  "source": "Mizutaka, Yamamoto & Yakubo, arXiv:2610.02883, Figure 2 data",
+  "source_members": "crossover/figures/data/figures/fig2{a,b}.csv",
+  "format": "Supplied figure-ready CSV, repeated x,y,blank triplets; missing coordinates omitted",
+  "source_sha256": {
+    "fig2a.csv": "2f791b215b99f8f09b726f43bf95e67add588d79c924781ec326327cb4b91a4f",
+    "fig2b.csv": "eadef8d122741f9c4476193f52f68fb5c8e350f10c66bb81c7b4e4dbd068e43a"
+  },
+  "nonpositive_values_retained_from_source": {
+    "fig2a.csv": 6,
+    "fig2b.csv": 0
+  },
+  "gamma_3_75_degrees_in_source_column_order": [
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "gamma_4_25_degrees_in_source_column_order": [
+    15,
+    20,
+    25,
+    30
+  ],
+  "x": "l/(k/c)^(1/(D_f-1))",
+  "y": "nu_k(l)/(c*l^(D_f-1)*(l-1))",
+  "website_selection": "gamma=4.25, D_f=2; k=15,20,25,30; single chart without paper insets",
+  "distinct_model": "These are critical scale-free random networks, not the G_A generator network in the return-probability chart.",
+  "rows": 2029
+}

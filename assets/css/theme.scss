@@ -1,0 +1,5 @@
+/*-- scss:defaults --*/
+// Use the bundled fonts rather than downloading Bootswatch's unused web fonts.
+$web-font-path: false;
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family: "STIX Two Text", "Noto Serif JP", Georgia, serif;

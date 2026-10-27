@@ -1,49 +1,102 @@
 ---
 title: "Publications"
 bibliography: _bibliography/papers.bib
-page-layout: full
+body-classes: publications-page
+include-in-header:
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 ---
-<!-- 
-## Working papers
-
-[8] **Jun Yamamoto**, Márton Pósfai, Ginestra Bianconi, Albert-László Barabási, Johan Åkerman, et al.
-"Synchronization in networks of spin Hall nano-oscillators."
-
-[7] Charlotte Geier, **Jun Yamamoto**, and Márton Pósfai.
-"Synchronization and coarse-graining in heterogeneous networks of modules."
--->
-
 ## Preprints
 
-[6] Shogo Mizutaka, **Jun Yamamoto**, and Kousuke Yakubo.
-"Structural crossover of complex networks: bridging degree correlation and fractality." 
+::::: {.publication-entry}
+::: {.entry-number}
+[6]
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
+"Structural crossover of complex networks: bridging degree correlation and fractality."
+:::
+
+::: {.entry-authors}
+Shogo Mizutaka, **Jun Yamamoto**, and Kousuke Yakubo.
+:::
+
+::: {.entry-meta}
 arXiv:2610.02883 (2026). <span class="publication-links" aria-label="Publication links">
   <a class="publication-badge publication-badge--arxiv" href="https://doi.org/10.48550/arXiv.2610.02883" target="_blank" rel="noopener noreferrer" aria-label="View preprint on arXiv">
     <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-arxiv"></i></span>
     <span class="publication-badge__label">arXiv</span>
   </a>
 </span>
+:::
+::::
+:::::
 
-[5] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
-"Laplacian eigenmode localization in physical complex networks." 
+::::: {.publication-entry}
+::: {.entry-number}
+[5]
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
+"Laplacian eigenmode localization in physical complex networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 Manuscript submitted (2026). Joint submission with arXiv:2607.19486.
+:::
+::::
+:::::
 
+::::: {.publication-entry}
+::: {.entry-number}
+[4]
+:::
 
-[4] **Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
+:::: {.entry-content}
+::: {.entry-title}
 "Localization transitions of diffusion dynamics in physical networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 arXiv:2607.19486 (2026). <span class="publication-links" aria-label="Publication links">
   <a class="publication-badge publication-badge--arxiv" href="https://doi.org/10.48550/arXiv.2607.19486" target="_blank" rel="noopener noreferrer" aria-label="View preprint on arXiv">
     <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-arxiv"></i></span>
     <span class="publication-badge__label">arXiv</span>
   </a>
 </span>
+:::
+::::
+:::::
 
 ## Journal articles
 
+::::: {.publication-entry}
+::: {.entry-number}
+[3]
+:::
 
-[3] Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi. 
+:::: {.entry-content}
+::: {.entry-title}
 "Mining higher-order triadic interactions."
-Nature Commununications **16**, 11613 (2025). <span class="publication-links" aria-label="Publication links">
+:::
+
+::: {.entry-authors}
+Marta Niedostatek, Anthony Baptista, **Jun Yamamoto**, Jurgen Kurths, Ruben Sanchez Garcia, Ben MacArthur, and Ginestra Bianconi.
+:::
+
+::: {.entry-meta}
+Nature Communications **16**, 11613 (2025). <span class="publication-links" aria-label="Publication links">
   <a class="publication-badge publication-badge--doi" href="https://doi.org/10.1038/s41467-025-66577-z" target="_blank" rel="noopener noreferrer" aria-label="View published article via DOI">
     <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-doi"></i></span>
     <span class="publication-badge__label">DOI</span>
@@ -57,9 +110,25 @@ Nature Commununications **16**, 11613 (2025). <span class="publication-links" ar
     <span class="publication-badge__label">GitHub</span>
   </a>
 </span>
+:::
+::::
+:::::
 
-[2] Kousuke Yakubo, Gentaro Shimojo, **Jun Yamamoto**. 
+::::: {.publication-entry}
+::: {.entry-number}
+[2]
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Random walks on bifractal networks."
+:::
+
+::: {.entry-authors}
+Kousuke Yakubo, Gentaro Shimojo, **Jun Yamamoto**.
+:::
+
+::: {.entry-meta}
 Physical Review E **110**, 064318 (2024). <span class="publication-links" aria-label="Publication links">
   <a class="publication-badge publication-badge--doi" href="https://doi.org/10.1103/PhysRevE.110.064318" target="_blank" rel="noopener noreferrer" aria-label="View published article via DOI">
     <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-doi"></i></span>
@@ -70,9 +139,25 @@ Physical Review E **110**, 064318 (2024). <span class="publication-links" aria-l
     <span class="publication-badge__label">arXiv</span>
   </a>
 </span>
+:::
+::::
+:::::
 
-[1] **Jun Yamamoto** and Kousuke Yakubo. 
+::::: {.publication-entry}
+::: {.entry-number}
+[1]
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Bifractality of fractal scale-free networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto** and Kousuke Yakubo.
+:::
+
+::: {.entry-meta}
 Physical Review E **108**, 024302 (2023). <span class="publication-links" aria-label="Publication links">
   <a class="publication-badge publication-badge--doi" href="https://doi.org/10.1103/PhysRevE.108.024302" target="_blank" rel="noopener noreferrer" aria-label="View published article via DOI">
     <span class="publication-badge__icon" aria-hidden="true"><i class="ai ai-doi"></i></span>
@@ -83,18 +168,50 @@ Physical Review E **108**, 024302 (2023). <span class="publication-links" aria-l
     <span class="publication-badge__label">arXiv</span>
   </a>
 </span>
-
-
+:::
+::::
+:::::
 
 ## Theses
 
+::::: {.publication-entry}
+::: {.entry-number}
+[MSc]
+:::
 
-[MSc] **Jun Yamamoto**. 
+:::: {.entry-content}
+::: {.entry-title}
 "Modelling higher-order network dynamics in presence of triadic interactions."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**.
+:::
+
+::: {.entry-meta}
 Master Dissertation, Queen Mary University of London (2023). 
 <!-- \[[pdf](./assets/files/thesis/MSc_dissertation.pdf)\] -->
+:::
+::::
+:::::
 
-[BEng] **Jun Yamamoto**. 
+::::: {.publication-entry}
+::: {.entry-number}
+[BEng]
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Bifractality of fractal scale-free networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**.
+:::
+
+::: {.entry-meta}
 Bachelor Thesis, Hokkaido University (2022).
 <!-- \[[pdf](./assets/files/thesis/BEng_thesis.pdf)\] -->
+:::
+::::
+:::::

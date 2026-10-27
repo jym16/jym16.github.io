@@ -2,7 +2,6 @@
 title: "Links"
 description: "A collection of links to institutional affiliations, academic communities, and collaborators."
 body-classes: links-page
-page-layout: full
 css: assets/css/links.css
 toc: true
 toc-location: right

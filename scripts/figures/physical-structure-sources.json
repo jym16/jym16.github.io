@@ -1,0 +1,59 @@
+{
+  "source": "deloc_revised.zip/pre_revised/figures/fig_multiscale_origin.pdf",
+  "source_sha256": "362c64d11d11f96e3cb8406690c16fe980a79c7b4bbd2532d73c7aea52d277e8",
+  "panels": "Figure 1(a,b), horizontally arranged at equal scale",
+  "crop_a_pt": [
+    0,
+    0,
+    78.27417,
+    64
+  ],
+  "crop_b_pt": [
+    0,
+    65,
+    78.27417,
+    133.667
+  ],
+  "rendering": "Poppler 1440 dpi; Lanczos resize to 960 px width; lossless WebP",
+  "inputs": [
+    {
+      "file": "data/physical-structure-panel-a.webp",
+      "width": 960,
+      "height": 785,
+      "sha256": "c8f9bbd196a6253983c4034f078fe87f5799158fef8551ba8856c3ca4a2ff7c2",
+      "placement": {
+        "x": 20,
+        "y": 36.21875,
+        "scale": 0.5625
+      },
+      "panel_label_mask_px": [
+        0,
+        0,
+        110,
+        160
+      ]
+    },
+    {
+      "file": "data/physical-structure-panel-b.webp",
+      "width": 960,
+      "height": 842,
+      "sha256": "54ab104cc2b1a5cb81075fa504fc9303ec58d7c6ef1a6a93be922b21e3640fe2",
+      "placement": {
+        "x": 600,
+        "y": 20.1875,
+        "scale": 0.5625
+      },
+      "panel_label_mask_px": [
+        0,
+        0,
+        110,
+        160
+      ]
+    }
+  ],
+  "output": "physical-structure-panels.svg",
+  "width": 1160,
+  "height": 514,
+  "bytes": 85660,
+  "sha256": "33941902922ebebc57d6a5ec9582bbc73e78a77611e0dbd32d9543ef9c95867d"
+}

@@ -1,0 +1,43 @@
+{
+  "artifact": "One computed microscopic diffusion eigenmode on the retained Pete et al. lattice realization.",
+  "source_manifest": "pete-lattice-source.json",
+  "operator": "400-site weighted combinatorial Laplacian L=D-A, unit microscopic capacities, internal weights 1 and terminal contacts 0.02; not the 166-node coarse operator.",
+  "selection": {
+    "target_IPR": 0.02,
+    "rule": "Choose the nonzero eigenmode minimizing absolute distance to target IPR over the full spectrum.",
+    "mode_index_one_based_including_zero": 9
+  },
+  "normalization": "Euclidean norm sum_i |u_i|^2=1; IPR=sum_i |u_i|^4. Largest-magnitude amplitude chosen positive; intensity is sign invariant.",
+  "display": "Raw signed Euclidean-norm-one eigenmode amplitudes u_i (sum_i u_i^2=1), with fixed zero-centered color limits [-0.25, 0.25]; no division by maximum amplitude, squaring, logarithm, or thresholding.",
+  "eigenvalue": 0.0008027404408399634,
+  "IPR": 0.01958631973702968,
+  "effective_participation_sites": 51.056043882986906,
+  "validation": {
+    "eigenpair_l2_residual": 2.6123648255679523e-15,
+    "neighboring_eigenvalue_gaps": [
+      2.747159251687394e-05,
+      6.228783324581236e-05
+    ],
+    "intensity_sum": 0.9999999999999999,
+    "amplitude_sum": 2.6625368576560504e-12,
+    "maximum_intensity": 0.052236997729285875,
+    "sites_containing_90_percent_intensity": 121
+  },
+  "inputs": {
+    "pete-lattice-vertices.csv": {
+      "sha256": "4f14bdc57d2d226610336300091678852a3cbcddae9e4f1b476392bf484bdbae"
+    },
+    "pete-lattice-edges.csv": {
+      "sha256": "b8c04c7d348dadaaecf5df561ce765f919b794f57cac8bd8c58bbea8776f6d17"
+    }
+  },
+  "outputs": {
+    "pete-lattice-eigenmode.csv": {
+      "sha256": "110233617d8bdcf72b07aa47500bf045a293fe2ad1db680b43a6d686c87c5aba"
+    },
+    "pete-lattice-eigenmode-spectrum.csv": {
+      "sha256": "7279f4896329501e446810f479815cec6e4fbe4a4e6be2ef4efe3c1985241615"
+    }
+  },
+  "numpy_version": "2.5.4"
+}

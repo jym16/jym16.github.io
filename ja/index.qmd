@@ -1,0 +1,115 @@
+---
+title: ""
+pagetitle: "山本 潤｜ネットワーク科学"
+description: "山本潤。統計物理学とネットワーク科学を基盤に、物理ネットワークとフラクタルネットワークの構造・動力学を研究しています。"
+hide-description: true
+body-classes: home-page japanese-page
+toc: false
+image: /assets/images/prof_pic.jpeg
+---
+
+:::: {.home-intro}
+::: {.home-intro__copy}
+<p class="eyebrow">ネットワーク科学・統計物理学</p>
+<h1>山本 潤</h1>
+<p class="home-intro__name-en" lang="en">Jun Yamamoto</p>
+<p class="home-intro__role">ネットワーク科学・博士課程</p>
+<p class="home-intro__affiliation">中央ヨーロッパ大学 ネットワーク・データ科学専攻<br>オーストリア・ウィーン</p>
+
+<p class="home-intro__summary">統計物理学の手法を用いて、ネットワークの構造や動力学を特徴づける原理を探っています。現在は、物理ネットワーク、粗視化とスケール不変性、ネットワーク上の拡散と同期を主な研究テーマとしています。</p>
+
+<div class="home-actions">
+<a class="button-link button-link--primary" href="research.qmd">研究紹介</a>
+<a class="button-link" href="/assets/cv_jyamamoto.pdf">履歴書（英語）</a>
+<a class="button-link" href="mailto:jun.j.yamamoto@gmail.com">お問い合わせ</a>
+</div>
+<div class="profile-links" aria-label="研究者プロフィール・SNS">
+
+{{< include ../_includes/profile-links.html >}}
+
+</div>
+:::
+::: {.home-intro__photo}
+<img class="home-intro__portrait" src="/assets/images/prof_pic.jpeg" alt="山本潤の写真" width="1120" height="1120" fetchpriority="high">
+:::
+::::
+
+## 研究
+
+::: {.section-intro}
+物理ネットワークとフラクタルネットワークを対象に、構造と動力学の関係を調べています。
+:::
+
+:::: {.theme-grid}
+::: {.theme-card}
+<figure>
+<div class="theme-card__image"><img src="/assets/images/research/home-physical-pore.svg" alt="X線マイクロCTから再構成された砂岩の三次元細孔構造。" width="960" height="976" loading="lazy" decoding="async"></div>
+</figure>
+
+### [物理ネットワーク](research.qmd#physnets)
+
+物理制約下のネットワーク構造と空間配置は、輸送や動的応答にどのように影響するか？
+
+[詳細](research.qmd#physnets){.theme-card__link .button-link .button-link--compact}
+:::
+
+::: {.theme-card}
+<figure>
+<div class="theme-card__image"><img src="/assets/images/research/home-scaling-schematic.svg" alt="フラクタル・スケールフリーネットワークのボックス被覆と粗視化を示す図。" width="960" height="455" loading="lazy" decoding="async"></div>
+</figure>
+
+### [フラクタルネットワーク](research.qmd#netscale)
+
+フラクタル性は、ネットワークの構造と機能にどのような影響を与えるか？
+
+[詳細](research.qmd#netscale){.theme-card__link .button-link .button-link--compact}
+:::
+
+::: {.theme-card}
+<figure>
+<div class="theme-card__image"><img src="/assets/images/research/home-fhn-voltage.svg" alt="結合したFitzHugh–Nagumo振動子の電圧の時間変化を示す曲線。" width="640" height="400" loading="lazy" decoding="async"></div>
+</figure>
+
+### [ネットワークの同期](research.qmd#netsync)
+
+複雑なネットワークでは、どのような同期パターンが現れるか？
+
+[詳細](research.qmd#netsync){.theme-card__link .button-link .button-link--compact}
+:::
+::::
+
+:::: {.home-support}
+::: {.home-background}
+
+## 学歴 {#background}
+
+<ul class="education-list">
+<li><strong>博士課程・ネットワーク科学</strong><span>在学中・中央ヨーロッパ大学<br>オーストリア・ウィーン</span></li>
+<li><strong>修士（数学）</strong><span>2023年・クイーン・メアリー大学ロンドン<br>英国・ロンドン</span></li>
+<li><strong>学士（工学）</strong><span>2022年・北海道大学<br>日本・札幌</span></li>
+</ul>
+
+::: {.supervisors}
+[Márton Pósfai](https://people.ceu.edu/marton_posfai) 准教授と [János Kertész](https://people.ceu.edu/janos_kertesz) 教授の指導を受けています。
+:::
+
+::: {.home-actions}
+[researchmap](https://researchmap.jp/jun_yamamoto){.button-link .button-link--compact}
+[論文一覧（英語）](/publications.qmd){.button-link .button-link--compact}
+:::
+:::
+
+::: {.home-news}
+
+## ニュース
+
+<ul class="news-list">
+<li><time datetime="2026-09-07">2026年9月7日</time>オーストリアのグラーツ大学で開催された<a href="https://colibri.uni-graz.at/en/complexity-of-life-conference-2026/">Complexity of Life Conference 2026</a>で、臨界ランダムネットワークにおける構造のクロスオーバーについて発表しました。</li>
+<li><time datetime="2026-07-16">2026年7月16日</time>ウィーンの日本大使公邸で、オーストリアで活動する日本人研究者の交流会を共同で企画・運営しました。</li>
+<li><time datetime="2026-06">2026年6〜7月</time><a href="https://www.accelnet-multinet.org/">AccelNet-MultiNet</a>フェローとして、ノースイースタン大学の<a href="https://barabasi.com/science">Barabási研究室</a>を訪問しました。</li>
+<li><time datetime="2026-06-02">2026年6月2日</time>ボストンで開催されたNetSciサテライト研究会<a href="https://sites.google.com/view/physnet26">Physical Networks IV</a>を共同で企画・運営しました。</li>
+<li><time datetime="2026-02-17">2026年2月17日</time><a href="https://www.network-science-seminar.com/activities/2025">Network Science Seminar</a>（京都）で、ラプラシアン固有モードの局在についてポスター発表しました。</li>
+</ul>
+
+:::
+::::

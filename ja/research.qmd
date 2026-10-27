@@ -1,0 +1,235 @@
+---
+lang: ja
+title: "研究"
+description: "物理ネットワークとフラクタルネットワークの構造と動力学。"
+bibliography:
+  - ../_bibliography/papers.bib
+  - ../_bibliography/reference.bib
+css: ../assets/css/project-page.css
+body-classes: research-page japanese-page
+toc: true
+toc-location: right
+toc-depth: 3
+---
+
+::: {#current-projects .research-introduction .page-introduction}
+物理ネットワークとフラクタルネットワークの構造と動力学を研究しています。2・3次元ユークリッド空間に埋め込まれたネットワークと、有限のフラクタル次元をもつネットワークに着目し、空間的な制約や幾何学的な性質が輸送や集団現象に及ぼす影響を調べています。
+:::
+
+<nav class="research-overview-links" aria-label="研究分野">
+  <a class="research-overview-link" href="#physnets">
+    <span>物理ネットワーク</span>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M8 3v10m-4-4 4 4 4-4"/></svg>
+  </a>
+  <a class="research-overview-link" href="#netscale">
+    <span>フラクタルネットワーク</span>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M8 3v10m-4-4 4 4 4-4"/></svg>
+  </a>
+</nav>
+
+::::: {.research-program}
+
+## 物理ネットワーク {#physnets}
+
+::: {.research-program__lead}
+物理ネットワークは、低次元のユークリッド空間に埋め込まれたネットワークです。空間的・物理的な制約が、結合構造やノードの体積、ネットワーク上の動力学に与える影響を研究しています。
+:::
+
+### 構造的性質 {#physnets-structure}
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+ノードの体積が結合の本数や強さとどう関係するか、特に**次数と体積の相関**に着目して調べています。こうした構造的性質は、空間的制約とネットワークの粗視化を結び付け、輸送や集団現象をモデル化するうえでの基礎となります [@yamamoto2026localization; @yamamoto2026laplacian]。
+
+::: {.research-actions}
+[物理ネットワークのプレプリント](https://doi.org/10.48550/arXiv.2607.19486){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/physical-structure-panels.svg" width="1160" height="514" alt="微視的なサブネットワーク（左）と、対応する粗視化ネットワーク（右）を並べた模式図。" decoding="async">
+  <figcaption>微視的なサブネットワーク（左）と、粗視化したネットワーク（右）。</figcaption>
+</figure>
+:::
+::::
+
+### 動力学 {#physnets-dynamics}
+
+物理的な不均一性が、拡散や局在、力学応答、同期に及ぼす影響を調べています。
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+
+#### 拡散と局在 {#physical-diffusion}
+
+<p class="research-project__meta"><span>プレプリント・投稿中の論文</span></p>
+
+ノードの体積は、拡散における滞留時間に影響します。私たちは、局所的な不均一性を表す次数と体積の比が、物理ネットワークのラプラシアン固有モードの局在を特徴づける重要な量であることを示しました。解析可能なモデルやランダムネットワーク、実データに基づく物理ネットワークを用い、次数と体積の相関によって、結合構造だけから予測される固有モードの性質が変わることを示しました [@yamamoto2026localization; @yamamoto2026laplacian]。
+
+::: {.research-actions}
+[プレプリント](https://doi.org/10.48550/arXiv.2607.19486){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/diffusion-localized-mode.svg" width="350" height="400" alt="開放境界条件を課した格子ネットワークのラプラシアン固有モード。色は固有ベクトルの符号付き成分を示す。逆参加比（IPR）は約0.020、有効参加サイト数は約51。" loading="lazy" decoding="async">
+  <figcaption>ネットワーク・オブ・ネットワークス模型における固有モード。</figcaption>
+</figure>
+:::
+::::
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+
+#### 同期 {#netsync}
+
+<p class="research-project__meta"><span>進行中の研究</span></p>
+
+結合振動子ネットワークで同期が生じる仕組みを研究しています。また、**スピンホールナノ発振器（spin Hall nano-oscillators）**の実験研究者との共同研究にも取り組んでいます。
+
+<p class="research-working-note">詳しい内容は、プレプリントのarXiv公開後に紹介します。</p>
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/synchronization-phase-arrows.svg" width="350" height="380" alt="モデルネットワーク上の振動子の位相を矢印で示した図。" loading="lazy" decoding="async">
+  <figcaption>振動子の位相の例。</figcaption>
+</figure>
+:::
+::::
+
+:::::
+
+::::: {.research-program}
+
+## フラクタルネットワーク {#netscale}
+
+::: {.research-program__lead}
+最短経路距離に基づいて有限のフラクタル次元を定義できるネットワークを研究しています。ネットワーク内の位置や観測スケールによって次元がどう変わり、輸送にどのような影響を与えるかを調べています。
+:::
+
+### 構造的性質 {#netscale-structure}
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+<p class="research-project__meta"><span>掲載論文・プレプリント</span></p>
+
+**バイフラクタル性（bifractality）。** 幅広い種類のフラクタル・スケールフリーネットワークで、ハブの近傍と、ハブから十分に離れた領域とでは、局所フラクタル次元が二つの異なる値をとることを見いだしました。解析と数値計算の結果は、このバイフラクタル性が、スケールフリー性とフラクタル性を併せもつネットワークに広く見られる性質であることを示唆しています [@yamamoto2023bifractality]。
+
+**構造のクロスオーバー。** 臨界ランダムネットワークでは、観測する距離スケールが大きくなるにつれて、近傍に含まれるノード数の増え方が、次数に依存する局所的な振る舞いから大域的なフラクタル・スケーリングへと移行します。パーコレーションの臨界点におけるクラスター（incipient infinite cluster）の長距離次数相関から、このクロスオーバーを理論的に導いています [@mizutaka2026structural]。
+
+::: {.research-actions}
+[バイフラクタル性の論文](https://doi.org/10.1103/PhysRevE.108.024302){.button-link .button-link--compact}
+[クロスオーバーのプレプリント](https://doi.org/10.48550/arXiv.2610.02883){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/scaling-crossover.svg" width="640" height="400" alt="起点となるノードの次数ごとに再スケールした近傍ノード数。距離スケールの増加に伴い、次数に依存する局所的な振る舞いから大域的なフラクタル・スケーリングへ移行する様子を示す。" loading="lazy" decoding="async">
+  <figcaption>局所的な次数依存から、大域的なフラクタル・スケーリングへの移行。</figcaption>
+</figure>
+:::
+::::
+
+### 動力学 {#netscale-dynamics}
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+
+#### ランダムウォーク {#network-random-walks}
+
+<p class="research-project__meta"><span>掲載済み · Physical Review E · 2024</span></p>
+
+ランダムウォークを調べることで、構造のバイフラクタル性が**二つの局所スペクトル次元**として現れる一方、ウォーク次元は出発点によらないことを示しました。局所スペクトル次元は、出発点への帰還確率が時間とともに減衰する速さを $P_i(t) \propto t^{-d_{\mathrm{s}}(i)/2}$ によって特徴づけます。したがって、ハブを出発点とする場合と、ハブから十分に離れた非ハブノードを出発点とする場合では、局所的な輸送特性が異なります [@yakubo2024random]。
+
+::: {.research-actions}
+[論文](https://doi.org/10.1103/PhysRevE.110.064318){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2407.16183){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/scaling-return-probability.svg" width="640" height="480" alt="ハブと、ハブから十分に離れた非ハブノードを出発点とするランダムウォークの帰還確率。減衰指数は局所スペクトル次元の記号で示す。挿入図は4ノード・5結合からなる生成子。" loading="lazy" decoding="async">
+  <figcaption>帰還確率に現れる二つの局所スペクトル次元。破線は理論値から求めた傾きを示しています。</figcaption>
+</figure>
+:::
+::::
+
+:::::
+
+## 主な掲載論文 {#past-project}
+
+::: {.research-section-lead}
+ネットワークの幾何学、輸送、高次相互作用に関する主な掲載論文です。すべての論文は[論文一覧（英語）](/publications.qmd)をご覧ください。
+:::
+
+:::: {.research-project}
+::: {.research-project__body}
+<p class="research-project__meta"><span>掲載済み</span><span>Physical Review E · 2023</span></p>
+
+### フラクタル・スケールフリーネットワークのバイフラクタル性 {#bifractality}
+
+フラクタル性とスケールフリー性を併せもつ幅広いネットワークで、ハブ近傍と、ハブから十分に離れた領域の局所フラクタル次元が異なることを見いだしました。解析と数値計算の結果は、二つの局所次元をもつバイフラクタル性が、このようなネットワークに広く見られる性質であることを示唆しています [@yamamoto2023bifractality]。
+
+::: {.research-actions}
+[論文](https://doi.org/10.1103/PhysRevE.108.024302){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2304.13438){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/bifractality-fig1.png" width="890" height="940" alt="フラクタル・スケールフリーネットワークの生成子による構成とボックス被覆。" loading="lazy" decoding="async">
+  <figcaption>生成子を用いたバイフラクタルネットワークの構成とボックス被覆。</figcaption>
+</figure>
+:::
+::::
+
+:::: {.research-project}
+::: {.research-project__body}
+<p class="research-project__meta"><span>掲載済み</span><span>Physical Review E · 2024</span></p>
+
+### バイフラクタルネットワーク上のランダムウォーク {#bifractal-random-walks}
+
+バイフラクタル構造をもつネットワーク上のランダムウォークを調べ、ウォーク次元は出発点によらない一方、局所スペクトル次元は二つの値をとることを示しました。この違いは、出発点への帰還確率の減衰に現れます [@yakubo2024random]。
+
+::: {.research-actions}
+[論文](https://doi.org/10.1103/PhysRevE.110.064318){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2407.16183){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/random-walks-return-probability.png" width="976" height="748" alt="掲載論文の帰還確率の図。バイフラクタルネットワークのハブと、ハブから十分離れたノードを出発点とするランダムウォークでは、減衰指数が異なる。" loading="lazy" decoding="async">
+  <figcaption>バイフラクタルネットワーク上の帰還確率。見やすいように一部の曲線を縦方向にずらしています。</figcaption>
+</figure>
+:::
+::::
+
+:::: {.research-project}
+::: {.research-project__body}
+<p class="research-project__meta"><span>掲載済み</span><span>Nature Communications · 2025</span></p>
+
+### 三体相互作用の推定 {#triadic-interactions}
+
+三体相互作用（triadic interaction）は、二つのノード間の結合が、第三のノードによって調節される相互作用です。拡散過程のデータから、第三のノードの状態に応じた二つのノード間の相互情報量の変化を調べ、こうした相互作用の候補を推定する手法を提案しました [@niedostatek2025mining]。
+
+::: {.research-actions}
+[論文](https://doi.org/10.1038/s41467-025-66577-z){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2404.14997){.button-link .button-link--compact}
+[コード](https://github.com/anthbapt/trim){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="/assets/images/research/triadic-interactions-fig1-panels-ab.png" width="1415" height="665" alt="一つの三体相互作用と、調節ノードを含むネットワークへの拡張を示す模式図。" loading="lazy" decoding="async">
+  <figcaption>三体相互作用ネットワークの構造層と調節層。</figcaption>
+</figure>
+:::
+::::

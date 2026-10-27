@@ -1,154 +1,245 @@
 ---
 title: "Research"
-description: "A overview of my research projects."
+description: "Structure and dynamics of physical networks in Euclidean space and fractal networks."
 bibliography:
   - _bibliography/papers.bib
   - _bibliography/reference.bib
 css: assets/css/project-page.css
 body-classes: research-page
-page-layout: full
 toc: true
 toc-location: right
-toc-depth: 2
+toc-depth: 3
 ---
 
-## Current projects {#current-projects}
+::: {#current-projects .research-introduction .page-introduction}
+I study the structure and dynamics of physical networks embedded in low-dimensional Euclidean space, and of fractal networks with finite dimension. These two directions connect spatial constraints and network geometry to transport and collective behavior.
+:::
+
+<nav class="research-overview-links" aria-label="Research sections">
+  <a class="research-overview-link" href="#physnets">
+    <span>Physical networks</span>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M8 3v10m-4-4 4 4 4-4"/></svg>
+  </a>
+  <a class="research-overview-link" href="#netscale">
+    <span>Fractal networks</span>
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="M8 3v10m-4-4 4 4 4-4"/></svg>
+  </a>
+</nav>
+
+::::: {.research-program}
+
+## Physical networks {#physnets}
+
+::: {.research-program__lead}
+Physical networks are embedded in low-dimensional Euclidean space.
+I investigate how spatial and physical constraints shape their connectivity, node volumes, and dynamics.
+:::
+
+### Structural properties {#physnets-structure}
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+<p class="research-question">How does spatial organization connect network topology with physical node size?</p>
+
+I study **degree–volume correlations**: how a physical node's volume relates to the number and strength of its connections. These structural relations connect physical constraints with coarse-grained network representations and provide the starting point for models of transport and collective dynamics [@yamamoto2026localization; @yamamoto2026laplacian].
+
+::: {.research-actions}
+[Physical-network preprint](https://doi.org/10.48550/arXiv.2607.19486){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/physical-structure-panels.svg" width="1160" height="514" alt="Figure 1 panels a and b arranged horizontally: microscopic subnetworks on the left and their corresponding coarse-grained physical network on the right." decoding="async">
+  <figcaption>Microscopic subnetworks (left) and their coarse-grained network (right).</figcaption>
+</figure>
+:::
+::::
+
+### Dynamics {#physnets-dynamics}
+
+I investigate how physical heterogeneity shapes diffusion, localization, mechanical response, and synchronization.
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+
+#### Diffusion and localization {#physical-diffusion}
+
+<p class="research-project__meta"><span>Preprint / submitted manuscripts</span></p>
+
+<p class="research-question">When do physical constraints trap diffusion modes, and when do those modes spread across a network?</p>
+
+A node's volume affects how long it stores flow before passing it on. We identify the ratio of degree to volume as the local disorder variable organizing Laplacian eigenmode localization in physical networks. Solvable models, random networks, and empirical physical networks show how degree–volume correlations reorganize modes that topology alone would predict [@yamamoto2026localization; @yamamoto2026laplacian].
+
+::: {.research-actions}
+[Preprint](https://doi.org/10.48550/arXiv.2607.19486){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/diffusion-localized-mode.svg" width="350" height="400" alt="One microscopic Laplacian eigenmode on the open-lattice network. Color shows signed eigenmode values, with inverse participation ratio approximately 0.020 and about 51 effective participating sites." loading="lazy" decoding="async">
+  <figcaption>An eigenmode on the network-of-networks model.</figcaption>
+</figure>
+:::
+::::
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+
+#### Synchronization {#netsync}
+
+<p class="research-project__meta"><span>Ongoing work</span></p>
+
+<p class="research-question">How does physical network structure shape synchronization patterns?</p>
+
+I study the emergence of synchronization in coupled oscillator networks. I also collaborate with experimentalists on **spin Hall nano-oscillators**.
+
+<p class="research-working-note">Further details will be shared when the preprint is available on arXiv.</p>
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/synchronization-phase-arrows.svg" width="350" height="380" alt="Illustrative oscillator phases on a model network, shown by arrows." loading="lazy" decoding="async">
+  <figcaption>Illustrative oscillator phases.</figcaption>
+</figure>
+:::
+::::
+
+:::::
+
+::::: {.research-program}
+
+## Fractal networks {#netscale}
+
+::: {.research-program__lead}
+I study fractal networks with finite dimensions defined through scaling with shortest-path distance. My work examines how these dimensions depend on position and observation scale, and how they govern transport.
+:::
+
+### Structural properties {#netscale-structure}
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+<p class="research-project__meta"><span>Published work / preprint</span></p>
+
+<p class="research-question">How can one network have different local dimensions, and how does its structure change across scales?</p>
+
+**Bifractality.** We identified two distinct local fractal dimensions in a broad range of fractal scale-free networks: one near hubs and another away from them. Analytical and numerical results suggest that this bifractality is a general property of networks possessing scale-free topology with fractal structure [@yamamoto2023bifractality].
+
+**Structural crossover.** In critical random networks, neighborhood growth exhibits a crossover from a degree-dependent local regime to global fractal scaling. We derive this crossover from long-range degree correlations in the infinite incipient cluster at the percolation threshold [@mizutaka2026structural].
+
+::: {.research-actions}
+[Bifractality paper](https://doi.org/10.1103/PhysRevE.108.024302){.button-link .button-link--compact}
+[Crossover preprint](https://doi.org/10.48550/arXiv.2610.02883){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/scaling-crossover.svg" width="640" height="400" alt="Rescaled neighborhood growth for different root degrees crosses from local degree-dependent behavior toward global fractal scaling." loading="lazy" decoding="async">
+  <figcaption>Crossover from local degree dependence to global fractal scaling.</figcaption>
+</figure>
+:::
+::::
+
+### Dynamics {#netscale-dynamics}
+
+:::: {.research-topic-row}
+::: {.research-topic-row__body}
+
+#### Random walks {#network-random-walks}
+
+<p class="research-project__meta"><span>Published · Physical Review E · 2024</span></p>
+
+<p class="research-question">How does local fractal geometry affect a random walk's return probability?</p>
+
+Our work on random walks connects structural bifractality to **two local spectral dimensions**, while the walk dimension remains position-independent. The spectral dimension governs the decay of the return-to-origin probability, $P_i(t) \propto t^{-d_{\mathrm{s}}(i)/2}$. Walks starting at hubs and at distant non-hub nodes therefore exhibit distinct local transport properties [@yakubo2024random].
+
+::: {.research-actions}
+[Paper](https://doi.org/10.1103/PhysRevE.110.064318){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2407.16183){.button-link .button-link--compact}
+:::
+:::
+
+::: {.research-topic-row__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/scaling-return-probability.svg" width="640" height="480" alt="Return probabilities with symbolic hub and distant non-hub spectral-dimension exponents, and an inset showing the four-node, five-edge generator." loading="lazy" decoding="async">
+  <figcaption>Hub and distant non-hub return probabilities reveal two local spectral dimensions. Dashed lines show theoretical slopes.</figcaption>
+</figure>
+:::
+::::
+
+:::::
+
+## Selected published work {#past-project}
 
 ::: {.research-section-lead}
+Earlier results on network geometry, transport, and higher-order interactions. See [Publications](publications.qmd) for the full list.
 :::
 
-::: {.research-program-grid}
-
-:::: {.research-program-card}
-::: {.research-program-card__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/physical-laplacian-fig1.png" alt="Three-dimensional rendering of a porous medium inside a cubic volume, with an inner sampling region.">
-  <!-- <figcaption>A three-dimensional porous medium as a physical network.</figcaption> -->
-</figure>
-:::
-
-::: {.research-program-card__body}
-<div class="research-program-card__meta"><span>01</span><span>Physical structure · spectral theory · dynamics</span></div>
-
-### Physical networks {#physnets}
-
-How physical constraints impact network structure and dynamics, including how degree-volume disorder controls Laplacian eigenmode localization [@yamamoto2026localization; @yamamoto2026laplacian].
-
-<p class="research-program-card__focus"><span>Current focus</span>Laplacian eigenmode localization, diffusion, synchronization</p>
-:::
-::::
-
-:::: {.research-program-card}
-::: {.research-program-card__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/network-scaling-critical-branching-tree.png" alt="A branching tree rooted at the center and expanding radially with degree heterogeneity.">
-  <!-- <figcaption>A branching tree with heterogeneous branching.</figcaption> -->
-</figure>
-:::
-
-::: {.research-program-card__body}
-<div class="research-program-card__meta"><span>02</span><span>Scaling theory · criticality · hierarchy</span></div>
-
-### Scaling theory for networks {#netscale}
-
-Scaling laws and critical phenomena for networks with heterogeneous topologies [@yamamoto2023bifractality; @yakubo2024random].
-
-<p class="research-program-card__focus"><span>Current focus</span>Crossover · percolation criticality</p>
-:::
-::::
-
-:::: {.research-program-card}
-::: {.research-program-card__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/network-synchronization-oscillator-graph.png" alt="Schematic of phase oscillators coupled through a network.">
-  <!-- <figcaption>Phase oscillators coupled through a network.</figcaption> -->
-</figure>
-:::
-
-::: {.research-program-card__body}
-<div class="research-program-card__meta"><span>03</span><span>Nonlinear dynamics · experiments</span></div>
-
-### Network synchronization {#netsync}
-
-How network structure and physical heterogeneity organize collective order in experimentally realized oscillator systems.
-
-<p class="research-program-card__focus"><span>Current focus</span>Modular synchronization · spin oscillators</p>
-:::
-::::
-
-:::
-
-## Past project {#past-project}
-
-::: {.research-section-lead}
-The completed projects are listed below. For a full list of publications, see the publications page.
-:::
-
-:::: {.research-project .research-project--reverse}
-::: {.research-project__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/bifractality-fig1.png" alt="Generator construction and box covering for a fractal scale-free network.">
-  <figcaption>Generator construction and box covering used to analyze bifractality.</figcaption>
-</figure>
-:::
-
+:::: {.research-project}
 ::: {.research-project__body}
-<div class="research-project__meta"><span class="research-status research-status--published">Published</span><span>Physical Review E · 2023</span></div>
+<p class="research-project__meta"><span>Published</span><span>Physical Review E · 2023</span></p>
 
 ### Bifractality of fractal scale-free networks {#bifractality}
 
-We showed that fractal scale-free networks are characterized by two distinct local fractal dimensions: one governing neighborhoods around hubs and another governing regions far from them. Our analytical and numerical results suggest that such bifractality is generic, leading us to conjecture that any network combining scale-free connectivity with fractal structure exhibits this behavior. [@yamamoto2023bifractality].
+We identified two distinct local fractal dimensions in a broad range of fractal scale-free networks: one near hubs and another away from them. Analytical and numerical results suggest this bifractality is a general property of networks combining scale-free connectivity with fractal structure [@yamamoto2023bifractality].
 
-::: {.research-actions .research-actions--compact}
-[Paper](https://doi.org/10.1103/PhysRevE.108.024302){.research-button .research-button--small}
-[arXiv](https://doi.org/10.48550/arXiv.2304.13438){.research-button .research-button--small}
+::: {.research-actions}
+[Paper](https://doi.org/10.1103/PhysRevE.108.024302){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2304.13438){.button-link .button-link--compact}
 :::
+:::
+
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/bifractality-fig1.png" width="890" height="940" alt="Generator construction and box covering for a fractal scale-free network." loading="lazy" decoding="async">
+  <figcaption>Generator construction and box covering for a bifractal network.</figcaption>
+</figure>
 :::
 ::::
 
 :::: {.research-project}
-::: {.research-project__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/random-walks-fig3.png" alt="A bifractal network colored by local spectral dimension, with a color scale.">
-  <figcaption>Local spectral dimension across a bifractal network.</figcaption>
-</figure>
-:::
-
 ::: {.research-project__body}
-<div class="research-project__meta"><span class="research-status research-status--published">Published</span><span>Physical Review E · 2024</span></div>
+<p class="research-project__meta"><span>Published</span><span>Physical Review E · 2024</span></p>
 
 ### Random walks on bifractal networks {#bifractal-random-walks}
 
-Building on bifractality, we showed that a random walk's walk dimension remains position-independent, whereas the spectral dimension splits into two local values.
+Building on bifractality, we showed that the walk dimension remains position-independent while the spectral dimension takes two local values. These distinct structural environments leave a measurable signature in return-to-origin probabilities [@yakubo2024random].
 
-The result connects structural bifractality to transport properties: local structural scaling remains visible in return-to-origin probabilities [@yakubo2024random].
-
-::: {.research-actions .research-actions--compact}
-[Paper](https://doi.org/10.1103/PhysRevE.110.064318){.research-button .research-button--small}
-[arXiv](https://doi.org/10.48550/arXiv.2407.16183){.research-button .research-button--small}
+::: {.research-actions}
+[Paper](https://doi.org/10.1103/PhysRevE.110.064318){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2407.16183){.button-link .button-link--compact}
 :::
+:::
+
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/random-walks-return-probability.png" width="976" height="748" alt="Original published return-to-origin probability plot, with different decay exponents for walks starting at hubs and far from hubs in bifractal networks." loading="lazy" decoding="async">
+  <figcaption>Published return probabilities for bifractal networks, vertically offset for clarity.</figcaption>
+</figure>
 :::
 ::::
 
-:::: {.research-project .research-project--reverse}
-::: {.research-project__visual}
-<figure class="research-figure">
-  <img class="research-paper-image" src="assets/images/research/triadic-interactions-fig1-panels-ab.png" alt="Panels showing a single triadic interaction and its extension to a structural network with regulatory nodes.">
-  <figcaption>Structural and regulatory layers of a triadic-interaction network.</figcaption>
-</figure>
-:::
-
+:::: {.research-project}
 ::: {.research-project__body}
-<div class="research-project__meta"><span class="research-status research-status--published">Published</span><span>Nature Communications · 2025</span></div>
+<p class="research-project__meta"><span>Published</span><span>Nature Communications · 2025</span></p>
 
 ### Mining triadic interactions {#triadic-interactions}
 
-We considered diffusive dynamics in networks with triadic interactions in which a node can influence the connection between two other nodes. We demonstrated that such interactions can be mined from conditional correlations and mutual information between node triplets [@niedostatek2025mining].
+In a triadic interaction, a node influences the connection between two other nodes. We showed how these higher-order interactions can be inferred from diffusive dynamics using conditional correlations and mutual information between node triplets [@niedostatek2025mining].
 
-::: {.research-actions .research-actions--compact}
-[Paper](https://doi.org/10.1038/s41467-025-66577-z){.research-button .research-button--small}
-[arXiv](https://doi.org/10.48550/arXiv.2404.14997){.research-button .research-button--small}
-[Code](https://github.com/anthbapt/trim){.research-button .research-button--small}
+::: {.research-actions}
+[Paper](https://doi.org/10.1038/s41467-025-66577-z){.button-link .button-link--compact}
+[arXiv](https://doi.org/10.48550/arXiv.2404.14997){.button-link .button-link--compact}
+[Code](https://github.com/anthbapt/trim){.button-link .button-link--compact}
 :::
+:::
+
+::: {.research-project__visual}
+<figure class="research-figure">
+  <img class="research-paper-image" src="assets/images/research/triadic-interactions-fig1-panels-ab.png" width="1415" height="665" alt="A single triadic interaction and its extension to a structural network with regulatory nodes." loading="lazy" decoding="async">
+  <figcaption>Structural and regulatory layers of a triadic-interaction network.</figcaption>
+</figure>
 :::
 ::::

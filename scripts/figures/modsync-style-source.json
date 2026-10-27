@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "path": "/Users/jym16/LocalProj/modsync_master/modsync_msf_core/manuscript/letter_v6/companion-code/figures/style.py",
+      "sha256": "e157bd109e185248b9438a3d4546c8c53a19993a06e0f36e0c3d2fae31462c93"
+    },
+    {
+      "path": "/Users/jym16/LocalProj/modsync_master/modsync_msf_core/manuscript/letter_v6/companion-code/figures/vdp_primary_static_figures.py",
+      "sha256": "3d166c0fa578edbdd7e9b79b8ac5f9e3f48c580b1e5bb04e68207f8221c9b390"
+    }
+  ],
+  "website_scale": 2,
+  "typography": "Times New Roman / STIX mathematics; STIXGeneral portable fallback",
+  "figure_geometry": "100 dpi export scale; SVG viewBox width in points is 0.72 times the CSS-pixel width",
+  "colors": {
+    "primary_blue": "#376795",
+    "secondary_orange": "#ef8a47",
+    "palette": "Hiroshige10"
+  },
+  "scope": [
+    "home-fhn-voltage.svg",
+    "diffusion-localized-mode.svg",
+    "synchronization-phase-arrows.svg",
+    "scaling-crossover.svg",
+    "scaling-return-probability.svg"
+  ]
+}

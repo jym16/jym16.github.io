@@ -5,15 +5,22 @@ project:
     - research.qmd
     - publications.qmd
     - talks.qmd
-    # - cv.qmd
     - misc.qmd
     - links.qmd
-
-resources:
-  - assets/
+    - ja/index.qmd
+    - ja/research.qmd
+  resources:
+    # Linked images and styles are discovered by Quarto. Copy only these
+    # additional public downloads and fonts. Leading slashes anchor these globs
+    # at the project root, so similarly named folders in local archives cannot match.
+    - /assets/cv_jyamamoto.pdf
+    - /assets/files/**/*.pdf
+    - /assets/fonts/*.woff2
+    - /assets/fonts/LICENSE-*.txt
 
 website:
   title: "Jun Yamamoto"
+  description: "Jun Yamamoto studies physical networks, scaling, and collective dynamics using statistical physics and network science."
   image: assets/images/logo.png
   repo-url: "https://github.com/jym16/homepage"
   page-navigation: true
@@ -25,6 +32,8 @@ website:
 
   page-footer:
     left:
+      - text: "Links"
+        href: links.qmd
       - text: "Powered by Quarto"
     center:
       - text: "2026 Copyright © Jun Yamamoto"
@@ -41,42 +50,72 @@ website:
 
   navbar:
     logo: assets/images/logo.png
+    logo-alt: "Jun Yamamoto home"
     collapse-below: lg
     background: light
 
     tools:
       - icon: envelope
+        text: Email
+        aria-label: Email
         href: mailto:jun.j.yamamoto@gmail.com
       - icon: mortarboard
+        text: Google Scholar
+        aria-label: Google Scholar
         href: https://scholar.google.com/citations?user=ILnN9b4AAAAJ
       - icon: github
+        text: GitHub
+        aria-label: GitHub
         href: https://github.com/jym16/
   
+    # Keep the English destinations first and the Japanese entrypoint last:
+    # Quarto activates the first matching URL before locale-specific CSS is applied.
     left:
       - file: index.qmd
-        text: "Home"
+        text: '<span class="nav-label-en" lang="en">Home</span>'
       - href: research.qmd
-        text: "Research"
+        text: '<span class="nav-label-en" lang="en">Research</span>'
       - href: publications.qmd
-        text: "Publications"
+        text: '<span class="nav-label-en" lang="en">Publications</span>'
       - href: talks.qmd
-        text: "Talks"
+        text: '<span class="nav-label-en" lang="en">Talks</span>'
       - href: assets/cv_jyamamoto.pdf
-        text: "CV"
+        text: '<span class="nav-label-en" lang="en">CV</span>'
       - href: misc.qmd
-        text: "Misc"
-      - href: links.qmd
-        text: "Links"
+        text: '<span class="nav-label-en" lang="en">Misc</span>'
+      - href: ja/index.qmd
+        text: '<span class="nav-label-ja" lang="ja">ホーム</span>'
+      - href: ja/research.qmd
+        text: '<span class="nav-label-ja" lang="ja">研究</span>'
+      - href: publications.qmd
+        text: '<span class="nav-label-ja" lang="ja">論文一覧（英語）</span>'
+      - href: assets/cv_jyamamoto.pdf
+        text: '<span class="nav-label-ja" lang="ja">CV（英語）</span>'
+      - href: index.qmd
+        text: '<span class="nav-label-ja language-tab-home" lang="en">English</span>'
+      - href: research.qmd
+        text: '<span class="nav-label-ja language-tab-research" lang="en">English</span>'
+      - href: ja/index.qmd
+        text: '<span class="nav-label-en language-tab-home" lang="ja">日本語</span>'
+      - href: ja/research.qmd
+        text: '<span class="nav-label-en language-tab-research" lang="ja">日本語</span>'
 
 format:
   html:
+    page-layout: article
     format-links: false
     theme:
-      light: cosmo
-      dark: cyborg
+      light: [cosmo, assets/css/theme.scss]
+      dark: [cyborg, assets/css/theme.scss]
+    grid:
+      content-mode: standard
+      body-width: 1120px
+      margin-width: 180px
+      gutter-width: 2rem
     css: 
       - assets/css/main.css
       - assets/css/typography.css
+      - assets/css/japanese.css
     toc: true
     link-external-newwindow: true
     code-copy: true
@@ -84,8 +123,3 @@ format:
     execute: 
       enabled: false
     html-math-method: katex
-    include-in-header: 
-      text: |
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  ipynb: default

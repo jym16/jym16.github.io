@@ -1,0 +1,27 @@
+/* Native Quarto navigation, with destinations matched to each page's language. */
+html:not([lang|="ja"]) #quarto-header .nav-item:has(.nav-label-ja),
+html[lang|="ja"] #quarto-header .nav-item:has(.nav-label-en),
+body.research-page #quarto-header .nav-item:has(.language-tab-home),
+body:not(.research-page) #quarto-header .nav-item:has(.language-tab-research) {
+  display: none;
+}
+
+.navbar .menu-text [lang] { font-family: inherit; }
+
+html[lang|="ja"] body { line-height: 1.85; line-break: strict; overflow-wrap: anywhere; }
+html[lang|="ja"] main p { line-height: 1.85; }
+html[lang|="ja"] h1,
+html[lang|="ja"] h2,
+html[lang|="ja"] h3,
+html[lang|="ja"] h4 {
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+html[lang|="ja"] .home-intro__name-en {
+  margin: 0 0 0.8rem;
+  color: var(--muted);
+  font: 0.95rem/1.4 var(--sans);
+  letter-spacing: 0.04em;
+}
+

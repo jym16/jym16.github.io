@@ -3,85 +3,278 @@ title: "Talks"
 bibliography:
   - _bibliography/talks.bib
   - _bibliography/posters.bib
-page-layout: full
+body-classes: talks-page
 ---
 
-A subset of talks and posters that I have given at conferences.
+::: {.page-introduction}
+Selected conference talks, posters, and seminar presentations. An asterisk marks the presenting author.
+:::
 
 <!-- ## Upcoming talks -->
 
 ## Conference talks
 
-1. Shogo Mizutaka, **Jun Yamamoto**\*, and Kousuke Yakubo.
+::::: {.talk-entry}
+::: {.entry-number}
+1\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Long-range degree correlations reveal structural crossover in critical random graphs"
+:::
+
+::: {.entry-authors}
+Shogo Mizutaka, **Jun Yamamoto**\*, and Kousuke Yakubo.
+:::
+
+::: {.entry-meta}
 Complexity of Life Conference 2026, 
 September 7, 2026.
 \[[abstract](./assets/files/abstract/col2026_abstract.pdf)\]
+:::
+::::
+:::::
 
-2. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+::::: {.talk-entry}
+::: {.entry-number}
+2\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Localization-delocalization transition in physical networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 The 29th International Conference on Statistical Physics,
 July 14, 2025.
 \[[abstract](./assets/files/abstract/statphys29_abstract.pdf)\]
+:::
+::::
+:::::
 
-3. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai. 
+::::: {.talk-entry}
+::: {.entry-number}
+3\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Delocalization of Physical Laplacian Eigenvectors due to Degree-Volume Correlation."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 The International School and Conference on Network Science, 
 June 4, 2025.
 \[[abstract](./assets/files/abstract/netsci2025_abstract.pdf)\]
+:::
+::::
+:::::
 
-4. **Jun Yamamoto**\* and Kousuke Yakubo. 
-"Bifractal property of stochastic scale-free networks." 
+::::: {.talk-entry}
+::: {.entry-number}
+4\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
+"Bifractal property of stochastic scale-free networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\* and Kousuke Yakubo.
+:::
+
+::: {.entry-meta}
 The Physical Society of Japan 77th Annual Meeting,
 March 15, 2022.
 \[[abstract](./assets/files/abstract/jps2022spring_abstract.pdf)\]
 \[[slides](./assets/files/slides/jps2022spring.pdf)\]
+:::
+::::
+:::::
 
-5. **Jun Yamamoto**\* and Kousuke Yakubo. 
-"Multifractality of scale-free networks." 
+::::: {.talk-entry}
+::: {.entry-number}
+5\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
+"Multifractality of scale-free networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\* and Kousuke Yakubo.
+:::
+
+::: {.entry-meta}
 The Physical Society of Japan 76th Annual Meeting, 
 September 20, 2021.
 \[[abstract](./assets/files/abstract/jps2021autumn_abstract.pdf)\]
 \[[slides](./assets/files/slides/jps2021autumn.pdf)\]
+:::
+::::
+:::::
 
 ## Conference posters
 
-1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+::::: {.talk-entry}
+::: {.entry-number}
+1\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "When node volume matters: Spectral transitions in physical Laplacians."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 The Network Science Seminar AY2025/26 in Kyoto, 
 February 17-20, 2026.
+:::
+::::
+:::::
 
-2. **Jun Yamamoto**\*, Gentaro Shimojo, and Kousuke Yakubo. 
-"Bifractal nature of fractal scale-free networks and its implications." 
+::::: {.talk-entry}
+::: {.entry-number}
+2\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
+"Bifractal nature of fractal scale-free networks and its implications."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*, Gentaro Shimojo, and Kousuke Yakubo.
+:::
+
+::: {.entry-meta}
 The Network Science Seminar AY2022/23 in Kyoto, 
 August 23-25, 2022.
+:::
+::::
+:::::
 
-3. **Jun Yamamoto**\* and Kousuke Yakubo. 
-"Bifractality of scale-free networks." 
+::::: {.talk-entry}
+::: {.entry-number}
+3\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
+"Bifractality of scale-free networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\* and Kousuke Yakubo.
+:::
+
+::: {.entry-meta}
 The Network Science Seminar AY2021/22 in Kanazawa,
 December 11-12, 2021. 
 *Poster Award*.
+:::
+::::
+:::::
 
 ## Seminar talks
 
-1. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+::::: {.talk-entry}
+::: {.entry-number}
+1\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Eigenmode Localization in Physical Network Laplacians
 and Its Implications for Synchronization."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 Group seminar at the Nakao Lab, Science Tokyo,
 February 9, 2026.
+:::
+::::
+:::::
 
-2. **Jun Yamamoto**\*.
+::::: {.talk-entry}
+::: {.entry-number}
+2\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Physical Networks as Network-of-Networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*.
+:::
+
+::: {.entry-meta}
 Network Science Study Group (ネットワーク科学勉強会),
 May 25, 2025 (Online).
+:::
+::::
+:::::
 
-3. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+::::: {.talk-entry}
+::: {.entry-number}
+3\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Reentrant localization in physical Laplacian eigenvectors."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 DYNASNET workshop on graphs, networks, and brains,
 May 13, 2025 (Budapest, Hungary).
+:::
+::::
+:::::
 
-4. **Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+::::: {.talk-entry}
+::: {.entry-number}
+4\.
+:::
+
+:::: {.entry-content}
+::: {.entry-title}
 "Laplacian Spectra and Angular Constraints in Physical Networks."
+:::
+
+::: {.entry-authors}
+**Jun Yamamoto**\*, Ivan Bonamassa, and Márton Pósfai.
+:::
+
+::: {.entry-meta}
 Annual DYNASNET Meeting,
 October 16, 2024 (Valtice, Czech).
-
+:::
+::::
+:::::

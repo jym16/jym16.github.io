@@ -1,51 +1,63 @@
-.misc-page {
-  max-width: 1120px;
-  margin: 0 auto;
-}
-
-.misc-intro {
-  max-width: 760px;
-  margin-bottom: 2rem;
-}
-
+/* Scientific organization and community service. */
 .service-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.1rem;
-  margin: 1.5rem 0 2.5rem 0;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
 }
 
 .service-card {
-  border: 1px solid rgba(128, 128, 128, 0.28);
-  border-radius: 1rem;
-  padding: 1.15rem 1.25rem;
-  background: rgba(255, 255, 255, 0.035);
+  min-width: 0;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  background: var(--card);
+  color: var(--text);
+}
+
+.service-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
 }
 
 .service-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.65rem;
+  margin: 0 0 0.85rem;
+  color: var(--ink);
+  font-size: 1.25rem;
+  line-height: 1.25;
 }
 
 .service-card p {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9rem;
 }
 
-.service-links a {
+.service-card p:first-of-type {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.service-card p:last-child {
+  margin-bottom: 0;
+}
+
+.service-link {
   display: inline-block;
-  margin-right: 0.8rem;
-  margin-top: 0.35rem;
+  margin-right: 0.9rem;
+  padding-block: 0.2rem;
+  font-family: var(--sans);
+  font-size: 0.88rem;
   font-weight: 600;
-  text-decoration: none;
+  text-underline-offset: 0.2em;
 }
 
-.service-links a::after {
-  content: " ↗";
-  font-size: 0.9em;
-}
-
-@media (max-width: 680px) {
+@media (max-width: 700px) {
   .service-grid {
     grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .service-card {
+    padding: 1.15rem;
   }
 }
