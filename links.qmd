@@ -63,6 +63,16 @@ Undergraduate affiliation.
 :::
 
 ::: {.link-card}
+### Physical networks
+
+::: {.link-list}
+[Physical network satellite](https://physnet-satellite.github.io/)
+[Physical network data repository by Xiangyi Meng](https://physical.network/)
+[Physical network data repository by Luka Blagojević](https://github.com/lukablagoje/three-dimensional-shape-connectivity-physical-networks)
+:::
+:::
+
+::: {.link-card}
 ### Physics societies
 
 ::: {.link-list}
